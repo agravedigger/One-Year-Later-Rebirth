@@ -1,0 +1,14 @@
+@Text:These berries are tasty!*No wonder Pokémon~love them!*But I think~I had too many...*So sleepy...*...Zzzz...
+:if:register(Info4)
+:then
+@Text:<playername>: Excuse me?
+@Text:...zzzZZ
+@Text:<playername>: Huh...*Hello?
+@Text:...zzZZ~Pesky... Black things...~Eating my berries...~...zzZZ
+@Wait:50
+@Text:Black... things?
+@Text:...zzzZZ
+@Text:<playername>: This was a~waste of time....
+@Unregister:Info4
+:endif
+:end

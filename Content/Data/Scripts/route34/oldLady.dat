@@ -1,0 +1,8 @@
+@Text:Hi there, sweetie~Do you want to buy~a lava cookie?
+@Options:Buy,See Ya!
+:when:Buy
+@Action:Trade({7|-1|-1},True,True)
+:when:See Ya!
+@Text:Are you sure?*Your [POKE]MON would~love them.
+:endwhen
+:end

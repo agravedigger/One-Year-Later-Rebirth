@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Red Haired Man
+TrainerClass|Stern
+Money|12000
+IntroMessage|
+OutroMessage|Looks like you're not one of them...
+DefeatMessage|
+TextureID|Renault
+Region|Johto
+IniMusic|renaultbattleintro
+DefeatMusic|trainer_defeat
+BattleMusic|renaultbattle
+Pokemon1|{"Pokemon"[260]}{"Experience"[6000]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[0]}{"NickName"[Heqet]}{"Level"[25]}{"OT"[25508]}{"Ability"[62]}{"Status"[]}{"Nature"[1]}{"CatchLocation"[???]}{"CatchTrainer"[Renault]}{"CatchBall"[5]}{"CatchMethod"[???]}{"Friendship"[120]}{"isShiny"[0]}{"Attack1"[534,10,10]}{"Attack2"[503,15,15]}{"Attack3"[523,20,20]}{"Attack4"[352,20,20]}{"HP"[8000]}{"FPs"[1000,0,300,200,300,0]}{"DVs"[20,0,600,30,600,50]}{"AdditionalData"[]}
+Pokemon2|
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|49,49,49,49,49,49,9,9,9,12,12,12,13,13,13,18,18,18,17,17,17,17,17
+Gender|0
+AI|2
+IntroSequence|orange,red

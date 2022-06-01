@@ -1,0 +1,67 @@
+:if:register(RedHair)
+:then
+@Music:nomusic
+@Text:???: I want information!*???: Where is Arietta!?
+@Text:Arietta?*I have no idea what you're~talking about!
+@Text:???: Don't play dumb with me!*???: I know who you are,~you damn Neon!
+@Music:Sudden_Crisis
+@Text:...
+@Wait:111
+@Text:???: You aren't going to~talk..? Don't make me~hurt you...
+@Text:Do whatever you want...
+@Text:???: And tell me where is~your leader!
+@Text:...
+@Action:ToggleDarkness
+@Text:???: What the!?~The lights went out!
+@Turn:0,0
+@Move:0,2
+@Warp:0,10,-2,10
+@Music:nomusic
+@Wait:100
+@Action:ToggleDarkness
+@Text:???: Tch...~He vanished...
+@Wait:50
+@Text:<playername>: Red hair...
+@Text:???: Huh?
+@Turn:1,2
+@Text:???: Who might you be?~Don't tell me...
+@Text:You're here to help that grunt!
+@Music:Sudden_Crisis
+@Move:1,1
+@Text:<playername>:Whoa!!!~Hold on!~Let me explain--
+@Text:???: I'm not going to let~another Neon slip away...~I only need one Pokémon~to take you down!
+@Wait:50
+@Text:There's no reasoning with him!
+@Battle:trainer,Renault1
+@Heal
+@Music:nomusic
+@Text:???: I lost... You're good!~You don't seem like one~of them, now that I took a~good look at you. Sorry, I~really did let my anger~get the better of me.
+@Text:???: My name's Renault.*Renault: That one was~stationed here to keep an~eye out on Cherrygrove. I~only got that much out of him.
+@Text:Renault: Move aside, please.
+@Turn:Player,1
+@Move:Player,1
+@Turn:Player,2
+@Move:1,1
+@Turn:1,1
+@Text:Renault: I've wasted enough~time as is... I'll be on my~way. Sorry for what~happened here.
+@Turn:1,2
+@Text:<playername>: Hey, wait--
+@Move:1,4
+@Warp:1,4,-2,5
+@NPC:unregister(cherrygrove\0.dat|1|position|2,0,3)
+@NPC:register(cherrygrove\0.dat|0|remove|1)
+@Music:nomusic
+@Text:<playername>: Wait...
+@Wait:125
+@Music:cherrygrove
+@Text:Well, I guess I'm done looking~for information. Time to head~for Goldenrod.*I'm sure we'll meet~again somehow.
+@Register:Passage1
+@Register:ElizaCaughtUp
+@Unregister:Infoneed
+@Unregister:RedHair
+@Unregister:Info4
+@Unregister:Info5
+@Unregister:Info6
+@Text:I hope he'll be okay...*I wonder what he is after?
+:endif
+:end

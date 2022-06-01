@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Al
+TrainerClass|Bug Catcher
+Money|550
+IntroMessage|Bug Pokemon~are cool and tough!*I'll prove it to you!
+OutroMessage|Oh, come on!!
+DefeatMessage|They're so cool!*But most girls~don't like bug Pokemon.*I don't know why...
+TextureID|bugcatcher
+Region|Johto
+IniMusic|johto_trainer_intro
+DefeatMusic|trainer_defeat
+BattleMusic|johto_trainer1
+Pokemon1|10,18
+Pokemon2|13,18
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|
+Gender|0
+AI|2
+IntroSequence|blue,blue

@@ -1,0 +1,104 @@
+:if:not register(elm0)
+:then
+@Register:elm0
+@Turn:2,2
+@Text:Noel: <playername>!
+@Move:2,1
+@Turn:0,2
+@Text:<playername>: Hey, Noel!
+@Music:elmslab
+@Move:Player,4
+@Turn:2,3
+@Text:Elm: Ah, there you are.*How is your mother doing?~I'm sure she is doing as~well as usual.
+@Text:<playername>: Yeah,~same as usual.
+@Text:Elm: I'm sure!~*So, how do you feel about~living in New Bark Town?~You must feel pretty~homesick right now.
+@Text:<playername>: It's alright,~though...*I do miss Viridian City...
+@Text:Elm: I'm sure you do.*But at least my daughter~is around, you two were~always inseperable.
+@Text:<playername>: Yeah,~but I'll be fine.
+@Turn:Player,1
+@Text:Noel: You sure will be!~It's great to see you again!
+@Text:<playername>: Thanks...
+@Turn:Player,3
+@Text:Elm: Ah, right, <playername>,~I was wondering if you~could do me a favor.*You see, my colleague,~Prof. Oak of Pallet Town,~wanted me to go to his small~research lab on Route 30~to pick up some documents.
+@Text:<playername>: But..?
+@Text:Elm: You see...*I haven't heard from him~nor has he responded to me~for quite a while...*And I currently have my~hands full with recording~about these new species of~Pokémon migrating to Johto.~It's an elaborate task...
+@Text:<playername>: It's~alright, Uncle, I'll go and~see what he's up to.
+@Turn:Player,1
+@Text:Noel: Right, thought I would~join you, but I'm helping~father with another~small errand.
+@Text:<playername>: That's~fine, Johto is new to me,~so it'll be good experience.
+@Turn:Player,3
+@Text:Elm: Great!*Come back if you have~found anything!
+@Register:mrpokemon
+@Register:EliseOff
+@Register:mom_adventure1
+@Unregister:mom_wait
+@Music:barktown
+@NPC:register(route30.dat|12|position|14,0,41)
+@NPC:register(route30.dat|13|position|15,0,41)
+:endif
+
+:if:register(elm5)
+:then
+@Unregister:elm5
+@Turn:4,3
+@Move:4,2
+@Turn:4,0
+@Move:4,1
+@Text:It could get dangerous.~Take these!
+@GiveItem:38,5
+@GiveItem:20,1
+@GiveItem:39,1
+@Text:Good luck!
+@Turn:4,2
+@Move:4,1
+@Turn:4,1
+@Move:4,2
+:endif
+
+:if:register(elm_police)
+:then
+@Unregister:elm_police
+@Register:elm4
+@Unregister:elm3
+@Music:nomusic
+@Text:Noel: Father!*This isn't right!~You know I'm capable~of doing this!
+@Text:Elm: I won't let you walk~into danger like that!~That'd be irreponsible!
+@Text:Noel: I've been a trainer~for years, Father!*I know what I can or~can't do!*I won't let this threat~harm anyone!*I'm leaving, Father,~and that's that!
+@Text:Elm: Noel!!!
+@Action:DeactivateThirdPerson
+@Turn:5,2
+@Turn:0,2
+@Move:5,5
+@Turn:Player,2
+@Move:5,2
+@Text:<playername>: Noel! Wait!
+@Text:Noel: I'm sorry,~<playername>...
+@Move:5,3
+@NPC:remove(5)
+@NPC:unregister(elmlab.dat|5|position|4,0,1)
+@NPC:register(route30.dat|1|remove|1)
+@NPC:register(route30.dat|2|remove|1)
+@NPC:register(route30.dat|3|remove|1)
+@NPC:register(route30.dat|5|position|8,0,31)
+@Turn:Player,2
+@Text:Elm: I can't believe this...
+@Text:<playername>: Professor,~what just happened!?
+@Music:barktown
+@Move:Player,4
+@Text:Elm: Ah, <playername>,~I'm so glad to see you ~but I'll have to cut this~conversation short.*I'm sure the nice gentleman~told you something about~the current situation...*I wanted to request~another task of you.
+@Text:Elm: There seems to be a~crisis looming...*So here's my request!~Please watch over~my daughter!*She may continue doing~what she pleases~but I want you to make~sure nothing happens to her!
+@Text:Elm: Please help her!*And find more about all~this if you can!
+@Text:<playername>: I will, sir!
+@Text:Elm: In the meantime,~let me take those documents.*They should help with~my research.*And who knows,~the information here~might help you.
+@Text:<playername>: Right,~I'll go look for Noel.~She couldn't have gone~that far just yet.
+@Text:Elm: Good luck,~<playername>!
+@Text:<playername>: No worries!~Time to get to it!
+@Turn:Player,2
+@Move:Player,1
+@Action:ActivateThirdPerson
+@Register:mom_talk
+@Unregister:mom_adventure1
+@Register:elm5
+:endif
+
+:end

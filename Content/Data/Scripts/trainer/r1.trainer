@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Reina
+TrainerClass|Trainer
+Money|4500
+IntroMessage|
+OutroMessage|Oh, wow!~You're better than I thought!
+DefeatMessage|
+TextureID|Reina
+Region|Johto
+IniMusic|johto_trainer_intro
+DefeatMusic|trainer_defeat
+BattleMusic|johto_trainer
+Pokemon1|{"Pokemon"[675]}{"Experience"[100]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[2009]}{"NickName"[Bai Yun]}{"Level"[4]}{"OT"[11354]}{"Ability"[89]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[???]}{"CatchTrainer"[Reina]}{"CatchBall"[5]}{"CatchMethod"[???]}{"Friendship"[100]}{"isShiny"[0]}{"Attack1"[43,30,30]}{"Attack2"[33,35,35]}{"Attack3"[44,25,25]}{"Attack4"[]}{"HP"[2000]}{"FPs"[600,10,60,0,0,0]}{"DVs"[600,20,60,0,0,0]}{"AdditionalData"[]}
+Pokemon2|
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|18
+Gender|1
+AI|2
+IntroSequence|green,brown

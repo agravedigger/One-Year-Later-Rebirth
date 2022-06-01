@@ -1,0 +1,74 @@
+:if:register(EliseBattleTower)
+:then
+@Text:Noel: Ugh...~Ow..~So sore...
+@Text:Noel: Oh, don't worry,~<playername>, I'll be fine.~I'll be out in a moment!
+:endif
+
+:if:not register(EliseBattleTower)
+:then
+@Heal
+@Text:<playername>: There you~are, Noel.
+@Text:Noel: Sorry about earlier...
+@Text:<playername>: It's alright.*What's up?
+@Text:Noel: Can we have a battle?~Right here?
+@Text:<playername>: Huh?~What's this all of a sudden?
+@Text:Noel: To be honest,~there is something I want to do.~I gave it some thought.~I want to know if you~are still dependable.
+@Text:Noel: I want to be sure~that I can still trust you.*Will that be alright?
+@Text:<playername>: I see,~alright then.*Don't hold back.
+@Text:Noel: Thanks...*Let's get this party started!
+:if:register(Headstrong)
+@Battle.setvars(canblackout,1)
+@Battle:trainer,Rival0a
+@Music:johto_rival_appear
+@Register:EliseBattleTower
+@Heal
+@Text:Noel: I'm so beat!*That was a good battle!
+@Text:<playername>: Yeah...
+@Text:Noel: Also, <playername>...*I want you to have this...
+@GiveItem:90,1
+@Text:<playername>: Huh?*What's this?
+@Text:Noel: Just take it...*It's a good luck charm!
+@Text:<playername>: Alright.*I'll take good care of it.
+@Music:nomusic
+@Text:Noel: <playername>...*I found out what's going on...*Just a year ago, there was~a vile organization~in Johto and Kanto...
+@Text:<playername>: You mean...
+@Text:Noel: Yeah...~But I believe it's much~worse than last year.*I can't say for sure,~since I wasn't in Johto last~year, so all I know is that~Team Rocket was taken down~by a single kid.
+@Text:Noel: But now that the kid~has vanished, Johto isn't~what it used to be.*What's worse, this new~organization could be much~worse than Team Rocket.*Whatever the case is, we~need to put an end to them.
+@Text:<playername>: Right.
+@Text:Noel: I've heard rumors that~the organization was spotted~south of Violet City.
+@Text:<playername>: We should~start our search there then.
+@Text:Noel: I agree.*Although, I'll sit around~here for a while. I'm beat,~I've been running~around nonstop...
+@Text:<playername>: Right.~I'll go do what~I have to do.
+@Text:Noel: Good luck, <playername>!
+@Text:<playername>: Good luck~to you too!
+@Register:GymPass
+@Music:sprout_tower
+:else:
+@Battle:trainer,Rival0
+@Music:johto_rival_appear
+@Register:EliseBattleTower
+@Heal
+@Text:Noel: I'm so beat!*That was a good battle!
+@Text:<playername>: Yeah...
+@Text:Noel: Also, <playername>...*I want you to have this...
+@GiveItem:90,1
+@Text:<playername>: Huh?*What's this?
+@Text:Noel: Just take it...*It's a good luck charm!
+@Text:<playername>: Alright.*I'll take good care of it.
+@Music:nomusic
+@Text:Noel: <playername>...*I found out what's going on...*Just a year ago, there was~a vile organization~in Johto and Kanto...
+@Text:<playername>: You mean...
+@Text:Noel: Yeah...~But I believe it's much~worse than last year.*I can't say for sure,~since I wasn't in Johto last~year, so all I know is that~Team Rocket was taken down~by a single kid.
+@Text:Noel: But now that the kid~has vanished, Johto isn't~what it used to be.*What's worse, this new~organization could be much~worse than Team Rocket.*Whatever the case is, we~need to put an end to them.
+@Text:<playername>: Right.
+@Text:Noel: I've heard rumors that~the organization was spotted~south of Violet City.
+@Text:<playername>: We should~start our search there then.
+@Text:Noel: I agree.*Although, I'll sit around~here for a while. I'm beat,~I've been running~around nonstop...
+@Text:<playername>: Right.~I'll go do what~I have to do.
+@Text:Noel: Good luck, <playername>!
+@Text:<playername>: Good luck~to you too!
+@Register:GymPass
+@Music:sprout_tower
+:endif
+
+:end

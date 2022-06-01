@@ -1,0 +1,12 @@
+version=2
+@text.show(Oh! It's you,~<player.name>!*It has been a while.~I was asked to come back to~the lab to pick up~some items.*I was also told that~if I ever ran into you,~I can give you these!)
+@item.messagegive(189,1)
+@item.messagegive(40,5)
+@item.give(189,1)
+@item.give(40,5)
+@text.show(Well...~That's all I was told to give.*Good luck!)
+@screen.fadeout
+@npc.remove(6)
+@npc.unregister(elmlab.dat|6|position|3,0,1)
+@screen.fadein
+:end

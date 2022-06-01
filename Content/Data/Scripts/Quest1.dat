@@ -1,0 +1,62 @@
+:if:not register(Quest1)
+:then
+@Turn:4,1
+@Text:Sigh...
+@Text:(I should leave her alone...)
+:endif
+
+:if:register(Quest1)
+:then
+@Turn:4,1
+@Text:<playername>: Are you okay?
+@Turn:4,3
+@Text:???: I'm so sorry to have~ran off like that!~It's just...*...*(Sob)
+@Text:<playername>: Hey, what's wrong?
+@Music:nomusic
+@Text:???: It's just...*I couldn't do anything...*I couldn't fight it!*It was the same as~that time before...
+@Text:<playername>: ...
+@Text:???: I...*I'm scared of fighting...*Whenever Pokémon jump me~out in the wild,~I can't ever bring myself~to fight...*I even have a Pokemon myself...~But I just can't ever fight...
+@Text:???: Everytime I try,~I end up so frozen in fear~that I don't even know~what to do...*I don't even know~how to be a trainer...
+@Text:<playername>: Have you ever~had someone to teach you?
+@Text:???: No...~Even if I had...~It's impossible now...
+@Text:<playername>: ...*Here.
+@Text:(You gave her your address)
+@Text:...What?*What's this?
+@Text:<playername>: My mother and me~live in a small nearby town~called New Bark Town.*It's east from here. The trip~won't take too long.
+@Text:R-Really?*(Sniff)*...*Thank you...*But why all this?
+@Text:<playername>: For starters,~I can't just leave someone~who is on the verge of~bursting into tears...*Let alone someone who got~attacked just moments ago...*Anyway, there's something~important I need to attend~so let's talk later.
+@Text:???: I...
+@Warp:5,12,0,8
+@Warp:4,12,-2,8
+@Move:4,1
+@Wait:30
+@Music:cherrygrove
+@Text:Thank you so much..!
+@Warp:5,12,-2,8
+@Warp:4,12,0,8
+@Move:5,1
+@Text:<playername>: You're welcome.*When you arrive in~New Bark Town, just knock~and let my Mum know~that I invited you.
+@Text:Thank you so much!
+@Text:???: I'll head there~right away!
+@Move:4,3
+@Text:Oh! Whoops!
+@Turn:4,1
+@Turn:Player,2
+@Text:My name is Eliza Creas!*I'm looking forward~to learning from you!
+@Text:<playername>: See you later, Eliza!
+@Text:Eliza: Bye!
+@Turn:4,2
+@Move:4,2
+@Turn:4,3
+@Move:4,8
+@Warp:4,20,-2,20
+@Move:4,1
+@NPC:register(cherrygrove.dat|4|remove|1)
+@NPC:register(yourroom.dat|1|position|5,0,4)
+@NPC:register(violet\school.dat|4|position|2,-2,1)
+@NPC:register(route31.dat|5|position|20,0,8)
+@Register:FeiLingCave
+@Register:Gotoreiling
+@Text:<playername>: I hope Eliza will~be okay on her way there...*Also, I hope Ms. Fei Ling~hasn't been waiting long~on Route 31.
+:endif
+:end

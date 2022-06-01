@@ -1,0 +1,25 @@
+:if:not register(boy1)
+:then
+@Text:Why are the Pokémon~acting so weird..?
+@Text:Hey, do you know~what's going on?
+@Options:Yes,No
+:when:Yes
+@Text:Really!?*Tell me!
+@Text:<playername>: Well... Huh...
+@Text:..?*So you don't know?*Then why did you say yes?
+@Register:boy1
+:when:No
+@Text:So you don't know either?*It's weird how they're all~acting like this.*You should be careful~on your trip to Cherrygrove.
+@Text:Hmm, you might need these~more than I do.
+@GiveItem:2006,5
+@Text:Good luck!
+@Register:boy1
+:endwhen
+:endif
+
+:if:not register(boy2)
+:then
+@Text:You should hurry before~it gets dark and dangerous!
+:endif
+
+:end

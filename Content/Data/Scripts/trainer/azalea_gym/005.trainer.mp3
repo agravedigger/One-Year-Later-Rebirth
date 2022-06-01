@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Josh
+TrainerClass|Bug Catcher
+Money|413
+IntroMessage|You saved Bugsy?*That's great!*Let me see~your strength!
+OutroMessage|Urrggh!
+DefeatMessage|Maybe I should've~kept quiet...
+TextureID|bugcatcher
+Region|Johto
+IniMusic|johto_trainer_intro
+DefeatMusic|trainer_defeat
+BattleMusic|johto_trainer1
+Pokemon1|46,18
+Pokemon2|
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|
+Gender|0
+AI|2
+IntroSequence|blue,blue

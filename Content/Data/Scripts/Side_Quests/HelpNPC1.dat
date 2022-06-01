@@ -1,0 +1,32 @@
+version=2
+:If:<Register.registered(NPChelp1)>=true
+:then
+@Text.show(Oh!~You're that trainer~passing by every so often.*Can I ask for a favor?)
+@Text.show(<player.name>: Sure!)
+@Text.show(I'm looking for my Pokemon.~It's a Natu which goes~by the name Lena.*I've been looking for her~all morning and can't seem~to find her!*I'll give you a reward~if you help me!)
+@Text.show(<player.name>: Don't worry,~ma'am, I'll find her.)
+@Text.show(Thank you!)
+@Register.register(Lena1)
+@NPC.register(route30.dat|11|position|15,0,19)
+@Register.unregister(NPChelp1)
+:endif
+
+
+:if:<register.registered(Lena1)>=true
+:then
+@text.show(Lena should be somewhere~near Cherrygrove.*I hope she's safe...~Speaking of which...)
+:endif
+
+:if:<register.registered(natufound)>=true
+:then
+@text.show(It's you!~Lena just came back to me!~Thank you so much!*Here you go!~It's my way of~saying thank you!)
+@Item.give(169,1)
+@Item.messagegive(169,1)
+@text.show(I hope it helps you~on your advanture!~Also...)
+@Register.unregister(natufound)
+:endif
+
+:if:<register.registered(NPChelp1)>=false
+@Text.show(If you're going to~New Bark Town,~try jumping off the ledges!*Don't worry, it's safe!)
+:endif
+:end

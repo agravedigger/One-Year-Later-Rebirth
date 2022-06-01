@@ -1,0 +1,7 @@
+:if:daytime(1)
+:then
+@Trainer:route34\006
+:else
+@Text:Yep, I see nothing~wrong today. You*be good and stay~out of trouble.
+:endif
+:end

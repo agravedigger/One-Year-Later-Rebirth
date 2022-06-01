@@ -1,0 +1,10 @@
+:if:register(ilex_headbutt)
+:then
+@Text:Rattle trees with~HEADBUTT. Sometimes, sleeping~[POKE]MON fall out.
+:end
+:endif
+@Text:What am I doing?*I'm shaking trees~using HEADBUTT.*It's fun. Here,~you try it too!
+@GiveItem:192,1
+@Text:Rattle trees with~HEADBUTT. Sometimes, sleeping~[POKE]MON fall out.
+@Register:ilex_headbutt
+:end

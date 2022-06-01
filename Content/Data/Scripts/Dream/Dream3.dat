@@ -1,0 +1,22 @@
+version=2
+:if:<register.registered(speak3)>=true
+	@Text.show(Tell me...*What would you sacrifice?~Think carefully...)
+	@Options.show(Family,Friends,The world)
+		:when:Family
+			@register.Unregister(speak3)
+			@Register.register(speak4)
+			@Register.register(Family)
+			@Text.show(Would you really sacrifice~your family?*Those who had loved you~since the start..?*Would you follow that belief?*Or...*Would you change it?)
+		:when:Friends
+			@register.Unregister(speak3)
+			@Register.register(speak4)
+			@Register.register(Friends)
+			@Text.show(Would you really sacrifice~your friends?*Those who openly share~their deepest secrets~with you?*Would you follow that belief?*Or...*Would you change it?)
+		:when:The world
+			@register.Unregister(speak3)
+			@Register.register(speak4)
+			@Register.register(The World)
+			@Text.show(Would you really sacrifice~the world?*Sacrifice everything just~to protect those you so~hold dear?*Would you follow that belief?*Or...*Would you change it?)
+	:endwhen
+:endif
+:end

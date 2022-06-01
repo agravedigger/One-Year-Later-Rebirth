@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Li
+TrainerClass|Elder
+Money|4500
+IntroMessage|
+OutroMessage|
+DefeatMessage|Ah, excellent!
+TextureID|Elder
+Region|Johto
+IniMusic|johto_trainer_intro
+DefeatMusic|trainer_defeat
+BattleMusic|johto_trainer_battle2
+Pokemon1|70,13
+Pokemon2|182,12
+Pokemon3|162,15
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|
+Gender|0
+AI|1
+IntroSequence|orange,blue

@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Nick
+TrainerClass|Sage
+Money|2283
+IntroMessage|Whoa!~slow down, no running!
+OutroMessage|Why are so many people running today?
+DefeatMessage|Becareful on your way.*I dont want you to trip~and fall down below!
+TextureID|Sage
+Region|Johto
+IniMusic|johto_trainer_intro
+DefeatMusic|trainer_defeat
+BattleMusic|johto_trainer
+Pokemon1|356,32
+Pokemon2|
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|7,7
+Gender|0
+AI|2
+IntroSequence|blue,blue

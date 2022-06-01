@@ -1,0 +1,34 @@
+:if:register(zephyrbadge_obtain)
+:then
+@Text:Falkner: Hey, if there's~anything else you might need,~try looking around the city~some more.
+:endif
+
+:if:register(gymguy1)
+:then
+@Text:Well, good to see you again.~My duty of being a Gym Leader~is in fact hard work...*These badges I have here~allow people to use certain~HMs on their Pokemon. At~times I wish they wouldn't...*But here, I will give you one.
+@Text:<playername>: Thanks.
+@Music:nomusic
+@Text:Falkner: ...Is what I'd say~if I wasn't a Gym Leader...
+@Text:I know that you need this~badge... I also know that~you can't leave Violet City~without it...*It is troublesome...*Being a trainer is tough work,~isn't it?
+@Text:<playername>: ...
+@Text:Falkner: As Violet City's~Gym Leader...*I will fight you with everything~that I have!*Don't hold back!
+@Heal
+@Battle:trainer,violetgymleader
+@Register:zephyrbadge_obtain
+@Text:Falkner: Pretty good...*I haven't had a battle~like this since last year!
+@Text:Falkner: Well, friend,~you earned this one.
+@GetBadge:9
+@Register:Badge
+@Register:Badge1
+@Text:This is the Zephyr badge.*The plating in it increases~the attack power of Pokémon.*It can also allow you to~leave the city.*It may not be much...~But take these as well.
+@GiveItem:77,1
+@GiveItem:402,1
+@Text:Falkner: I'm sure these~items will help you one day.
+@Music:gym
+@Text:Falkner: Beyond Route 32~and Union Cave is a small~town called Azalea.*A friend of mine lives~and works there.*His hobby is creating custom~Pokéballs from apricorns.
+@Text:Falkner: Good luck!~I'll probably see you again!
+@Unregister:gymguy1
+@Register:Side1
+@Unregister:Gotoreiling
+:endif
+:end

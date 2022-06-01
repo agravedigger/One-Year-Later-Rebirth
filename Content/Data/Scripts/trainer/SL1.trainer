@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Shou Liengod
+TrainerClass|Wonderer
+Money|20000
+IntroMessage|
+OutroMessage|Your not half bad!! Heres what I promised you!
+DefeatMessage|
+TextureID|Shou
+Region|Johto
+IniMusic|johto_wild_intro
+DefeatMusic|boss_defeat
+BattleMusic|secretbattle1
+Pokemon1|{"Pokemon"[133]}{"Experience"[1]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[90]}{"NickName"[Crevanille]}{"Level"[30]}{"OT"[59394]}{"Ability"[91]}{"Status"[]}{"Nature"[0]}{"CatchLocation"[A Place Faraway]}{"CatchTrainer"[Shou]}{"CatchBall"[5]}{"CatchMethod"[Traveling Partner]}{"Friendship"[250]}{"isShiny"[0]}{"Attack1"[38,35,35]}{"Attack2"[14,40,40]}{"Attack3"[213,15,15]}{"Attack4"[226,30,30]}{"HP"[1000]}{"FPs"[2500,0,400,0,400,0]}{"DVs"[1000,0,400,0,400,300]}{"AdditionalData"[]}
+Pokemon2|{"Pokemon"[330]}{"Experience"[1]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[144]}{"NickName"[Flaren]}{"Level"[30]}{"OT"[59394]}{"Ability"[26]}{"Status"[]}{"Nature"[0]}{"CatchLocation"[A Place Faraway]}{"CatchTrainer"[Shou]}{"CatchBall"[5]}{"CatchMethod"[Traveling Partner]}{"Friendship"[250]}{"isShiny"[0]}{"Attack1"[337,35,35]}{"Attack2"[349,40,40]}{"Attack3"[91,15,15]}{"Attack4"[201,20,20]}{"HP"[1000]}{"FPs"[2000,0,300,0,300,0]}{"DVs"[1000,0,200,0,200,300]}{"AdditionalData"[]}
+Pokemon3|{"Pokemon"[681]}{"Experience"[1]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[113]}{"NickName"[Sentanial]}{"Level"[30]}{"OT"[59394]}{"Ability"[176]}{"Status"[]}{"Nature"[0]}{"CatchLocation"[A Place Faraway]}{"CatchTrainer"[Shou]}{"CatchBall"[5]}{"CatchMethod"[Traveling Partner]}{"Friendship"[250]}{"isShiny"[0]}{"Attack1"[421,35,35]}{"Attack2"[309,40,40]}{"Attack3"[334,15,15]}{"Attack4"[588,20,20]}{"HP"[1000]}{"FPs"[2000,0,300,0,300,0]}{"DVs"[1000,0,200,0,200,300]}{"AdditionalData"[]}
+Pokemon4|{"Pokemon"[565]}{"Experience"[1]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[145]}{"NickName"[Kahailosta]}{"Level"[30]}{"OT"[59394]}{"Ability"[116]}{"Status"[]}{"Nature"[0]}{"CatchLocation"[A Place Faraway]}{"CatchTrainer"[Shou]}{"CatchBall"[5]}{"CatchMethod"[Traveling Partner]}{"Friendship"[250]}{"isShiny"[0]}{"Attack1"[444,35,35]}{"Attack2"[401,40,40]}{"Attack3"[453,20,20]}{"Attack4"[504,20,20]}{"HP"[1000]}{"FPs"[2000,0,300,0,300,0]}{"DVs"[1000,0,200,0,200,300]}{"AdditionalData"[]}
+Pokemon5|{"Pokemon"[637]}{"Experience"[1]}{"Gender"[1]}{"EggSteps"[0]}{"Item"[138]}{"NickName"[Venrona]}{"Level"[30]}{"OT"[59394]}{"Ability"[49]}{"Status"[]}{"Nature"[0]}{"CatchLocation"[A Place Faraway]}{"CatchTrainer"[Shou]}{"CatchBall"[5]}{"CatchMethod"[Traveling Partner]}{"Friendship"[250]}{"isShiny"[0]}{"Attack1"[463,10,10]}{"Attack2"[369,40,40]}{"Attack3"[405,20,20]}{"Attack4"[483,30,30]}{"HP"[1000]}{"FPs"[2000,0,300,0,300,0]}{"DVs"[1000,0,200,0,200,300]}{"AdditionalData"[]}
+Pokemon6|{"Pokemon"[475]}{"Experience"[1]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[98]}{"NickName"[Nash]}{"Level"[30]}{"OT"[59394]}{"Ability"[39]}{"Status"[]}{"Nature"[0]}{"CatchLocation"[A Place Faraway]}{"CatchTrainer"[Shou]}{"CatchBall"[5]}{"CatchMethod"[Traveling Partner]}{"Friendship"[250]}{"isShiny"[0]}{"Attack1"[533,15,15]}{"Attack2"[409,10,10]}{"Attack3"[427,20,20]}{"Attack4"[115,30,30]}{"HP"[1000]}{"FPs"[2000,0,300,0,300,0]}{"DVs"[1000,0,200,0,200,300]}{"AdditionalData"[]}
+Items|17,17,17,16,16,15,14,14,14,14,39,39,39,39,39,39,40,40,40,38,38,38,38,65,65,65,65,65,65
+Gender|0
+AI|2
+IntroSequence|green,green

@@ -1,0 +1,26 @@
+version=2
+:if:<register.registered(speak1)>=true
+	@Text.show(Do you know where you are..?)
+	@Options.show(I don't know...,A dream?)
+		:when:I don't know...
+			@register.Unregister(speak1)
+			@Register.register(speak2)
+			@Text.show(I see...~Don't you remember..?)
+		:when:A dream?
+			@register.Unregister(speak1)
+			@Register.register(speak2)
+			@Text.show(It could be...~Don't you remember..?)
+	:endwhen
+	@Text.show(Do you...*Remember your gender?)
+	@Options.show(I'm a Boy,I'm a Girl)
+		:when:I'm a Boy
+			@Register.register(Boy)
+			@Player.wearskin(Alexis)
+			@Text.show(Good...*Press onward...)
+		:when:I'm a Girl
+			@Register.register(Girl)
+			@Player.wearskin(Alexis0)
+			@Text.show(Good...*Press onward...)
+	:endwhen
+:endif
+:end

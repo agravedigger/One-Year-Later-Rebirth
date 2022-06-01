@@ -1,0 +1,5 @@
+:if:register(Route32Block)
+:then
+@Text: I can't let you through...~Route 32 is blocked because~of the incident in Azelea.*This also means that Pokémon~in this area are under~heavy protection.*I'm sorry for the~inconvenience.
+:endif
+:end

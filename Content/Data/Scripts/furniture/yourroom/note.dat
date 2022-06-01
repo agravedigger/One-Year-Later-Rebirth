@@ -1,0 +1,6 @@
+@Text:It's a note on the~wall about the controls.*Do you want to read it?
+@Options:Yes,No
+:when:Yes
+@Text:Move: [W][A][S][D]~Look: [Mouse]~Change camera Mode: [C]~Open menu: [E]~Mute music: [M]~Hide GUI: [F1]~Take screenshot: [F2]~Toggle 3rd Person Mode: [F5]
+:endwhen
+:end

@@ -1,0 +1,21 @@
+version=2
+
+:if:<register.registered(MomVisit1)>=true
+
+@NPC.turn(0,2)
+@Text.show(Mum: Sweetie, you're home!)
+@Player.move(2)
+@Text.show(Mum: How's everything?)
+@Text.show(<player.name>: Well...)
+@Level.wait(20)
+@Screen.fadeout
+@Text.show((You explained everything~that has happened...))
+@Music.pause
+@Screen.fadein
+@Level.wait(50)
+@Text.show(Mum: ...)
+@Level.wait(40)
+@Script.start(momdoor22)
+
+:endif
+:end

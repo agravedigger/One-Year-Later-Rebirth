@@ -1,0 +1,21 @@
+version=2
+	:if:<register.registered(trainer_sproutelder)>=true
+			@Text.show(Elder: You and your Pokémon~look tired, sit down~and rest for a while.)
+			@screen.fadeout
+			@pokemon.heal
+			@sound.play(healing,1)
+			@level.wait(150)
+			@screen.fadein
+:else:
+			@text.show(So good of you to~have come here!*I'm the Elder.*Let us test your wits and~your Pokémon's growth!)
+			@battle.trainer(sproutelder)
+			@Register.register(get_HM01)
+			@Text.show(You and your friends should~have no problems~in your growth of greatness!*Here is your reward.)
+			@item.give(243,1)
+			@item.messagegive(243,1)
+			@Text.show(This HM can almost any~Pokémon to illuminate~itself during battle.*You can use it outside~of battle as well,~but you need the Badge~from Violet's Gym.
+			@Text.show(It won't be easy,.*Please remember what~you have learned!)
+			@pokemon.heal
+			@Register.register(trainer_sproutelder)
+:endif
+:end

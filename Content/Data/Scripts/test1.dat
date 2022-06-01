@@ -1,0 +1,3 @@
+version=2
+@battle.setvar(canblackout,0)
+:end

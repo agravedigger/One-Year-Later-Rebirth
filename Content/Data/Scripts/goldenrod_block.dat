@@ -1,0 +1,12 @@
+:if:register(MomVisit1)
+@Text:I must warn Mum!
+@Turn:Player,2
+@Move:Player,1
+:end
+
+:if:register(BugsyWon)
+:then
+@Text:I should meet up~with Noel first.
+@Turn:Player,2
+@Move:Player,1
+:end

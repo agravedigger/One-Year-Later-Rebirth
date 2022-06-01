@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Eliza
+TrainerClass|Your Friend
+Money|4000
+IntroMessage|
+OutroMessage|That was fun!
+DefeatMessage|
+TextureID|Eliza
+Region|Johto
+IniMusic|Elizabattleintro
+DefeatMusic|trainer_defeat
+BattleMusic|Elizabattle
+Pokemon1|{"Pokemon"[192]}{"Experience"[0]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[0]}{"NickName"[Flora]}{"Level"[22]}{"OT"[25508]}{"Ability"[65]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[Somehow obtained]}{"CatchTrainer"[???]}{"CatchBall"[5]}{"CatchMethod"[]}{"Friendship"[0]}{"isShiny"[0]}{"Attack1"[72,15,15]}{"Attack2"[74,40,40]}{"Attack3"[147,15,15]}{"Attack4"[178,40,40]}{"HP"[100]}{"FPs"[1,1,1,1,1,1]}{"DVs"[30,31,10,18,21,24]}{"AdditionalData"[]}
+Pokemon2|{"Pokemon"[286]}{"Experience"[0]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[0]}{"NickName"[Loomah]}{"Level"[22]}{"OT"[25508]}{"Ability"[65]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[Somehow obtained]}{"CatchTrainer"[???]}{"CatchBall"[5]}{"CatchMethod"[]}{"Friendship"[0]}{"isShiny"[0]}{"Attack1"[4,15,15]}{"Attack2"[27,15,15]}{"Attack3"[235,5,5]}{"Attack4"[]}{"HP"[400]}{"FPs"[1,1,1,1,1,1]}{"DVs"[30,31,10,18,21,24]}{"AdditionalData"[]}
+Pokemon3|{"Pokemon"[495]}{"Experience"[0]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[0]}{"NickName"[Naith]}{"Level"[23]}{"OT"[25508]}{"Ability"[65]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[Somehow obtained]}{"CatchTrainer"[???]}{"CatchBall"[5]}{"CatchMethod"[]}{"Friendship"[0]}{"isShiny"[0]}{"Attack1"[75,25,25]}{"Attack2"[185,20,20]}{"Attack3"[231,15,15]}{"Attack4"[345,20,20]}{"HP"[900]}{"FPs"[1,1,1,1,1,1]}{"DVs"[30,31,10,18,21,24]}{"AdditionalData"[]}
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|47,47,47,38,38,38,49,49,51,51,51,52,33,33,33,33,33,39,39,39,7,7,7
+Gender|1
+AI|2
+IntroSequence|orange,brown

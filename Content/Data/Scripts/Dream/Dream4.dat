@@ -1,0 +1,8 @@
+:if:register(speak4)
+:then
+@Text:Why am I asking you all this..?
+@Text:Isn't it simple..?
+@Register:speak5
+@Unregister:speak4
+:endif
+:end

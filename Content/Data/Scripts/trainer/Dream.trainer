@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|???
+TrainerClass|
+Money|0
+IntroMessage|
+OutroMessage|
+DefeatMessage|...
+TextureID|Some
+Region|Johto
+IniMusic|silence
+DefeatMusic|Dream
+BattleMusic|DreamBattle
+Pokemon1|{"Pokemon"[907]}{"Experience"[100000000]}{"Gender"[2]}{"EggSteps"[0]}{"Item"[0]}{"NickName"[???]}{"Level"[700]}{"OT"[???]}{"Ability"[1]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[???]}{"CatchTrainer"[???]}{"CatchBall"[5]}{"CatchMethod"[???]}{"Friendship"[0]}{"isShiny"[0]}{"Attack1"[387,500,500]}{"Attack2"[]}{"Attack3"[]}{"Attack4"[]}{"HP"[1000000]}{"FPs"[200,20,500,20,500,0]}{"DVs"[60,10,20,10,0,1]}{"AdditionalData"[]}
+Pokemon2|
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|
+Gender|0
+AI|2
+IntroSequence|gray,gray

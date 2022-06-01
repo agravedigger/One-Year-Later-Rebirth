@@ -1,0 +1,13 @@
+:if:register(rival_encounter_azalea)
+:then
+:end
+:endif
+:if:not register(rocket_defeat_slowpokewell)
+:then
+:end
+:endif
+@Turn:Player,1
+@Move:Player,1
+@Turn:Player,3
+@Script:rival\rival_azalea\startscript
+:end

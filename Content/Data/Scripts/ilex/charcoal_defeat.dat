@@ -1,0 +1,57 @@
+:if:not register(rocket_defeat_slowpokewell)
+:then
+:end
+:endif
+
+:if:register(ilex_farfetchd_complete)
+:then
+:end
+:endif
+
+:if:register(ilex_farfetchd_caught)
+:then
+@Register:ilex_farfetchd_complete
+@Move:Player,1
+@Turn:Player,1
+@Move:Player,4
+@Turn:Player,3
+@Move:Player,4
+@Turn:Player,1
+@Turn:0,2
+@Text:Wow! Thanks a~whole bunch!*My boss's POKEMON~won't obey me be-~cause I don't have~a BADGE.
+@Turn:Player,1
+@Warp:2,5,0,33
+@Turn:2,0
+@Move:2,3
+@Turn:2,3
+@Move:2,2
+@Text:Ah! My FARFETCH'D!
+@Move:Player,2
+@Turn:Player,3
+@Turn:2,2
+@Text:You found it for~us, kid?*Without it, we~wouldn't be able*to CUT trees for~charcoal.*Thanks, kid!*Now, how can I~thank you...*I know! Here, take~this.
+@GiveItem:247,1
+@Text:That's the CUT HM.~Teach that to a*POKEMON to clear~small trees.*Of course, you~have to have the*GYM BADGE from~AZALEA to use it.
+@Text:Do you want to~apprentice as a*charcoal maker~with me?*You'll be first-~rate in ten years!
+@Turn:Player,1
+@Turn:2,1
+@Move:2,3
+@Turn:2,2
+@Move:2,4
+@Turn:1,1
+@Move:1,4
+@Turn:1,2
+@Move:1,4
+@Turn:0,1
+@Move:0,5
+@Turn:0,2
+@Move:0,4
+@NPC:remove(0)
+@NPC:remove(1)
+@NPC:remove(2)
+@NPC:unregister(ilexforest.dat|0|position|9,0,30)
+@NPC:unregister(azalea\0.dat.dat|1|position|5,-2,2)
+@NPC:unregister(azalea\0.dat.dat|2|position|5,-2,5)
+@NPC:unregister(ilexforest.dat|1|position|8,0,30)
+:end
+:endif

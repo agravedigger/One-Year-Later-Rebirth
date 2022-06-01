@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Amy & May
+TrainerClass|Twins
+Money|450
+IntroMessage|We come first!
+OutroMessage|Oh double goodness!
+DefeatMessage|Our bug Pokemon~lost!~Oh what a shame.*You're really strong!
+TextureID|LittleGirl
+Region|Johto
+IniMusic|johto_trainer_intro
+DefeatMusic|trainer_defeat
+BattleMusic|johto_trainer1
+Pokemon1|165,20
+Pokemon2|167,19
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|
+Gender|1
+AI|2
+IntroSequence|blue,blue

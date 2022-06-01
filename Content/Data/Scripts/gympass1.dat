@@ -1,0 +1,41 @@
+:if:not register(GymPass)
+:then
+@Text:Only those who pass~the Trials of Sprout Tower~may enter this Gym!
+:endif
+
+:if:register(GymPass)
+:then
+@Register:TeachMeMsFaiLing
+@Register:VertificationNeed
+@NPC:register(violet\school.dat|4|position|2,0,1)
+@Text:Only those who pass~the Trials Of Sprout Tower~may enter this gym!
+@Text:Oh?
+@Text:You have Elder's HM!*Wait... Your trainer card~isn't verified!*I can't let you in yet...~You need to be verified by~Ms. Fei Ling.
+@Text:Ms. Fei Ling is the new~teacher in Violet City School.*She should be there right now.*Learn from her,~then come back with~a verified trainer card.
+@Unregister:GymPass
+@NPC:register(violet\sprouttowerf1.dat|5|remove|1)
+:endif
+
+:if:register(VertificationNeed)
+:then
+@Text:Ms. Fei Ling is in the school.~Good luck!
+:endif
+
+:if:register(VertificationGot)
+:then
+@Text:Have you gotten your~verification?*Congratulations!~I can let you in now.
+@Turn:100,1
+@Move:100,1
+@Turn:100,2
+@Unregister:VertificationGot
+@Register:gymguy1
+@Unregister:VertificationNeed
+@NPC:register(violet.dat|100|remove|1)
+:endif
+
+:if:register(gymguy1)
+:then
+@Text:Good luck!
+:endif
+
+:end

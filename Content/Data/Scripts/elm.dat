@@ -1,0 +1,21 @@
+:if:register(elm1)
+:then
+@Text:Good luck!
+:endif
+
+:if:register(elm2)
+:then
+@Text:Good luck!
+:endif
+
+:if:register(elm3)
+:then
+@Text:Good luck!
+:endif
+
+:if:register(elm4)
+:then
+@Text:Be careful out there..
+:endif
+
+:end

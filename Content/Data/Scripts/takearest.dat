@@ -1,0 +1,94 @@
+version=2
+		@pokemon.heal
+		@text.show(<player.name>: I'll rest up for a bit...)
+		@screen.fadeout
+:if:<register.registered(restinbed)>=true
+@level.wait(150)
+@player.warp(v_forest\main.dat,4,2.1,41)
+@level.update
+@NPC.warp(1,4,2,40)
+@NpC.move(2,1)
+@level.wait(20)
+@music.play(memory1)
+@player.turnto(3)
+@camera.deactivatethirdperson
+@environment.setweather(6)
+@pokemon.heal
+@text.show(Noel: Hey <player.name>...)
+@level.wait(80)
+@screen.fadein
+@text.show(Noel: Today is my~last day In Kanto...)
+@player.turnto(0)
+@text.show(<player.name>: .....)
+@text.show(Noel: My Dad is going back~to Johto...~He insisted that I go~back with him...*For something Important to do*I...*I dont know If we will~ever see each other again...)
+@NPC.warp(1,4,0,40)
+@NPC.warp(2,4,2,40)
+@NpC.move(1,1)
+@text.show(Noel: But I cant help it...*He Is my Father...*I dont want to go and...*and...*We've been together since~we were toddlers...)
+@text.show(<player.name>: Noel...)
+@text.show(Noel: I know I should'nt be~crying.. I Just dont like the idea~of moving away...*Especially away from you...)
+@Player.turnto(3)
+@level.wait(100)
+@text.show(<player.name>: .....*<player.name>: We will see~each other again...)
+@text.show(Noel: (sob)...Huh?)
+@level.wait(40)
+@text.show(<player.name>: One day,~I want to leave Kanto...)
+@NPC.warp(1,4,2,40)
+@NPC.warp(2,4,0,40)
+@NPC.move(2,1)
+@Text.show(Noel: Why?)
+@NPC.turn(1,2)
+@Player.turnto(0)
+@text.show(<player.name>: I... I never~knew my father...*I always heard my Mother~crying at night about him...*And finally, Mother talked~about him with me one day..*She knew I hear her cry at~night and finally gotten~the courage to speak to me..*She told me he left~To find something related~to his project...)
+@text.show(Noel: A Project?*<player.name>: Yea... He left Kanto*In search for it, but he...)
+@level.wait(60)
+@player.turnto(3)
+@text.show(<player.name>: One day...~I will find my Father...)
+@level.wait(70)
+@player.turnto(0)
+@text.show(<player.name>: And when that time comes..*I'll need your help...)
+@NPC.turn(2,2)
+@NPC.warp(1,4,0,40)
+@NPC.warp(2,4,2,40)
+@NpC.move(1,1)
+@text.show(Noel: So that means...)
+@screen.fadeout
+@level.wait(100)
+@text.show(<player.name>: Yeah..*You dont have to cry anymore...)
+@level.wait(170)
+@player.warp(yourroom.dat,0,0.1,4)
+@level.update
+@NPC.warp(1,1,0,4)
+@NPC.turn(1,1)
+@text.show(Eliza: Hey are you ok?)
+@level.wait(30)
+@text.show(<player.name>: huh...)
+@screen.fadein
+@level.wait(40)
+@player.turnto(3)
+@text.show(Eliza: You were crying~in your sleep...*<player.name>: Sorry...*Eliza: Do you need some water?*<player.name>: No its ok, Everything~is ok now..*Eliza: Ok... I'll let~you go back to bed.*<player.name>: Thank you...*Eliza: Dont worry, go back to bed)
+@level.wait(60)
+@text.show(<player.name>: yeah...)
+@player.turnto(0)
+@level.wait(70)
+@screen.fadeout
+@level.wait(120)
+@text.show(<player.name>: I cant believe~that was just two years ago...)
+@level.wait(60)
+@level.update
+@sound.play(healing,1)
+@level.wait(150)
+@Player.warp(yourroom.dat,1,0.1,4,1)
+@Camera.activatethirdperson
+@Screen.fadein
+@register.Unregister(ElizaFun)
+@register.Unregister(restinbed)
+@Register.register(Elizacommon1)
+	:else:
+@level.wait(100)
+@sound.play(healing,1)
+@level.wait(150)
+@text.show(<player.name>: I should get going...)
+@screen.fadein
+:endif
+:end

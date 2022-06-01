@@ -1,0 +1,31 @@
+version=2
+:if:<register.registered(speak2)>=true
+	@Text.show(Tell me...*There are two paths for~you to take in this world...*Should you be one who is~headstrong and fears no~consequences?*Or...*The one who is compassionate~and defends the right~to believe?*Choose wisely...)
+	@Options.show(Headstrong,Compassionate)
+		:when:Headstrong
+			@register.Unregister(speak2)
+			@Register.register(speak3)
+			@Register.register(Headstrong)
+			@Text.show(I see...~So you wish to lead a life~of recklessness?*Is it because you seek~power?*Do you perhaps...*Want to use that very power~to aid those in need?*Only time will tell...)
+			@Pokemon.add(909,100,???,5,???)
+			@Pokemon.clearattacks(0)
+			@Pokemon.Addattack(0,98)
+			@Pokemon.Addattack(0,113)
+			@Pokemon.Addattack(0,105)
+			@Pokemon.Addattack(0,242)
+			@NPC.register(yourroom.dat|4|position|4,0,2)
+		:when:Compassionate
+			@register.Unregister(speak2)
+			@Register.register(speak3)
+			@Register.register(Compassionate)
+			@Text.show(I see...~So you wish to lead a life~of perseverance?*Perhaps what you seek is~the will to shield your~beliefs from faltering.*Or... a way to guide others?*Only time will tell...)
+			@Pokemon.add(908,100,???,5,???)
+			@Pokemon.clearattacks(0)
+			@Pokemon.Addattack(0,98)
+			@Pokemon.Addattack(0,113)
+			@Pokemon.Addattack(0,105)
+			@Pokemon.Addattack(0,585)
+			@NPC.register(yourroom.dat|3|position|4,0,2)
+	:endwhen
+:endif
+:end

@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Eliza
+TrainerClass|Your Friend
+Money|3000
+IntroMessage|
+OutroMessage|That was fun!
+DefeatMessage|
+TextureID|Eliza
+Region|Johto
+IniMusic|Elizabattleintro
+DefeatMusic|trainer_defeat
+BattleMusic|Elizabattle
+Pokemon1|{"Pokemon"[495]}{"Experience"[0]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[0]}{"NickName"[Naith]}{"Level"[20]}{"OT"[25508]}{"Ability"[65]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[Somehow obtained]}{"CatchTrainer"[???]}{"CatchBall"[5]}{"CatchMethod"[]}{"Friendship"[0]}{"isShiny"[0]}{"Attack1"[75,25,25]}{"Attack2"[185,20,20]}{"Attack3"[231,15,15]}{"Attack4"[345,20,20]}{"HP"[600000]}{"FPs"[60,230,60,230,60,100]}{"DVs"[30,31,10,18,21,24]}{"AdditionalData"[]}
+Pokemon2|
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|
+Gender|1
+AI|4
+IntroSequence|orange,brown

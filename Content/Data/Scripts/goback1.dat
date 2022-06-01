@@ -1,0 +1,7 @@
+:if:register(buggymfirst)
+:then
+@Text:I should finish up~with Bugsy first.
+@Turn:Player,2
+@Move:Player,1
+:endif
+:end

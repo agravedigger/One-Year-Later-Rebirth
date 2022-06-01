@@ -1,0 +1,7 @@
+:if:daytime(0)
+:then
+@Trainer:route35\006
+:else
+@Text:Your [POKE]MON look~pretty tough.*You could go anywhere~safely.
+:endif
+:end

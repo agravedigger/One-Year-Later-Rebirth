@@ -1,0 +1,37 @@
+:if:register(HelpFromEliza)
+:then
+@Text:Eliza: Are you ready~for the warm-up?
+@Text:<playername>: Always!
+@Text:Eliza: Okay!
+@Text:Eliza: Before we start,~let me heal your Pokémon!
+@Heal
+@Sound:single_heal
+@Wait:110
+@Text:Eliza: Now, let's battle!
+@Battle:trainer,ElizaBattle1
+@Register:Info1
+@Register:Info2
+@Register:Info3
+@Register:Info4
+@Register:Info5
+@Register:Info6
+@Register:Infoneed
+@Text:Eliza: That was a tough battle!
+@Text:Eliza: Your Pokémon seem tired!*I'll heal them up!
+@Heal
+@Sound:single_heal
+@Wait:110
+@Text:<playername>: Thanks!
+@Text:Eliza: I'll go train a bit more.~After that, I'll go find~some clues.
+@NPC:unregister(route29.dat|6|position|52,0,12)
+@Text:<playername>: I'll go on ahead.
+@Text:I should start my~search in Cherrygrove.
+@Unregister:HelpFromEliza
+@Register:InformationGathering
+:endif
+
+:if:register(InformationGathering)
+:then
+@Text:Eliza: Don't worry.*I'll do my best!
+:endif
+:end

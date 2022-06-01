@@ -1,0 +1,12 @@
+:if:register(ilex_farfetchd_complete)
+:then
+@Text:You chased off~TEAM ROCKET and*went to ILEX~FOREST alone?*That takes guts!~I like that. Come~train with us.
+:end
+:endif
+:if:register(rocket_defeat_slowpokewell)
+:then
+@Text:The SLOWPOKE have~returned...*But my APPRENTICE~hasn't come back~from ILEX FOREST.*Where in the world~is that lazy guy?
+:end
+:endif
+@Text:All the SLOWPOKE~have disappeared~from the town.*The forest's pro-~tector may be~angry with us...*It may be a bad~omen. We should~stay in.
+:end

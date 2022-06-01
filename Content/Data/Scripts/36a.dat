@@ -1,0 +1,5 @@
+:if:register(Event1)
+:then
+@Text:I'm sorry, the National Park~is currently holding a~Bug Contest, so I can't~let you through.
+:endif
+:end

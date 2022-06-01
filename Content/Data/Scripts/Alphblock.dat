@@ -1,0 +1,8 @@
+:if:not register(AlphPass)
+:then
+@Text:I'm sorry, but I can't let~you though. The Ruins have~been under research since~last year. Please wait~until further notice.
+@Text:<playername>: I see...
+@Turn:Player,2
+@Move:Player,1
+:endif
+:end

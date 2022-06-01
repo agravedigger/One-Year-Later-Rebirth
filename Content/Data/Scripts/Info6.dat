@@ -1,0 +1,12 @@
+@Text:Ghosts are rumored to~appear in Sprout Tower.~They say Normal-type~Pokémon moves have no~effect on ghosts.
+:if:register(Info6)
+:then
+@Text:<playername>: Excuse me?
+@Text:Oh? Do you want to know~more about Ghost Pokemon?
+@Text:<playername>: No, not really.
+@Text:(You gave a simple explanation)
+@Text:Hmm... You'd better ask~someone else instead of me.*I'm more excited about~ghosts rather than~some rumour.
+@Text:<playername>: I'm sorry~to have bothered you.
+@Unregister:Info6
+:endif
+:end

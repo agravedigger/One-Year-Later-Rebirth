@@ -1,0 +1,23 @@
+version=2
+:if:<register.registered(tinf1scene)>=true
+:then
+@Player.move(4)
+@text.show(Sage: But...)
+@text.show(Gaven: You know that~I never let Ecruteak down...~I'll take care of~the task at hand.*Stay here, friend.)
+@NPC.turn(0,0)
+@NPC.turn(1,0)
+@NPC.move(0,3)
+@NPC.remove(0)
+@Player.move(5)
+@text.show(Sage: Hmm?)
+@NPC.turn(1,2)
+@text.show(Sage: A child?*What brings you here?)
+@text.show(<player.name>: Was that Gaven?)
+@text.show(Sage: Why, yes... Oh, the fool,~he sure does go~out of his way...~I assume you his friend?*If so, please do join him!~We need as many trainers as~possible to see what is wrong~with the sacred bird~on the top floor.*Even our trained sages~have gone missing!~We will be in your dept!)
+@text.show(<player.name>: It seems~to be serious...*I'll see what I can do.)
+@text.show(Sage: Do be careful,~the tower is crawling~with Ghost Pokemon.)
+@text.show(<player.name>: I'll keep~that in mind.)
+@Register.unregister(tinf1scene)
+@NPC.unregister(ecruteak\tintowergate1.dat|0|position|5,0,7)
+:endif
+:end

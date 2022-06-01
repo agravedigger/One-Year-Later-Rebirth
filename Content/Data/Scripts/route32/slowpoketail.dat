@@ -1,0 +1,14 @@
+:if:not register(slowpoketail_fatguy)
+:then
+@Register:slowpoketail_fatguy
+@Turn:Player,1
+@Turn:9,2
+@Text:How would you like~to have this~tasty, nutritious~SLOWPOKETAIL?*For you right now,~just 1.000.000 PokeDollar!*You'll want this!
+@Options:Yes,No
+:when:Yes
+@Text:Tch! I thought~kids these days~were loaded...
+:when:No
+@Text:Tch! I thought~kids these days~were loaded...
+:endwhen
+:endif
+:end

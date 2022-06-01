@@ -1,0 +1,7 @@
+:if:register(noelfirst1)
+:then
+@Text:I shouldn't leave before I~finish business here in~Azalea.
+@Turn:Player,2
+@Move:Player,1
+:endif
+:end

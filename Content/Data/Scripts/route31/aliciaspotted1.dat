@@ -1,0 +1,13 @@
+:if:not register(Alicia Spotted)
+:then
+@Warp:4,9,0.1,11
+@Move:4,4
+@Turn:4,1
+@Move:4,7
+@Text:<playername>: There's Noel!~Let's hurry, partner!
+@Sound:/Cries/133
+@Text:Eevee: Nyarh!
+@Register:Alicia Spotted
+@Warp:4,9,-2,11
+:endif
+:end

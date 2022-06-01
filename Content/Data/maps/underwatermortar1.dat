@@ -1,0 +1,9 @@
+{"Level"{LEV[{"Name"{str[Underwater]}}{"MusicLoop"{str[Dream]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnviromentType"{int[4]}}{"Weather"{int[4]}}{"IsDark"{bool[1]}}]}}
+
+{"Floor"{ENT[{"Size"{intArr[3,20]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Dream]}}{"Texture"{rec[70,70,70,70]}}]}}
+
+
+
+Scripblocks:
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[2,0,14]}}{"TexturePath"{str[Dream]}}{"Textures"{recArr[[70,70,70,70]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[underwatermortar1]}}{"Rotation"{int[0]}}]}}
