@@ -1,0 +1,24 @@
+@Text:...What's up~with Johto lately?
+:if:register(Info3)
+:then
+@Text:<playername>: Excuse me?
+@Text:Huh?~What is it?
+@Text:<playername>: Do you know anything~about the Neon?
+@Text:May I ask who are they?
+@Text:(You gave a simple explanation)
+@Wait:135
+@Text:Black suits?*I actually heard about~something like that~in Cherrygrove.*A man with red hair had~asked me the same question.
+@Text:<playername>: Okay,~thank you for your time!
+@Text:Alright.
+@Wait:50
+@Text:I have a bad~feeling about this...
+@Unregister:Info1
+@Unregister:Info2
+@Unregister:Info3
+@Unregister:Info4
+@Unregister:Info5
+@Unregister:Info6
+@Register:RedHair
+@NPC:register(cherrygrove\0.dat|1|position|2,0,3)
+:endif
+:end

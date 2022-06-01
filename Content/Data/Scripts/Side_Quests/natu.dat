@@ -1,0 +1,20 @@
+version=2
+@pokemon.cry(177)
+@NPC.unregister(route30.dat|11|position|15,0,19)
+@Register.register(foundnatu)
+@Register.unregister(Lena1)
+@text.show(Kyua!!)
+@text.show(<player.name>: You must be~the Natu the lady was~worried about!*hurry to your partner!~she's waiting!)
+@text.show(Lena: .... .... ....)
+@screen.fadeout
+@NPC.remove(11)
+@sound.play(Running)
+@text.show(Lena Fleed back~towards Cherrygrove*it appears that~she droped something...)
+@item.give(32,1)
+@item.messagegive(32,1)
+@screen.fadein
+@text.show(<player.name>: well,~should probablt tell...*hmm... whats this?)
+@item.give(426,1)
+@item.messagegive(426,1)
+@text.show(<player.name>: TM Defog?~It'll probably come in handy..*Well, time to head back.)
+:end

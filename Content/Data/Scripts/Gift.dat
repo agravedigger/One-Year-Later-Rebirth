@@ -1,0 +1,107 @@
+:if:register(A_Gift?)
+:then
+@Heal
+@Music:nomusic
+@Text:Noel: <playername>!
+@Text:<playername>: Noel?~Are you alright?
+@Text:Noel: Hey, listen...*What happened back there~made me realize...*I'm not strong enough...
+@Text:<playername>: Don't say that.~You've done everything~you could!
+@Text:Noel: That's not the point!*That man...~He was just a grunt, right?
+@Text:<playername>: Probably...
+@Text:Noel: Now think about it...*If he alone was so strong...*What about the higher-ups!?*We won't be able to take~them on!
+@Text:<playername>: What are you~saying!? Are you just going~to give up!?
+@Text:Noel: Don't be ridiculous!~Of course not!*It's just...
+@Text:<playername>: Excuses!~Do you expect me to believe~that you're the same Noel~who would stop at nothing~to make things right!?~Now you would simply give up!?*That's nonsense!
+@Text:Noel: We...*We need to train now!*You heard what he said!*They will hunt you down!* You don't have to pretend~that you are high and mighty!*You're just as scared as I am!
+@Text:<playername>: ...
+@Music:Sad
+@Text:Noel: You just...*You just moved here!*And now you're already~up against an army!?
+@Turn:1,0
+@Text:Noel: Damn it!
+@Text:Noel: After I heard him~say that...*I was so furious!*But...*What could I do!?*I couldn't do anything!
+@Text:<playername>: Listen...
+@Turn:1,2
+@Text:Noel: Stop!*I know what you're~going to say...
+@Text:<playername>: ...
+@Text:Noel: I know you too well...*Even when I first met you...*When we were kids...~I felt that you were~special to me...
+@Text:Noel: That's why, no matter~what happened, I wanted to~be there...*Protecting you!
+@Text:Noel: Even back in Kanto~when I first met you...*You were always getting~into trouble...*You were getting into fights~left and right...*I couldn't watch you~getting hurt anymore!
+@Text:Noel: That's why...*I...
+@Turn:1,0
+@Text:Noel: Damn it..!
+@Text:<playername>: Noel, listen...*Because of those times when~you had protected me...*I looked up to~you as my big sister...*That's why I always fight my~hardest when you're in danger!*I feel like it's my turn~to protect you! No matter~what your response is!
+@Text:Noel: ...*(Sniff)
+@Turn:1,2
+@Text:Noel: Thank you...
+@Wait:40
+@Text:Noel: I don't know what~to say...*Thank you..!
+@Music:lakeside
+@Text:Noel: Then...~Let's get some practice!
+@Text:<playername>: Haha!
+@Text:Noel: What's so funny?
+@Text:<playername>: No, it's nothing!*Okay!~Ready when you are!
+@Text:Noel: Great!*I'm not gonna go~easy on you!
+:if:register(Headstrong)
+@Battle:trainer,Rival1a
+@Music:johto_rival_encounter
+@Text:Noel: That felt great!
+@Text:<playername>: I'm glad!
+@Text:<playername>: Is that so?
+@Text:Noel: Hmmhm!*...
+@Text:<playername>: What's on your mind?
+@Text:Noel: Something's worrying me...
+@Text:Noel: I don't know~how to put it...*When we encountered~that man...*He told you...
+@Text:<playername>: You don't mean...
+@Music:nomusic
+@Wait:100
+@Text:<playername> & Noel: !!!
+@Text:<playername>: We have to warn them!
+@Music:Sudden_Crisis
+@Text:<playername>: We should hurry!
+@Text:Noel: I'll go~talk with my Father!
+@Text:Noel: We'll meet up later!
+@Turn:1,3
+@Move:1,2
+@Turn:1,2
+@Move:1,3
+@Warp:1,4,-2,4
+@NPC:register(slowpokewell\slowpokewell1f.dat|1|remove|1)
+@Text:<playername>: I have to go warn Mum!
+@Heal
+@Register:MomVisit1
+@Register:speedtravel1
+@Unregister:mom_adventure2
+@Unregister:noelfirst1
+:else:
+@Battle:trainer,Rival1
+@Music:johto_rival_encounter
+@Text:Noel: That felt great!
+@Text:<playername>: I'm glad!
+@Text:<playername>: Is that so?
+@Text:Noel: Hmmhm!*...
+@Text:<playername>: What's on your mind?
+@Text:Noel: Something's worrying me...
+@Text:Noel: I don't know~how to put it...*When we encountered that man...*He told you...
+@Text:<playername>: You don't mean...
+@Music:nomusic
+@Wait:100
+@Text:<playername> & Noel: !!!
+@Text:<playername>: We have to warn them!
+@Music:Sudden_Crisis
+@Text:<playername>: We should hurry!
+@Text:Noel: I'll go~talk with my Father!
+@Text:Noel: We'll meet up later!
+@Turn:1,3
+@Move:1,2
+@Turn:1,2
+@Move:1,3
+@Warp:1,4,-2,4
+@NPC:register(slowpokewell\slowpokewell1f.dat|1|remove|1)
+@Text:<playername>: I have to go warn Mum!
+@Heal
+@Register:MomVisit1
+@Register:speedtravel1
+@Unregister:mom_adventure2
+@Unregister:noelfirst1
+:endif
+:end

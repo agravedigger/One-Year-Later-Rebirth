@@ -1,0 +1,79 @@
+:if:register(Reina1)
+:then
+@Text:Reina: Don't worry about me.~I'll be here, looking~into the water.*I have faith in your~abilities.*You'll do well.
+@Turn:5,0
+@Heal
+:endif
+
+:if:register(Reinabattle1)
+:then
+@Text:Reina: I assume~you are ready now?
+@Text:Reina: Okay, onto~the test battle!
+@Heal
+@Battle:trainer,Reina1
+@Unregister:FeiLingCave
+@Register:VertificationGot
+@NPC:register(route31.dat|5|Position|12,-2,8)
+@Register:Reina1
+@Unregister:Reinabattle1
+@Text:Reina: Great job!*I'm sure you'll do great~here in Johto!
+@Wait:12
+@Music:lakeside
+@Text:Reina: Alright, as promised,~here's your verification!
+@Music:nomusic
+@Sound:item_found
+@Text:<playername>'s Trainer Card~is now verified~for the Johto Region!
+@Wait:14
+@Music:lakeside
+@Text:Also, here!
+@GiveItem:17,10
+@GiveItem:32,1
+@GiveItem:26,3
+@GiveItem:126,1
+@Text:Reina: I'm sure that these~items will be very handy~to you. Make sure you~use them wisely!
+@Text:<playername>: Thanks, Reina!
+@Text:Reina: You don't have to~thank me! You are my friend~after all.
+@Bulb:4|20|0.9|8
+@Text:Reina: If you ever need~anything, I'll be over at~the school teaching~the young ones.
+@Text:Reina: Good luck with~Violet City's Gym!*Here's a word of advice!*If you happen to have~a Rock Type or a Pokémon~that can inflict negative~aliments, you'll have~an advantage.*I'm sure we'll~cross paths again!
+@Turn:5,0
+@Heal
+:endif
+
+:if:register(FeiLingCave)
+:then
+@Text:Reina: Oh!*You startled me!
+@Text:<playername>: I'm sorry!~Were you waiting for long?
+@Text:Reina: No, I just arrived!
+@Text:<playername>: That's good.*So...*A teacher, huh?*Reina: Hehe, yeah.~I became a teacher after I~finished my Pokémon training.*It's hard to believe it's~been 2 years...*<playername>: Really?~Sounds like you're just~slightly older than me.*Reina: Oh, really?~How old are you?*<playername>: I just turned 17~a month ago.*Reina: Hehe, I'm older by one!*<playername>: Well then, miss...
+@Text:Reina: I'm just teasing a bit!*<playername>: Right. Anyway...~About my verification...
+@Text:Reina: Right, we still~have to do that, huh?*Here's how that goes...*I will talk about a couple~of things related to the~verification process.*Will that be alright?
+@Text:<playername>: Yes!
+@Text:Reina: Alright...*Let's see...
+@Music:nomusic
+@Wait:30
+@Bulb:1|20|0.9|8
+@Text:Ah!
+@Music:lakeside
+@Text:Okay, here's the deal.~I will talk about two topics~and after that,~we'll have a test battle.~I'm sure these may be things~you already know,~but that's how regulations~are anyway.
+@Text:Now then, let's begin.
+@Sound:Save
+@Text:Firstly: Weaknesses!
+@Text:As you may know, the best~offense is the best defense!
+@Text:Let me explain.*I'm sure you are well~acquainted with typings.*Patience and strategy are~very important!*It's never a good idea~to rush a fight.*Increasing your defense~creates a sort of... barrier,~if you will.*It will you provide with~enough opportunities and~time to find weaknesses~and strike efficiently.
+@Text:Here's an example!*Let's say your adorable Eevee~is fighting against a~Fighting type.*You would want to use Eevee's~Sand Attack and Growl~to minimize incoming damage.*Of course, it's risky,~but it might be worth~it in the end.*Switching to a, let's say,~Ghost type would bring you~to an advantage as well.*Ultimately, the strategy~you will use is up to you.
+@Sound:Save
+@Text:Secondly: Effort Values!
+@Text:Of course, raising specific~stats is usually better~than simply levelling up.
+@Text:A high level Pokémon that~wasn't properly trained~will lose against a~well-trained Pokémon!
+@Text:Effort Values, or EVs, are~bonus stats earned through~constant training with~specific kinds of Pokémon.
+@Text:Here's an example. Many~Flying types yield bonus~speed stats.*If training sounds a bit too~overwhelming, there are also~items that boost EVs, such~as so-called Feathers.~Be sure to keep an eye out~for those.*However, there are also~Individual Values which vary~from Pokémon to Pokémon.~Every Pokémon is powerful~in its own way, so be sure~to catch as many as you can~to find the one best suited~for you!
+@Text:And that's all for today!
+@Bulb:8|20|0.9|8
+@Wait:30
+@Music:nomusic
+@Text:Reina: That's about it~regarding lectures.*Now all that's left is a~test battle!*However, if you don't feel~like you're ready yet,~I'll give you some time to~train up a bit more.*Until then, I'll be waiting~right here.
+@Register:Reinabattle1
+@Music:RouteMusic1
+:endif
+:end

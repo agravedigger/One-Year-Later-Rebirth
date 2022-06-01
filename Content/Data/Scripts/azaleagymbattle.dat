@@ -1,0 +1,24 @@
+:if:register(BugsyWon)
+:then
+@Text:Bugsy: You should go to~Goldenrod! There could be~more useful stuff there!*That's where I usually shop.
+:endif
+
+:if:register(GymbattleBug)
+:then
+@Trainer:azaleagymleader
+@GetBadge:10
+@Text:Bugsy: This Badge can further~increase your Pokémon's power~and it will also enable you~to use HM Cut!*...But I don't have the HM~to give you...*So instead...
+@GiveItem:55,1
+@Text:Bugsy: This is called~the Item Finder.*With this, you can find neat~items around the floor!*Be sure to use it everywhere!
+@GiveItem:88,1
+@Text:Bugsy: This item here~will boost the power of~Bug-type moves.*I'm sure it come in~handy to you!
+@GiveItem:438,1
+@Text:Bugsy: And this is the~TM for U-Turn!*U-Turn damages the opponent~before enabling your Pokémon~to swap with another~party member.*It should be used wisely,~of course.
+@Text:Bugsy: Good luck, <playername>!*I hope you'll catch those~goons! I'll join in later!
+@Register:BugsyWon
+@Unregister:GymbattleBug
+@Unregister:buggymfirst
+@NPC:register(slowpokewell\slowpokewell1f.dat|1|Position|12,1,2)
+@heal
+:endif
+:end

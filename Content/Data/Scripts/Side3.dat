@@ -1,0 +1,113 @@
+:if:register(Gotoreiling)
+:then
+@Text:I can't visit Eliza yet
+@Turn:Player,2
+@Move:Player,1
+:endif
+
+:if:register(Side3)
+:then
+@Move:Player,3
+@Turn:Player,2
+@Text:<playername>: I hope she~won't take too long...
+@Wait:500
+@Text:<playername>: ...
+@Turn:Player,1
+@Wait:200
+@Music:nomusic
+@Text:Eliza: <playername>!!!
+@Turn:Player,3
+@Warp:6,58,0,13
+@Turn:6,1
+@Move:6,2
+@Music:lakeside
+@Text:Eliza: Sorry it took a while!
+@Text:<playername>: It's alright.~I'm glad you could join me.
+@Move:6,3
+@Turn:6,0
+@Turn:Player,3
+@Text:Eliza: So, what should we do?
+@Text:<playername>: First, let's~have you walk around in the~grass over there.
+@Turn:Player,3
+@Text:Eliza: In the grass..?~Okay... I trust you...
+@Turn:6,1
+@Move:6,5
+@Move:Player,4
+@Turn:Player,1
+@Turn:6,2
+@Move:6,3
+@Music:johto_wild_intro
+@Wait:170
+@Music:johto_wild
+@Text:Eliza: Eek!*A vicious Spearow!
+@Move:Player,1
+@Text:<playername>: Stay calm.~That type of Pokémon attacks~people at a certain time~of the day.~But I'm sure you'll do fine!*So, go on and take out~your Pokémon!
+@Text:Eliza: Alright...*Go, Naith!
+@ViewPokemonImage:495,0,1
+@Text:<playername>: (What an~unique Pokémon...)
+@Text:Eliza: Uh... What~should I do!?
+@Text:<playername>: Don't fret!
+@Text:Eliza: I... I...~I don't feel so well...
+@Text:<playername>: Come on...~You can do it!~Hurry up before it strikes!
+@Text: (Spearow used Gust!)
+@Text:Eliza: Waah!!!
+@Sound:cries\495
+@Text: (Naith withstood the attack!)
+@Wait:50
+@Text:Eliza: I can do this...*Naith! Attack!
+@Text:<playername>: Oh?
+@Text: (Naith used Iron Tail!)
+@Wait:120
+@Music:wild_defeat
+@Text:Eliza: I...It's down?~I... I did it!
+@Text:Eliza: Thank you, Naith!~I'm so happy you're here~with me!
+@Sound:cries\495
+@Text:Naith: Sneeeh!
+@Turn:6,0
+@Text:Eliza: Did you see that!?~Naith was so cool!
+@Text:<playername>: You did great!~Come on back!
+@Text:Eliza: Okay!
+@Music:RouteMusic0
+@Move:6,3
+@Turn:6,3
+@Turn:Player,3
+@Text:Eliza: What now!?*What now!?
+@Text:<playername>: I like your energy!
+@Text:<playername>: Here's the next step!
+@Text:<playername>: Please step back a bit!
+@Text:Eliza: Huh? Okay..?
+@Turn:6,1
+@Move:6,1
+@Turn:6,3
+@Text:<playername>: Alright now!~Eliza!*I challenge you to a battle!
+@Text:Eliza: What!?~I have to battle you!?
+@Text:<playername>: Don't worry!~I'll go easy on you!~It'll be fun!
+@Text:Eliza: ...~Alright...~I trust you...*I'm ready!
+@Text:<playername>: Let's go!
+@Battle:trainer,ElizaBattle0
+@Unregister:Side3
+@Text:<playername>: You did pretty well!
+@Text:Eliza: Wow...~You're really tough...*This is the first time~I felt so much fun!
+@Text:<playername>: Great!~It was fun for me too!
+@Text:Eliza: You know...~You were right!~This isn't so bad at all!
+@Text:<playername>: Told you!
+@Text:Eliza: (Yawn)*Getting somewhat sleepy...
+@Text:Eliza: I'll go get~some rest...
+@Text:<playername>: Right, go ahead.
+@Text:Eliza: I can't wait~to tell Ms. Elwood!
+@Text:<playername>: Well, have fun.~I'll come visit you and Mum~when I can!
+@Text:Eliza: Hehe!~We'll be waiting!
+@Turn:6,2
+@Move:6,1
+@Turn:6,3
+@Move:6,5
+@Warp:6,20,-2,20
+@NPC:register(yourroom.dat|1|position|4,0,2)
+@Register:ElizaFun
+@Music:RouteMusic0
+@Register:Consideration1
+@Register:Badge2
+@Text:<playername>: I'll check up~on her when I have time.
+@Heal
+:endif
+:end

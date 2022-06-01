@@ -1,0 +1,49 @@
+version=2
+:If:<Register.registered(36scene)>=false
+@screen.fadeout
+@text.show((Elsewhere...))
+@music.pause
+@level.wait(50)
+@text.show(Person 1: So...~It finally started?*I suppose we can~move onto the~second phase now, right?)
+@level.wait(40)
+@music.play(tension)
+@music.resume
+@text.show(Person 2: Yes... Although,~this is quite interesting...*What is this~kid trying to do?)
+@text.show(Person 1: you mean~that kid?)
+@text.show(Person 2: Yes...~That kid intrigues me...~I'm surprised that we didn't~intervene sooner...)
+@text.show(Person 1: And that Pokémon!~So cute.. I wish I could have it...)
+@text.show(Person 3: Isn't that kid..?)
+@text.show(Person 1: That's only a~rumour...*You shouldn't allow yourself~to believe just about~everything you hear...)
+@text.show(Person 2: Right...*It isn't you who had~actually lost to the kid...)
+@text.show(Person 3: And the other one..?)
+@text.show(Person 2: Considering last~year's incident, the fact he's~still in hiding doesn't~surprise me.)
+@text.show(Person 2: But this concerns~me... Even if it is just a~rumour, this kid shouldn't be~taken lighly...)
+@text.show(Person 2: You think it'll~be the same as last year?*The same as with them?)
+@music.pause
+@text.show(Person 4: Quiet!)
+@text.show(Person 1, 2 & 3: ...)
+@level.wait(30)
+@music.resume
+@text.show(Person 4: Do you seriously~believe that I'd let a failed~experiment get in our way..?~Don't you know better than to~doubt yourselves like this?)
+@text.show(Person 1, 2 & 3: ...)
+@text.show(Person 4: I'm sure you all do,~my friends...*That genetic code will be~our ace in this war. Once the~time is right, my dream~will come true..!)
+@text.show(Person 4: Our next destination~will be decided soon.)
+@text.show(Person 4: Once our men retreat~from the city, they will~accompany you on our next~destination.)
+@text.show(Person 3: ...)
+@text.show(Person 4: Until then, this~meeting is over.*You are dismissed.)
+@level.wait(70)
+@music.pause
+@text.show(Person 4: Don't fail, kid...*You're Johto's only hope...)
+@level.wait(100)
+@screen.fadein
+@music.play(RouteMusic2)
+@music.resume
+@Register.register(36scene)
+@Register.register(NPChelp1)
+@Register.register(NPChelp2)
+@Register.register(NPChelp3)
+@Register.register(NPChelp4)
+@Register.register(NPChelp5)
+@npc.register(elmlab.dat|6|position|3,0,1)
+:endif
+:end

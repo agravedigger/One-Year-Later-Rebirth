@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Jack
+TrainerClass|Sage
+Money|1104
+IntroMessage|Whoa! A Trainer?*what on earth~are you doing here?
+OutroMessage|Wait are you here about the Sacred Bird?
+DefeatMessage|I remember there~was a Lever...*I think it was on a statue?*well dont mind me, probably~not anything important.*Im still kinda lost though!
+TextureID|Sage
+Region|Johto
+IniMusic|johto_trainer_intro
+DefeatMusic|trainer_defeat
+BattleMusic|johto_trainer
+Pokemon1|114,31
+Pokemon2|286,30
+Pokemon3|542,32
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|7,7
+Gender|0
+AI|2
+IntroSequence|blue,blue

@@ -1,0 +1,7 @@
+:if:not register(Passage1)
+:then
+@Text:<playername>: What am I doing!?*I need to warn Mum!
+@Turn:Player,2
+@Move:Player,1
+:endif
+:end

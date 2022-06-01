@@ -1,0 +1,9 @@
+:if:register(GymbattleBug)
+:then
+@Text:I'v Heard What Happened!~That was one heck~of a 'feat!*So Your going to take~Your chance with Bugsy?*Well you can~imagine how bugs are.*Try to squash them~before they can do anything!*Taking them out with~Flying-Types should~do the trick!
+:endif
+:if:register(BugsyWon)
+:then
+@Text:Great Going!*You Take care Now!
+:endif
+:end

@@ -1,0 +1,24 @@
+:if:register(rival_encounter_cherrygrove)
+:then
+@Warp:3,45,0,8
+@Turn:3,1
+@Move:3,9
+@Turn:3,2
+@Turn:Player,1
+@Text:Are you <playername> Elwood?
+@Text:<playername>: Yes? That's me.
+@Text:I gave the details about~Johto's current condition~to Prof. Elm.
+@Text:<playername>: What happened?
+@Text:That information~is classified.
+@Text:If you would excuse me,~I need to return to~the Police Station.
+@Turn:3,1
+@Move:3,7
+@Warp:3,30,-2,2
+@Move:3,1
+@NPC:register(elmlab.dat|2|remove|1)
+@Register:elm_police
+@Unregister:rival_encounter_cherrygrove
+@NPC:register(elmlab.dat|5|position|4,0,1)
+@Text:<playername>: I need to hurry~back to the Lab!
+:endif
+:end

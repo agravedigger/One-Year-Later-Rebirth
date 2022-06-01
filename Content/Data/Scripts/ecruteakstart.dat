@@ -1,0 +1,19 @@
+version=2
+:if:<Register.registered(ecruteakstart)>=false
+:then
+@text.show(<player.name>: Wow, this~place looks amazing!)
+@npc.warp(5,15,0,23)
+@npc.move(5,6)
+@npc.turn(5,0)
+@entity.showmessagebulb(3|21|1|23)
+@npc.move(5,1)
+@entity.showmessagebulb(0|21|1|22)
+@level.wait(60)
+@entity.showmessagebulb(4|21|1|22)
+@npc.turn(5,3)
+@npc.move(5,2)
+@npc.remove(5)
+@text.show(<player.name>: She looks like~she's having fun.*I wonder what building that is.)
+@Register.register(ecruteakstart)
+:endif
+:end

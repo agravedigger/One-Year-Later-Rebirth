@@ -1,0 +1,10 @@
+:if:register(route32_tmroar)
+:then
+@Text:WROOOAR!~IT'S ROAR!*EVEN [POKE]MON RUN~FROM A GOOD ROAR!
+:end
+:endif
+@Text:WROOOOAR!~PEOPLE RUN WHEN I*ROAR! BUT YOU~CAME LOOKING!*THAT PLEASES ME!~NOW TAKE THIS!
+@GiveItem:195,1
+@Text:WROOOAR!~IT'S ROAR!*EVEN [POKE]MON RUN~FROM A GOOD ROAR!
+@Register:route32_tmroar
+:end

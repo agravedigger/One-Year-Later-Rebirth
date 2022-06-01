@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Ben
+TrainerClass|Sage
+Money|2812
+IntroMessage|Quite in a Hurry arnt you?
+OutroMessage|Sorry to stop you, but...
+DefeatMessage|Look...~Im hearing alot of fuss~going on at the top..*Do becareful
+TextureID|Sage
+Region|Johto
+IniMusic|johto_trainer_intro
+DefeatMusic|trainer_defeat
+BattleMusic|johto_trainer
+Pokemon1|353,29
+Pokemon2|344,34
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|7,7
+Gender|0
+AI|2
+IntroSequence|blue,blue

@@ -1,0 +1,8 @@
+@Trainer:violetgymleader
+:if:not register(zephyrbadge_obtain)
+:then
+@Register:zephyrbadge_obtain
+@GetBadge:9
+@Text:Whoever These People Are,*They Will Not Go~Without a Fight.*When the Time Comes,~I'll be There*So For Now, Head To Azalea*Ask for A~Boy named Bugsy.*Tell Him Whats~Going On.*He'll Understand
+:endif
+:end

@@ -1,0 +1,25 @@
+:if:register(rival_encounter_azalea)
+:then
+:end
+:endif
+@Music:nomusic
+@Text:???: Is that..?
+@Warp:9,2,0,12
+@Turn:9,3
+@Move:9,1
+@Text:Noel: <playername>!!!
+@Move:9,1
+@Music:johto_rival_appear
+@Text:<playername>: It's been~a while!
+@Text:Noel: Yes, but now~isn't the time!~We have to hurry!
+@Text:<playername>: What's happening?
+@Text:Noel: I'll explain later!*Come to Ilex Forest!
+@Turn:9,1
+@Move:9,4
+@Warp:9,14,-2,12
+@Music:azalea
+@Text:This might get complicated...*I should prepare before I go!
+@Register:rival_encounter_azalea
+@Register:NeonBattle1
+@NPC:register(ilexforest.dat|1|position|4,0,35)
+:end

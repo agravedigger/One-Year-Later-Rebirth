@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Reina Fei Ling
+TrainerClass|Examinee
+Money|8000
+IntroMessage|
+OutroMessage|
+DefeatMessage|Nice job!~Alright, as promised...~Here's your verification!
+TextureID|MsReina
+Region|Johto
+IniMusic|feiling_battle_intro
+DefeatMusic|trainer_defeat
+BattleMusic|feiling_battle
+Pokemon1|{"Pokemon"[213]}{"Experience"[1500]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[0]}{"NickName"[Serta]}{"Level"[15]}{"OT"[11354]}{"Ability"[5]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[???]}{"CatchTrainer"[Reina]}{"CatchBall"[5]}{"CatchMethod"[???]}{"Friendship"[100]}{"isShiny"[0]}{"Attack1"[110,10,10]}{"Attack2"[450,15,15]}{"Attack3"[20,20,20]}{"Attack4"[]}{"HP"[200]}{"FPs"[60,0,150,0,0,1]}{"DVs"[60,70,20,70,0,1]}{"AdditionalData"[]}
+Pokemon2|{"Pokemon"[511]}{"Experience"[1500]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[0]}{"NickName"[Len]}{"Level"[15]}{"OT"[11354]}{"Ability"[65]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[???]}{"CatchTrainer"[Reina]}{"CatchBall"[5]}{"CatchMethod"[???]}{"Friendship"[100]}{"isShiny"[0]}{"Attack1"[73,30,30]}{"Attack2"[348,25,25]}{"Attack3"[445,40,40]}{"Attack4"[50,20,20]}{"HP"[200]}{"FPs"[150,30,70,10,70,40]}{"DVs"[150,20,80,20,80,40]}{"AdditionalData"[]}
+Pokemon3|{"Pokemon"[675]}{"Experience"[1500]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[0]}{"NickName"[Bai Yun]}{"Level"[15]}{"OT"[11354]}{"Ability"[89]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[???]}{"CatchTrainer"[Reina]}{"CatchBall"[5]}{"CatchMethod"[???]}{"Friendship"[100]}{"isShiny"[0]}{"Attack1"[68,30,30]}{"Attack2"[4,25,25]}{"Attack3"[339,40,40]}{"Attack4"[371,20,20]}{"HP"[200]}{"FPs"[100,80,30,20,60,90]}{"DVs"[150,20,150,20,150,40]}{"AdditionalData"[]}
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|38,38,38,38,38
+Gender|1
+AI|3
+IntroSequence|green,brown

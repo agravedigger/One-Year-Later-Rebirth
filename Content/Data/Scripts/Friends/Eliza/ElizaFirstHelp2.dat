@@ -1,0 +1,22 @@
+:if:register(LocateScream1)
+:then
+@Text:<playername>: What am I~doing!? Someone is in danger!
+@Turn:Player,2
+@Move:Player,1
+:endif
+
+:if:register(ElizaFirstEncounter)
+:then
+@NPC:register(violet\school.dat|4|Position|2,-2,1)
+@Music:nomusic
+@Text:???:Eek!!!
+@Wait:20
+@Text:<playername>: What the!?
+@Turn:Player,2
+@Move:Player,1
+@Music:Sudden_Crisis
+@Text:<playername>: It came from~over there!
+@Register:LocateScream1
+@Unregister:ElizaFirstEncounter
+:endif
+:end

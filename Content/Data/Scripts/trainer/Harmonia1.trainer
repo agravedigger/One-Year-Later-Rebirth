@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Harmonia
+TrainerClass|Admin
+Money|0
+IntroMessage|
+OutroMessage|
+DefeatMessage|
+TextureID|Harmonia
+Region|Johto
+IniMusic|johto_rocket_intro
+DefeatMusic|boss_defeat
+BattleMusic|Overpowered
+Pokemon1|{"Pokemon"[635]}{"Experience"[12000]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[74]}{"NickName"[]}{"Level"[50]}{"OT"[25508]}{"Ability"[46]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[Somehow obtained]}{"CatchTrainer"[???]}{"CatchBall"[5]}{"CatchMethod"[???]}{"Friendship"[0]}{"isShiny"[0]}{"Attack1"[407,15,15]}{"Attack2"[242,15,15]}{"Attack3"[157,15,15]}{"Attack4"[218,20,20]}{"HP"[5000]}{"FPs"[5000,4000,300,4000,300,0]}{"DVs"[300,600,600,600,600,15]}{"AdditionalData"[]}
+Pokemon2|
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|14,14,14,14,14,14,14,14
+Gender|0
+AI|0
+IntroSequence|red,gray

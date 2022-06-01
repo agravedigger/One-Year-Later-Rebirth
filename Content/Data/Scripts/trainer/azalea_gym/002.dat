@@ -1,0 +1,6 @@
+:if:not register(trainer_azalea_gym\001)
+:then
+@Text:AMY: You want to see~the leader?
+:endif
+@Trainer:azalea_gym\001
+:end

@@ -1,0 +1,35 @@
+version=2
+:if:<Register.registered(KimonoGirlIntro)>=false
+:then
+@text.show(Kimono Girl: Hello! Welcome~to our Restaurant Theatre!*We serve refreshing food~for you and your Pokemon.)
+@text.show(You may also purchase~our lovely Lava Cookies.)
+@text.show(We also offer Pokémon Battles~with any of us Kimono Girls~for ₽1000 each.~You may battle us~at any given time.)
+@text.show(Remember to come to me~if you need anything.*Now then...)
+@Register.register(KimonoGirlIntro)
+:endif
+
+@text.show(How may I help you today?)
+@Options.show(Food        ₽200,Cookies    ₽50,Battle      ₽1000,Exit)
+:when:Food        ₽200
+@text.show(Sure thing,~I'll prepare your table.)
+@screen.fadeout
+@Pokemon.heal
+@Sound.play(pokemon_heal)
+@Level.wait(100)
+@Text.show(You and your Pokémon have~enjoyed a refreshing meal.)
+@screen.fadein
+@Text.show(Thank you!)
+@pokemon.addfriendship(0,10)
+@Player.money(-200)
+:when:Cookies    ₽50
+@Text.show(Sure thing,~how many would you like?)
+@screen.Trade({7|20|50},True,True)
+@Text.show(Thank you!)
+:when:Battle      ₽1000
+@Player.money(-1000)
+@battle.starttrainer(ecruteak\001)
+@Text.show(I enjoyed that.*I would like~to see you again.)
+@Register.unregister(trainer_ecruteak\001)
+:when:Exit
+@Text.show(Thank you for coming!)
+:end

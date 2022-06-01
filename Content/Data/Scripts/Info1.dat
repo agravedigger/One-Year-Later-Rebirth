@@ -1,0 +1,15 @@
+@Text:Why hello.*Make sure to~keep your Pokémon safe.
+:if:register(Info1)
+:then
+@Text:<playername>: Excuse me,~do you have a minute?
+@Text:Hmm?*Why, yes,~how may I help You?
+@Text:(You asked about the~whereabouts of the grunts)
+@Text:Neon?*I've honestly never heard of them.*May I ask what do~they look like?
+@Text:<playername>: They are people~wearing masks and black suits.
+@Text:Hmmm...*I heard about something like~that from someone on Route 30.
+@Text:<playername>: I see...
+@Text:<playername>: Thanks!
+@Text:Anytime.
+@Unregister:Info1
+:endif
+:end

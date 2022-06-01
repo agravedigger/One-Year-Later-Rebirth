@@ -1,0 +1,7 @@
+:if:register(Infoneed)
+:then
+@Text:<playername>: I shouldn't head~to Goldenrod yet.
+@Turn:Player,2
+@Move:Player,1
+:endif
+:end

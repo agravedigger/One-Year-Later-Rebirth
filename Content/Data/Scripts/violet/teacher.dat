@@ -1,0 +1,29 @@
+@Text:Bonjour!~You are trainer?*The study shall you!~Follow me!
+:if:position(Player,12,0,18)
+:then
+@Turn:Player,3
+@Move:Player,1
+@Turn:Player,1
+@Move:Player,1
+@Turn:Player,1
+:endif
+@Turn:3,2
+@Move:3,4
+@Turn:3,3
+@Turn:Player,1
+@Move:Player,3
+@Move:3,3
+@Turn:Player,1
+@Move:3,15
+@Turn:3,1
+@Move:Player,16
+@Turn:3,0
+@Move:3,1
+@Turn:3,1
+@Text:Here, teacher I am.~Good it is you study here!
+@Turn:3,0
+@Move:3,1
+@NPC:remove(3)
+@NPC:register(violet.dat|3|remove|1)
+@NPC:register(violet\school.dat|4|position|2,0,1)
+:end

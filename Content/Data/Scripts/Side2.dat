@@ -1,0 +1,21 @@
+version=2
+:if:<register.registered(ElizaFun)>=true
+		@Text.show(Eliza: Hi <player.name>!)
+		@Text.show(<player.name>: Hows Everything?)
+		@Text.show(Eliza: Im doing great!)
+		@Text.show(<player.name>: Thats Good.)
+		@text.show(Eliza: But im sorry,~It must be weird to have~someone in your room huh?)
+		@text.show(<player.name>: Dont worry about it,~I think of it as a~family member just visiting.)
+		@text.show(Eliza: oh..*Well If your~ever feeling tired,~Rest up awhile!)
+		@text.show(<player.name>: Yeah, I could~use some rest..)
+		@Register.register(restinbed)
+:else:
+	:if:<register.registered(Side3)>=true
+		@Text.show(Eliza: Hold on!~Let me get ready!)
+:else:
+	:if:<register.registered(Elizacommon1)>=true
+		@text.show(Eliza: Hey, Your not~leaving anytime soon are you?)
+		@text.show(<player.name>: Yeah, I have to~get back to what I was doing.*<player.name>: But dont worry,~I'll come visit again!)
+		@text.show(Eliza: Ok! Give it~everything you have!*<player.name>: I will!*train every now and then ok?*Eliza: I Will!)
+:endif
+:end

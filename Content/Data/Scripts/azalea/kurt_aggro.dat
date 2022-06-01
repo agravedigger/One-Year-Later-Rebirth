@@ -1,0 +1,14 @@
+@Text:Hm? Who are you?~<playername>, eh? You~want me to make~some BALLS?*Sorry, but that'll~have to wait.*Do you know TEAM~ROCKET? Ah, don't~worry. I'll tell~you anyhow.*TEAM ROCKET's an~evil gang that~uses POKEMON for~their dirty work.*They're supposed~to have disbanded~three years ago.*Anyway, they're at~the WELL, cutting~off SLOWPOKETAILS~for sale!*So I'm going to~go give them a~lesson in pain!*Hang on, SLOWPOKE!~Old KURT is on his~way!
+:if:position(Player,3,0,2)
+:then
+@Turn:Player,1
+@Move:Player,2
+@Turn:Player,2
+:endif
+@Turn:1,2
+@Move:1,6
+@NPC:remove(1)
+@NPC:register(azalea\kurt.dat|1|remove|1)
+@NPC:register(azalea.dat|0|remove|1)
+@Register:kurt_gone
+:end

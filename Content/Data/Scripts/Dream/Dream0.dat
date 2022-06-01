@@ -1,0 +1,7 @@
+:if:not register(speak)
+:then
+@Register:speak
+@Text:Are you lost..?*Please do not worry...*Move forward...*There is nothing to fear...
+@Register:speak1
+:endif
+:end

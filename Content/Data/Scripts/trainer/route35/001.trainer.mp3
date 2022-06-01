@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Kim
+TrainerClass|Picnicker
+Money|600
+IntroMessage|What luck, huh?~I'm here for another~Gym rematch, but apparently~Whitney resigned...*You look tough!~I'll just fight you~to get rid of my frustrations!
+OutroMessage|Oh. I couldn't~win...
+DefeatMessage|I wonder who's the new Gym Leader?
+TextureID|16
+Region|Johto
+IniMusic|Johto_trainer_intro
+DefeatMusic|trainer_defeat
+BattleMusic|johto_trainer
+Pokemon1|37,23
+Pokemon2|
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|
+Gender|1
+AI|2
+IntroSequence|Blue,Blue

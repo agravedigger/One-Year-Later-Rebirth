@@ -1,0 +1,8 @@
+version=2
+:if:<Register.registered(goldenrodcomplete)>=false
+:then
+@Text.show(I can't leave yet since~there is still some~unfinished business to~take care of.)
+@Player.turn(2)
+@Player.move(1)
+:endif
+:end

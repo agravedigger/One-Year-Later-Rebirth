@@ -1,0 +1,7 @@
+version=2
+:if:<register.registered(olivine_lighthouse_finish)>=True
+@Text.show(The Pokémon at~Olivine Lighthouse~has been cured.*Boats can safely~sail out to sea at~night again.)
+:else
+@Text.show(Did you know that the beacon~at Olivine lighthouse is~actually a Pokémon?)
+:endif
+:end

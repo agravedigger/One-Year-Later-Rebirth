@@ -1,0 +1,13 @@
+version=2
+:If:<register.registered(speedtravel1)>=true
+:then
+@Text.show(Would you like to~fast travel to~New Bark Town?*You might not~come back here~for a while.)
+@Options.show(Fast Travel,I'll walk there)
+	:when:Fast Travel
+		@register.Unregister(speedtravel1)
+		@Player.warp(barktown.dat,1,0.1,14,1)
+	:when:I'll walk from there
+		@register.Unregister(speedtravel1)
+	:endwhen
+:endif
+:end

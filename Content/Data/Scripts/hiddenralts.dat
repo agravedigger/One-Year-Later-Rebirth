@@ -1,0 +1,6 @@
+@Sound:\cries\280
+@Text:<playername>: What!?
+@Battle:Wild,280,20
+@Warp:0,2,-2,2
+@NPC:register(hiddengrotto\route31.dat|0|remove|2,-2,2)
+:end

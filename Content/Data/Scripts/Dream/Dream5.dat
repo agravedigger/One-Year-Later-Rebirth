@@ -1,0 +1,23 @@
+version=2
+
+:if:<register.registered(speak5)>=true
+:then
+
+@Text.show(One day...*You will learn the truth.*So show me...~How strong your~convictions are...)
+@battle.trainer(Dream)
+@Music:stop
+@Text.show(Good...*Now...*Wake up...~<player.name> Elwood...*Your new life awaits you...*She is waiting...)
+@Pokemon.clear
+@Screen.fadeout
+@Level.Wait(100)
+@Player.warp(yourroom.dat,1,0.1,4,1)
+@Level.Wait(100)
+@Level.update
+@Camera.activatethirdperson
+@Music.play(barktown)
+@Screen.fadein
+@Player.save
+
+:endif
+
+:end

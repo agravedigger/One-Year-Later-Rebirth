@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Benny
+TrainerClass|Bug Catcher
+Money|340
+IntroMessage|Bug Pokémon evolve fast.* So they get~stronger that much faster!
+OutroMessage|Just evolving~isn't enough!
+DefeatMessage|Pokémon become stronger~if they Evolve.*Really!
+TextureID|bugcatcher
+Region|Johto
+IniMusic|johto_trainer_intro
+DefeatMusic|trainer_defeat
+BattleMusic|johto_trainer1
+Pokemon1|13,17
+Pokemon2|14,18
+Pokemon3|14,19
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|
+Gender|0
+AI|2
+IntroSequence|blue,blue

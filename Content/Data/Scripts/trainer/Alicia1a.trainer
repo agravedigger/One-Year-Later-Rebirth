@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Noel
+TrainerClass|Childhood Friend
+Money|3000
+IntroMessage|
+OutroMessage|Wow, you're still good!!
+DefeatMessage|
+TextureID|Elise
+Region|Johto
+IniMusic|johto_rivalintro
+DefeatMusic|trainer_defeat
+BattleMusic|johto_rival
+Pokemon1|{"Pokemon"[908]}{"Experience"[1]}{"Gender"[1]}{"EggSteps"[0]}{"Item"[0]}{"NickName"[Evelia]}{"Level"[5]}{"OT"[25508]}{"Ability"[50]}{"Status"[]}{"Nature"[18]}{"CatchLocation"[At New Bark Town]}{"CatchTrainer"[Alicia]}{"CatchBall"[166]}{"CatchMethod"[As a gift from Father]}{"Friendship"[90]}{"isShiny"[0]}{"Attack1"[1,35,35]}{"Attack2"[45,40,40]}{"Attack3"[3,15,15]}{"Attack4"[]}{"HP"[77000]}{"FPs"[2500,0,300,0,300,0]}{"DVs"[250,0,150,0,150,0]}{"AdditionalData"[]}
+Pokemon2|
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|7,7
+Gender|1
+AI|2
+IntroSequence|blue,gray
