@@ -1,0 +1,24 @@
+Name|One Year Later: Rebirth
+Description|Discover what happened one year after the events of GSC!
+Version|Ver: 0.1.2.1
+Author|Runaryu & Shou Liengod
+MapPath|$Mode\Content\Data\maps\
+ScriptPath|$Mode\Content\Data\Scripts\
+PokeFilePath|$Mode\Content\Data\maps\poke\
+PokemonDataPath|$Mode\Content\Pokemon\Data\
+ContentPath|$Mode\Content\
+LocalizationsPath|$Mode\Content\Localization\
+Gamerules|(MaxLevel|100)(OnlyCaptureFirst|0)(ForceRename|0)(DeathInsteadOfFaint|0)(CanUseHealItems|1)(Difficulty|0)(LockDifficulty|0)(GameOverAt0Pokemon|1)(CanGetAchievements|0)(ShowFollowPokemon|1)
+StartMap|Dream.dat
+StartPosition|0,0.1,0
+StartRotation|3.14
+StartLocationName|???
+StartDialogue|
+StartColor|10,10,10
+PokemonAppear|907
+IntroMusic|Dream
+IntroType|0
+SkinColors|10;10;10
+SkinFiles|Some
+SkinNames|???
+SkinGenders|???

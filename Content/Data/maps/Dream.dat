@@ -1,5 +1,5 @@
-{"Level"{LEV[{"Name"{str[???]}}{"MusicLoop"{str[Dream]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"OverworldPokemon"{bool[0]}}{"EnviromentType"{int[2]}}{"Weather"{int[1]}}{"IsDark"{bool[0]}}]}}
+{"Level"{LEV[{"Name"{str[???]}}{"MusicLoop"{str[Dream]}}{"OverworldPokemon"{bool[0]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[3]}}{"Weather"{int[1]}}{"IsDark"{bool[0]}}]}}
 
 {"Floor"{ENT[{"Size"{intArr[1,21]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Dream]}}{"Texture"{rec[70,70,70,70]}}]}}
 

@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Ecruteak City]}}{"MusicLoop"{str[ecruteak]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnviromentType"{int[1]}}{"MapScript"{str[tintower\gaven]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"MapScript"{str[tintower\gaven]}}{"Weather"{int[1]}}]}}
 
 Floor:
 {"Floor"{ENT[{"Size"{intArr[12,22]}}{"Position"{intArr[-1,0,-3]}}{"TexturePath"{str[WoodTower]}}{"Texture"{rec[0,0,16,16]}}]}}
