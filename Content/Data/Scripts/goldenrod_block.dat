@@ -1,4 +1,5 @@
 :if:register(MomVisit1)
+:then
 @Text:I must warn Mum!
 @Turn:Player,2
 @Move:Player,1

@@ -253,19 +253,19 @@ inventory_menu_items,Items
 inventory_menu_description,Description
 ---
 NewGameScreen:
-new_game_intro_1,Welcome...*You must be wondering why~everything is so dark...*Do not be alarmed,~this is but a dream.*Even so...*I am happy nonetheless...*Consider this guidance.*I will guide you on the road~you walk on...*I will show you the way...*And perhaps...*I will enlighten you...
-new_game_intro_2,Please, do not be concerned,~as this is not your world.*Or anything for~that matter...*Here, everything~is anything...*So do tell me...*Do you remember~who you are?*Perhaps not...~Try to remember your name...
-new_game_intro_3, Elwood?~Yes, that is who you are...~How could you have~forgotten..?*I assume all else is~lost to you, is it not?*Then please...*Come find me...*Within this dream...*I will help you...
-new_game_intro_weird_name_1,Right! So your name is~
+new_game_intro_1,Hello!~Sorry to keep~you waiting!*Welcome to the world~of Pokémon!*My name is Oak.~People call me~Pokémon Prof.*This world is inhabited~by creatures that~we call
+new_game_intro_2,Pokémon.*People and Pokémon live~together by supporting~each other.~Some people play with~Pokémon,~some battle with them.*But we don't know~everything about~Pokémon yet.~There are still many~mysteries to solve.*That's why I study~Pokémon every day.*Now, what did you~say your name was?
+new_game_intro_3,~are you ready?*Your very own~Pokémon story is about~to unfold.*You'll face fun~times and tough~challenges.~A world of dreams and~adventures with Pokémon~awaits!*Let's go!*I'll be seeing~you later!
+new_game_intro_weird_name_1,<player.name>...
 new_game_intro_weird_name_2,!*Hm that is a~weird name.
 new_game_intro_known_name_1,Right! So your name is~
 new_game_intro_known_name_2,!*Hm I am sure I~heard this name before.
 new_game_intro_same_name_1,Hey we got the~same names.*My name is also~
 new_game_intro_same_name_2,!
-new_game_intro_name_1,Right! So your name is~
-new_game_intro_name_2,!
+new_game_intro_name_1,
+new_game_intro_name_2,...
 new_game_your_name,What's your name?
-new_game_select_skin,Press Enter to continue
+new_game_select_skin,Press Enter
 new_game_name_too_short,This name is too short
 ---
 MapScreen:

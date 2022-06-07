@@ -10,7 +10,7 @@ Region|Johto
 IniMusic|johto_rocket_intro
 DefeatMusic|boss_defeat
 BattleMusic|johto_rocket
-Pokemon1|{"Pokemon"[157]}{"Experience"[12000]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[146]}{"NickName"[Maki]}{"Level"[40]}{"OT"[25508]}{"Ability"[66]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[Somehow obtained]}{"CatchTrainer"[???]}{"CatchBall"[5]}{"CatchMethod"[???]}{"Friendship"[0]}{"isShiny"[0]}{"Attack1"[284,5,5]}{"Attack2"[108,20,20]}{"Attack3"[436,15,15]}{"Attack4"[9,15,15]}{"FPs"[256,256,256,256,256,256]}{"DVs"[31,31,31,31,31,31]}{"AdditionalData"[]}
+Pokemon1|{"Pokemon"[157]}{"Experience"[12000]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[146]}{"NickName"[Maki]}{"Level"[40]}{"OT"[25508]}{"Ability"[66]}{"Status"[]}{"Nature"[07]}{"CatchLocation"[Somehow obtained]}{"CatchTrainer"[Ethan]}{"CatchBall"[5]}{"CatchMethod"[???]}{"Friendship"[255]}{"isShiny"[0]}{"Attack1"[284,5,5]}{"Attack2"[108,20,20]}{"Attack3"[436,15,15]}{"Attack4"[9,15,15]}{"HP"[5000]}{"FPs"[256,256,256,256,256,256]}{"DVs"[31,31,31,31,31,31]}{"AdditionalData"[]}
 Pokemon2|
 Pokemon3|
 Pokemon4|

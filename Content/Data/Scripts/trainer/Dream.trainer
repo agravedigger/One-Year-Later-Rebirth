@@ -2,8 +2,8 @@
 Name|???
 TrainerClass|
 Money|0
-IntroMessage|
-OutroMessage|
+IntroMessage|...
+OutroMessage|...
 DefeatMessage|...
 TextureID|Some
 Region|Johto

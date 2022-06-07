@@ -1,0 +1,9 @@
+version=2
+:if:<Register.registered(tintowerboss)>=True
+:then
+@npc.warp(130,0,-1,0)
+@npc.warp(131,0,-1,0)
+@npc.warp(132,0,-1,0)
+@npc.warp(133,0,-1,0)
+:endif
+:end

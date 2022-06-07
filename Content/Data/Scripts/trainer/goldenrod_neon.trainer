@@ -1,0 +1,22 @@
+[TRAINER FORMAT]
+Name|Neon Grunt
+TrainerClass|
+Money|5000
+IntroMessage|...
+OutroMessage|...
+DefeatMessage|...
+TextureID|Neon Grunt F
+Region|Johto
+IniMusic|johto_rocket_intro
+DefeatMusic|boss_defeat
+BattleMusic|johto_rocket
+Pokemon1|{"Pokemon"[912]}{"Experience"[12000]}{"Gender"[0]}{"EggSteps"[0]}{"Item"[146]}{"NickName"[Aggron?]}{"Level"[45]}{"OT"[25508]}{"Ability"[46]}{"Status"[]}{"Nature"[2]}{"CatchLocation"[Somehow obtained]}{"CatchTrainer"[???]}{"CatchBall"[5]}{"CatchMethod"[???]}{"Friendship"[0]}{"isShiny"[0]}{"Attack1"[201,10,10]}{"Attack2"[484,16,16]}{"Attack3"[92,10,10]}{"Attack4"[182,16,16]}{"HP"[5000]}{"FPs"[5000,0,300,0,300,0]}{"DVs"[256,256,256,256,256,256]}{"AdditionalData"[]}
+Pokemon2|
+Pokemon3|
+Pokemon4|
+Pokemon5|
+Pokemon6|
+Items|38,38,38,38,38,38,38,38,38,38,38,38,38,38
+Gender|1
+AI|1
+IntroSequence|red,gray

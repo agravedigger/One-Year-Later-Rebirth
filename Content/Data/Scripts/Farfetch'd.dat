@@ -1,0 +1,8 @@
+@Text:(Farfetch'd used Knock Off)
+@Sound:\cries\83
+@Text:<playername>: What!?
+@Battle:Wild,83,20
+@Warp:5,30,-2,30
+@NPC:register(ilexforest.dat|5|Remove|30,-2,30)
+@Text:What a strange Pokémon,~suddenly trying to~knock off my items..
+:end

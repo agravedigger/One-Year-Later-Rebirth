@@ -1,0 +1,6 @@
+:if:register(tintowerboss)
+:then
+@Text:Locked...
+@Turn:Player,2
+@Move:Player,1
+:end

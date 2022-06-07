@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Pokemon Center]}}{"MusicLoop"{str[center]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnviromentType"{int[1]}}{"Weather"{int[1]}}]}}
 
 Floor:
 {"Floor"{ENT[{"Size"{intArr[1,1]}}{"Position"{intArr[7,0,10]}}{"TexturePath"{str[Center]}}{"Texture"{rec[0,0,16,16]}}]}}
@@ -126,5 +126,5 @@ NPCs:
 
 {"NPC"{NPC[{"Position"{sngArr[8,0.2,1]}}{"TextureID"{str[[POKEMON|N]113]}}{"ID"{int[4]}}{"Name"{str[Chansey]}}{"Action"{int[1]}}{"AdditionalValue"{str[gts\information]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
-{"NPC"{NPC[{"Position"{sngArr[12,0,4]}}{"TextureID"{str[1]}}{"ID"{int[2]}}{"Name"{str[Random]}}{"Action"{int[0]}}{"AdditionalValue"{str[You can use the~PC over there to~store and move~your Pokemon.*It is very useful!*That is...*If you dont mind~paying $100 each time...]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[1,0,3]}}{"TextureID"{str[2]}}{"ID"{int[3]}}{"Name"{str[RandomHiker]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hmm, I wonder what that~ black stand is for?*probably a shop of some kind...*oh well...]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[12,0,4]}}{"TextureID"{str[1]}}{"ID"{int[2]}}{"Name"{str[Random]}}{"Action"{int[0]}}{"AdditionalValue"{str[You can use the~PC over there to~store and move~your Pokémon.*It is very useful!*That is...*If you don't mind~paying each time...]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[1,0,3]}}{"TextureID"{str[2]}}{"ID"{int[3]}}{"Name"{str[RandomHiker]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hmm, I wonder what that~black stand is for?*Probably a shop of some kind...*Oh, well...]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

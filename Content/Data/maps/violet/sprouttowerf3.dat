@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Sprout Tower Floor 3]}}{"MusicLoop"{str[SproutTower]}}{"WildPokemon"{bool[1]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnviromentType"{int[0]}}{"Weather"{int[1]}}]}}
 
 Floor:
 right:

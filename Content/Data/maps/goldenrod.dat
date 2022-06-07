@@ -1,5 +1,5 @@
-{"Level"{LEV[{"Name"{str[Goldenrod City]}}{"MusicLoop"{str[Goldenrod]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lightning"{int[0]}}]}}
+{"Level"{LEV[{"Name"{str[Goldenrod City]}}{"MusicLoop"{str[Goldenrod]}}{"WildPokemon"{bool[1]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnviromentType"{int[0]}}{"Weather"{int[0]}}{"Lightning"{int[0]}}]}}
 
 Brick:
 {"Floor"{ENT[{"Size"{intArr[4,36]}}{"Position"{intArr[18,0,0]}}{"TexturePath"{str[Goldenrod]}}{"Texture"{rec[0,0,16,16]}}]}}
@@ -84,6 +84,13 @@ Mart:
 {"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[25,6,23]}}{"TexturePath"{str[House3]}}{"Textures"{recArr[[48,96,16,16][112,0,16,16]]}}{"TextureIndex"{intArr[1,1,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[goldenrod\mart.dat,10,10.1,-2,0,3]}}{"Rotation"{int[3]}}]}}
 Center:
 {"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[15,0,27]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[goldenrod\center.dat,7,0.1,10,0]}}{"Rotation"{int[0]}}]}}
+
+Route 34:
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[18,0,36]}}{"TexturePath"{str[Goldenrod]}}{"Textures"{recArr[[32,64,16,16]]}}{"Visible"{bool[0]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[routes\route34.dat,8,0.1,-1,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[19,0,36]}}{"TexturePath"{str[Goldenrod]}}{"Textures"{recArr[[32,64,16,16]]}}{"Visible"{bool[0]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[routes\route34.dat,9,0.1,-1,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[20,0,36]}}{"TexturePath"{str[Goldenrod]}}{"Textures"{recArr[[32,64,16,16]]}}{"Visible"{bool[0]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[routes\route34.dat,10,0.1,-1,0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[21,0,36]}}{"TexturePath"{str[Goldenrod]}}{"Textures"{recArr[[32,64,16,16]]}}{"Visible"{bool[0]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[routes\route34.dat,11,0.1,-1,0]}}{"Rotation"{int[0]}}]}}
+
 
 RadioTower:
 {"EntityField"{ENT[{"Size"{intArr[2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,0,15]}}{"TexturePath"{str[Goldenrod]}}{"Textures"{recArr[[80,0,16,16]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
@@ -647,28 +654,42 @@ Signs:
 {"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[16,0,27.65]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[80,32,16,16][32,32,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"AdditionalValue"{str[Pokémon Center~We heal YOUR~Pokémon.]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"EntityID"{str[SignBlock]}}{"Position"{sngArr[26,0,27.65]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[96,32,16,16][32,32,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"AdditionalValue"{str[Pokémon Mart~Buy everything you~want.]}}{"Rotation"{int[0]}}]}}
 
-NPCs:
-{"NPC"{NPC[{"Position"{sngArr[25,6,25]}}{"TextureID"{str[49]}}{"ID"{int[0]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[Do you listen to~Lucky Channel?*If you want to~win, trade Pokémon*with as many people as~possible to get~different ID numbers.]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-
-{"NPC"{NPC[{"Position"{sngArr[20,0,26]}}{"TextureID"{str[10]}}{"ID"{int[1]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[The Radio Tower in~Goldenrod City is~a landmark.*They're running a~promotional campaign right now.*They'll modify~your Pokégear,*so it can also~serve as a radio.]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[18,26,4,2]]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[19,0,16]}}{"TextureID"{str[14]}}{"ID"{int[2]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[E-he-he-he...*I got in trouble~for playing in the*basement of the~Dept. Store.]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[11,0,27]}}{"TextureID"{str[5]}}{"ID"{int[3]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[Whew! This is one~big town. I don't*know where anything is.]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[7,0,18]}}{"TextureID"{str[11]}}{"ID"{int[4]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[They built the new~Radio Tower to*replace the old,~creaky one.]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[12,0,16]}}{"TextureID"{str[7]}}{"ID"{int[5]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[Is that man in~black dressed up*like a Team Rocket~member? How silly!]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[17,0,10]}}{"TextureID"{str[15]}}{"ID"{int[6]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[The man at that~house rates your~Pokémon names.*He can even rename~your Pokémon.]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[30,0,17]}}{"TextureID"{str[9]}}{"ID"{int[7]}}{"Name"{str[random]}}{"Action"{int[0]}}{"AdditionalValue"{str[I know there's a~new Bike Shop, but*I can't find it~anywhere.]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-
-Rockets:
-{"NPC"{NPC[{"Position"{sngArr[4,0,16]}}{"TextureID"{str[GruntM]}}{"ID"{int[8]}}{"Name"{str[rocket1]}}{"Action"{int[0]}}{"AdditionalValue"{str[So this is the~Radio Tower...*What do you want,~you pest? Scram!]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[8,0,15]}}{"TextureID"{str[GruntM]}}{"ID"{int[9]}}{"Name"{str[rocket2]}}{"Action"{int[0]}}{"AdditionalValue"{str[Take over the~Radio Tower...*What? It's none of~your business!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[1,-1,1]}}{"TextureID"{str[GruntM]}}{"ID"{int[10]}}{"Name"{str[rocket2]}}{"Action"{int[0]}}{"AdditionalValue"{str[Stay out of the~way! Beat it!]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[1,-1,1]}}{"TextureID"{str[GruntM]}}{"ID"{int[11]}}{"Name"{str[rocket2]}}{"Action"{int[0]}}{"AdditionalValue"{str[Our dream will~soon come true...*It was such a long~struggle...]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[1,-1,1]}}{"TextureID"{str[GruntM]}}{"ID"{int[12]}}{"Name"{str[rocket2]}}{"Action"{int[0]}}{"AdditionalValue"{str[Pokémon? They're~nothing more than~tools for making money!]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[1,-1,1]}}{"TextureID"{str[GruntM]}}{"ID"{int[13]}}{"Name"{str[rocket2]}}{"Action"{int[0]}}{"AdditionalValue"{str[Hey, brat! You~don't belong here!~Get lost!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[1,-1,1]}}{"TextureID"{str[GruntM]}}{"ID"{int[14]}}{"Name"{str[rocket2]}}{"Action"{int[0]}}{"AdditionalValue"{str[Come taste the~true terror of~Team Rocket!]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-
 Backdrops:
 {"Backdrop"{BAC[{"Position"{sngArr[-150.5,-0.76,-60.5]}}{"Size"{intArr[168,170]}}{"Rotation"{sngArr[0,0,0]}}{"Type"{str[Water]}}{"TexturePath"{str[Village]}}{"Texture"{rec[32,48,16,16]}}]}}
 
 {"OffsetMap"{MAP[{"Offset"{intArr[10,36]}}{"Map"{str[routes\route34.dat]}}]}}
 {"OffsetMap"{MAP[{"Offset"{intArr[10,-36]}}{"Map"{str[routes\route35.dat]}}]}}
+
+Scriptblocks:
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[24,0,8]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[29,0,6]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[33,0,10]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[15,0,8]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[9,0,6]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[9,0,14]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,16]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[31,0,22]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[29,0,30]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[15,0,22]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[5,0,26]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[11,0,30]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[15,0,28]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[24,0,28]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[wrong_house]}}{"Rotation"{int[0]}}]}}
+
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[8,0,25]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[goldenrod_save]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[9,0,25]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[0,48,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[goldenrod_save]}}{"Rotation"{int[0]}}]}}
+
+NPCs:
+{"NPC"{NPC[{"Position"{sngArr[13,0,27]}}{"TextureID"{str[3]}}{"ID"{int[1]}}{"Name"{str[something]}}{"Action"{int[1]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[13,0,26]}}{"TextureID"{str[Elise]}}{"ID"{int[2]}}{"Name"{str[something]}}{"Action"{int[1]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[12,0,26]}}{"TextureID"{str[62]}}{"ID"{int[3]}}{"Name"{str[something]}}{"Action"{int[1]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[10,0,27]}}{"TextureID"{str[Elegant Nagy]}}{"ID"{int[4]}}{"Name"{str[something]}}{"Action"{int[1]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[10,0,26]}}{"TextureID"{str[furfrou]}}{"ID"{int[5]}}{"Name"{str[something]}}{"Action"{int[1]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[8,0,27]}}{"TextureID"{str[912]}}{"ID"{int[6]}}{"Name"{str[something]}}{"Action"{int[1]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[8,0,26]}}{"TextureID"{str[Neon Grunt F]}}{"ID"{int[7]}}{"Name"{str[something]}}{"Action"{int[1]}}{"AdditionalValue"{str[...]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+
+Barricade:
+{"Entity"{ENT[{"Scale"{sngArr[0.7,0.4,0.7]}}{"EntityID"{str[StrengthRock]}}{"Position"{sngArr[18,-0.3,35]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[208,61,13,7][208,48,13,13]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"Scale"{sngArr[0.7,0.4,0.7]}}{"EntityID"{str[StrengthRock]}}{"Position"{sngArr[19,-0.3,35]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[208,61,13,7][208,48,13,13]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"Scale"{sngArr[0.7,0.4,0.7]}}{"EntityID"{str[StrengthRock]}}{"Position"{sngArr[20,-0.3,35]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[208,61,13,7][208,48,13,13]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"Scale"{sngArr[0.7,0.4,0.7]}}{"EntityID"{str[StrengthRock]}}{"Position"{sngArr[21,-0.3,35]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[208,61,13,7][208,48,13,13]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

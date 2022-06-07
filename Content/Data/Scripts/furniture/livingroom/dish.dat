@@ -1,3 +1,2 @@
-version=2
-@Text.Show(The sink is spot-less.~Mom likes it clean.)
+@Text:The sink is spot-less.~Mom likes it~clean.
 :end

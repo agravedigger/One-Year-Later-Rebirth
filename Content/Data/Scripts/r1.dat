@@ -1,7 +1,7 @@
 version=2
 :if:<register.registered(r1)>=false
 	@Text.show(???: Oh! Hello there!*You must be a trainer!*But I've never seen you~before. Are you new to Johto?)
-	@Options.show(Yes,Not really)
+	@Options.show(Yes,Not really...)
 		:when:Yes
 			@Text.show(???: Oh, really?~That explains your clothes.~Where are you from?)
 			@Text.show(<player.name>: I'm from Viridian, Kanto.~I recently moved here.)
@@ -13,7 +13,7 @@ version=2
 			@Text.show(<player.name>: Likewise!*Reina: I'm glad!~It's nice to have~a new friend!)
 			@register.Register(r1)
 			@register.Register(r1battle)
-		:when:Not really
+		:when:Not really...
 			@Text.show(???: Oh, really?~Where do you live?)
 			@Text.show(<player.name>: I live in~New Bark Town.~I recently moved there.)
 			@Text.show(???: Wow, that's pretty~close by.*It's a very nice town!~Sometimes when I'm free,~I go there to say~hi to Prof. Elm!)

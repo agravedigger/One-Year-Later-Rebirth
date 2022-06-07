@@ -1,0 +1,43 @@
+version=2
+:if:<register.registered(goldenrodsave)>=true
+@npc.warp(5,2,0.2,3)
+@npc.warp(6,5,0.2,4)
+@npc.warp(3,3,0,2)
+@level.update
+:if:<register.registered(eliza_checkup)>=false
+@camera.deactivethirdperson
+@npc.warp(4,1,0,4)
+@level.update
+@text.show(Gaven: Oh, <player.name>!)
+@npc.turn(4,2)
+@npc.turn(5,2)
+@npc.turn(6,2)
+@level.update
+@level.wait(50)
+@text.show(Gaven: Good to see you're~alright!*After what Sage told me...~It was hard to believe you~made it out unscathed, but~here you are.*Come on over, I've got news~to tell you.)
+@player.move(2)
+@player.turnto(3)
+@player.move(2)
+@player.turnto(4)
+@text.show(Gaven: I've spoken with~several people about your~friend here.*None have ever witnessed~something like that, except...*One old man, who had read~about something alike a long~ago, pointed me towards~the Cianwood pharmacy.*An old and experienced~pharmacist lives there. She~must be familiar with such old~and interesting cases.)
+@text.show(Gaven: Cianwood is a city~over the sea.*You'll need to surf to~get there.)
+@text.show(<player.name>: Surf?*Where do I find that HM?)
+@npc.turn(4,3)
+@player.turnto(1)
+@text.show(Noel: I know you need the~badge from Morty to be able~to use it. As for the item,~I don't know...)
+@text.show(<player.name>: So I'll have to~seek it out...)
+@text.show(Noel: I'll help too!)
+@text.show(Elm: Do you know anyone who~specializes in Water types?*Someone like that ought to~have the HM to lend to you.)
+@text.show(<player.name>: Good thinking,~Uncle.)
+@text.show(Noel: We should also probably~challenge any other gyms along~the way. It'll be good~practice for what's to come!*Meet me on Route 38, okay?)
+@npc.turn(4,2)
+@npc.move(4,3)
+@npc.turn(4,3)
+@npc.move(4,2)
+@npc.turn(4,2)
+@npc.move(4,2)
+@npc.remove(4)
+@camera.activatethirdperson
+@register.register(eliza_checkup)
+:endif
+:end

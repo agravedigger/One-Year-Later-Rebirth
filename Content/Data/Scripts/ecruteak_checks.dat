@@ -1,0 +1,11 @@
+version=2
+
+:if:<register.registered(check_on_eliza)>=true
+
+@npc.warp(6,6,-1,28)
+:endif
+
+:if:<register.registered(tintowerboss)>=true
+@npc.warp(7,18,0,12)
+:endif
+:end

@@ -32,7 +32,7 @@ version=2
 @text.show(Harmonia: I'm sure~that you are aware by now~that some of the Pokémon~we liberate stay with us.*And, of course...*You've seen what they can do.)
 @NPC.turn(0,0)
 @text.show(Harmonia: Oh, that Houndoom...~If only it was more...~A bit more useful...)
-@text.show(<player.name>: Enough~of this! What did you do~to Goldenrod!?)
+@text.show(<player.name>: Enough~of this! What did you do~with Goldenrod!?)
 @text.show(Harmonia: My...~What did I do?*If you're wondering about~them... Don't bother.)
 @text.show(<player.name>: You...)
 @text.show(<player.name>: YOU BASTARD!!!)
@@ -76,9 +76,9 @@ version=2
 @screen.fadeout
 @level.wait(70)
 @music.pause
-@text.show(Child...*Thee who seek the truth...)
+@text.show(Child...*Thou who seek the truth...)
 @level.wait(80)
-@text.show(Shall thee search for~it endlessly..?)
+@text.show(Shall thou search for~it endlessly..?)
 @level.wait(70)
 @text.show(<player.name>: Partner...*This voice...*It feels just like the one~from that dream...*Is this who I'm supposed~to look for?*I can feel it...*Partner...)
 @level.wait(50)
@@ -102,6 +102,7 @@ version=2
 @music.play(intense)
 @music.resume
 @pokemon.cry(250)
+@text.show(Hreewahh!)
 @level.wait(100)
 @text.show(<player.name>: This can't be...*It's still standing...)
 @level.wait(30)
@@ -114,6 +115,7 @@ version=2
 @text.show(???: I won't let you~hurt <player.name>!)
 @level.wait(100)
 @text.show(Harmonia: Traitor...*I had known, but I let~you go by anyway.)
+@pokemon.cry(257)
 @level.wait(100)
 @text.show(???: Relax, <player.name>...*As long as I'm here with~you... I'll keep you safe...)
 @level.wait(100)
@@ -134,7 +136,8 @@ version=2
 @text.show(???: Calm down!)
 @text.show(<player.name>: Get away!*Or... Or...*Get him, partner!)
 @level.wait(50)
-@battle.starttrainer(ethan)
+@pokemon.heal
+@battle.trainer(ethan)
 @level.wait(50)
 @text.show(???: Owh... Maki...)
 @npc.turn(1,1)
@@ -152,13 +155,11 @@ version=2
 @text.show(<player.name>: Oh no!*I-I've got to go!)
 @text.show(Ethan: <player.name>, steer~clear of the Neon for now.~Go get your family.*I'll join you later!)
 @level.wait(50)
-@text.show(Ethan: Oh and...*Please don't tell~anyone about me.*Not yet.)
+@text.show(Ethan: Oh, and...*Please don't tell~anyone about me.*Not yet.)
 @level.wait(50)
 @text.show(<player.name>: Okay.*Stay safe, Ethan!)
-@npc.warp(130,0,-1,0)
-@npc.warp(131,0,-1,0)
-@npc.warp(132,0,-1,0)
-@npc.warp(133,0,-1,0)
+@level.wait(50)
+@text.show(I hope Gaven managed to find~his way to Sage and~saved him...)
 @Register.register(tintowerboss)
 :endif
 :end

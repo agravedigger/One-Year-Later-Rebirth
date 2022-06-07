@@ -1,7 +1,12 @@
-version=2
-:If:<Register.registered(tintowerboss)>=true
+:if:register(goldenrodsave)
+:then
+:end
+:endif
+
+:if:register(tintowerboss)
+:then
 @Text:No detours! I must hurry~straight to Goldenrod!
 @Turn:Player,2
 @Move:Player,1
-:endif
 :end
+:endif

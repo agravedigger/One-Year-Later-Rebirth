@@ -4,7 +4,11 @@ version=2
 :then
 
 @Text.show(One day...*You will learn the truth.*So show me...~How strong your~convictions are...)
-@battle.trainer(Dream)
+@Battle.setvar(canrun,0)
+@Battle.setvar(canreceiveexp,0)
+@Battle.setvar(custombattlemusic,Dreambattle)
+@Battle.wild(907,100,0,Dreambattle_intro,12)
+@Battle.resetvars
 @Music:stop
 @Text.show(Good...*Now...*Wake up...~<player.name> Elwood...*Your new life awaits you...*She is waiting...)
 @Pokemon.clear
