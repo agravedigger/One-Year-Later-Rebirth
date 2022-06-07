@@ -5,14 +5,14 @@
 @Turn:3,2
 @Move:3,1
 @Turn:3,0
-@Text:Noel: He's too strong..!
+@Text:<Rival.Name>: He's too strong..!
 @Music:Sudden_Crisis
 @Turn:3,1
-@Text:Noel: <playername>!!!
+@Text:<Rival.Name>: <playername>!!!
 @Move:Player,2
-@Text:Noel: Bugsy is in trouble!~You have to help him!
+@Text:<Rival.Name>: Bugsy is in trouble!~You have to help him!
 @Text:<playername>: I'm on it!
-@Text:Noel: I'll be right here!
+@Text:<Rival.Name>: I'll be right here!
 @Turn:3,3
 @Move:3,1
 @Turn:3,1
@@ -66,18 +66,18 @@
 @Turn:3,0
 @Move:3,1
 @Music:nomusic
-@Text:Noel: <playername>...
+@Text:<Rival.Name>: <playername>...
 @Music:johto_rival_appear
 @Text:<playername>: Are you~alright, Noel?
-@Text:Noel: Y-Yes...*I couldn't even flinch~that Pokémon...
+@Text:<Rival.Name>: Y-Yes...*I couldn't even flinch~that Pokémon...
 @Text:<playername>: No kidding...*I'm not even sure~how I managed to...
 @Text:Nya!
 @Sound:/Cries/133
 @Text:Yeah, you did great, partner.
-@Text:Noel: Hey, <playername>..?
-@Text:Noel: Can we talk elsewhere?*When you're done with Bugsy,~come to Slowpoke Well.
+@Text:<Rival.Name>: Hey, <playername>..?
+@Text:<Rival.Name>: Can we talk elsewhere?*When you're done with Bugsy,~come to Slowpoke Well.
 @Text:<playername>: Alright.
-@Text:Noel: Yeah...*See you then...
+@Text:<Rival.Name>: Yeah...*See you then...
 @Turn:3,2
 @Move:3,1
 @Turn:3,1

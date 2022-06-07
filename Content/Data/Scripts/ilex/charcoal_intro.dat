@@ -13,7 +13,7 @@
 @Register:ilex_farfetchd_complete
 @Turn:Player,3
 @Turn:0,2
-@Text:Wow! Thanks a~whole bunch!*My boss's POKEMON~won't obey me be-~cause I don't have~a BADGE.
+@Text:Wow! Thanks a~whole bunch!*My boss's Pokémon~won't obey me be-~cause I don't have~a BADGE.
 @Turn:Player,1
 @Warp:2,5,0,33
 @Turn:2,0
@@ -26,7 +26,7 @@
 @Turn:2,2
 @Text:You found it for~us, kid?*Without it, we~wouldn't be able*to CUT trees for~charcoal.*Thanks, kid!*Now, how can I~thank you...*I know! Here, take~this.
 @GiveItem:247,1
-@Text:That's the CUT HM.~Teach that to a*POKEMON to clear~small trees.*Of course, you~have to have the*GYM BADGE from~AZALEA to use it.
+@Text:That's the CUT HM.~Teach that to a*Pokémon to clear~small trees.*Of course, you~have to have the*GYM BADGE from~AZALEA to use it.
 @Text:Do you want to~apprentice as a*charcoal maker~with me?*You'll be first-~rate in ten years!
 @Turn:Player,1
 @Turn:2,1

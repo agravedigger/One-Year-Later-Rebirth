@@ -8,6 +8,6 @@
 @Register:trainer_azalea_gym\004
 @Register:trainer_azalea_gym\005
 @GetBadge:10
-@Text:Do you know the~benefits of HIVEBADGE?*If you have it,~POKEMON up to L30 will~obey you.*POKEMON that know~CUT will be able*to use it outside~of battle too.
+@Text:Do you know the~benefits of HIVEBADGE?*If you have it,~Pokémon up to L30 will~obey you.*Pokémon that know~CUT will be able*to use it outside~of battle too.
 :endif
 :end

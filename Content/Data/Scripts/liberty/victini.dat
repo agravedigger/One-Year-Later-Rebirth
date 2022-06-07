@@ -1,5 +1,5 @@
 version=2
-@pokemon.cry(494)
+@Pokemon.cry(494)
 @battle.wild(494,70,-1,,12)
 @register.register(battlevictini)
 @npc.register(liberty\room.dat|0|remove|0)

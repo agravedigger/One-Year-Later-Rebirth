@@ -15,11 +15,11 @@ version=2
 			@text.show(Omega: Here I come!)
 			@battle.trainer(kolben\omega\omegas)
 			:if:<battle.won>=true
-				@pokemon.heal
+				@Pokemon.heal
 				@register.registertime(omega2,1,day)
 				@text.show(Impressive, I was bested.)		
 			:else
-				@pokemon.heal
+				@Pokemon.heal
 				@text.show(A winner I am!)
 			:endif
 			@text.show(Omega: Shut down biome~simulation...)
@@ -48,11 +48,11 @@ version=2
 			@text.show(Omega: Here I come!)
 			@battle.trainer(kolben\omega\omegar)
 			:if:<battle.won>=true
-				@pokemon.heal
+				@Pokemon.heal
 				@register.registertime(omega2,1,day)
 				@text.show(Impressive, I was bested.)		
 			:else
-				@pokemon.heal
+				@Pokemon.heal
 				@text.show(A winner I am!)
 			:endif
 			@text.show(Omega: Shut down biome~simulation...)
@@ -81,11 +81,11 @@ version=2
 			@text.show(Omega: Here I come!)
 			@battle.trainer(kolben\omega\omegad)
 			:if:<battle.won>=true
-				@pokemon.heal
+				@Pokemon.heal
 				@register.registertime(omega2,1,day)
 				@text.show(Impressive, I was bested.)		
 			:else
-				@pokemon.heal
+				@Pokemon.heal
 				@text.show(A winner I am!)
 			:endif
 			@text.show(Omega: Shut down biome~simulation...)
@@ -114,11 +114,11 @@ version=2
 			@text.show(Omega: Here I come!)
 			@battle.trainer(kolben\omega\omegat)
 			:if:<battle.won>=true
-				@pokemon.heal
+				@Pokemon.heal
 				@register.registertime(omega2,1,day)
 				@text.show(Impressive, I was bested.)		
 			:else
-				@pokemon.heal
+				@Pokemon.heal
 				@text.show(A winner I am!)
 			:endif
 			@text.show(Omega: Shut down biome~simulation...)

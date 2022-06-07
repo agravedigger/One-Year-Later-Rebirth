@@ -11,7 +11,7 @@ version=2
 			:else
 				@text.show(Pretty tough, huh?)
 			:endif				
-			@pokemon.heal
+			@Pokemon.heal
 			@register.registertime(tornadobattle,1,day)
 			:end
 		:when:No

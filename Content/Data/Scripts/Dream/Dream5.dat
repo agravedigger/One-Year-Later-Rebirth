@@ -1,27 +1,25 @@
 version=2
 
 :if:<register.registered(speak5)>=true
-:then
-
-@Text.show(One day...*You will learn the truth.*So show me...~How strong your~convictions are...)
-@Battle.setvar(canrun,0)
-@Battle.setvar(canreceiveexp,0)
-@Battle.setvar(custombattlemusic,Dreambattle)
-@Battle.wild(907,100,0,Dreambattle_intro,12)
-@Battle.resetvars
-@Music:stop
-@Text.show(Good...*Now...*Wake up...~<player.name> Elwood...*Your new life awaits you...*She is waiting...)
-@Pokemon.clear
-@Screen.fadeout
-@Level.Wait(100)
-@Player.warp(yourroom.dat,1,0.1,4,1)
-@Level.Wait(100)
-@Level.update
-@Camera.activatethirdperson
-@Music.play(barktown)
-@Screen.fadein
-@Player.save
-
+	@Text.Show(One day...*You will learn the truth.*So Show me...~How strong your~convictions are...)
+	@Battle.SetVar(CanRun,0)
+	@Battle.SetVar(CanReceiveExp,0)
+	@Battle.SetVar(CustomBattleMusic,DreamBattle)
+	@Battle.Wild(907,100,0,DreamBattle_Intro,12)
+	@Battle.ResetVars
+	@Music.Stop
+	@Text.Show(Good...*Now...*Wake up...~<Player.Name> Elwood...*Your new life awaits you...*She is waiting...)
+	@Pokemon.Clear
+	@Player.SetRivalName(Noel)
+	@Screen.Fadeout
+	@Level.Wait(100)
+	@Player.Warp(yourroom.dat,1,0.1,4,1)
+	@Level.Wait(100)
+	@Level.update
+	@Camera.ActivateThirdPerson
+	@Music.Play(barktown)
+	@Screen.FadeIn
+	@Player.Save
 :endif
 
 :end

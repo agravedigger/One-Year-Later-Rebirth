@@ -1,9 +1,9 @@
 ﻿version=2
 @storage.set(string,grottoitemvisible,2)
 @storage.set(string,grottoitemhidden,2)
-@storage.set(integer,grottopokemon4,229)
-@storage.set(integer,grottopokemon3,679)
-@storage.set(integer,grottopokemon2,113)
-@storage.set(integer,grottopokemon1,371)
-@storage.set(integer,grottopokemonlevel,27)
+@storage.set(integer,grottoPokémon4,229)
+@storage.set(integer,grottoPokémon3,679)
+@storage.set(integer,grottoPokémon2,113)
+@storage.set(integer,grottoPokémon1,371)
+@storage.set(integer,grottoPokémonlevel,27)
 :end

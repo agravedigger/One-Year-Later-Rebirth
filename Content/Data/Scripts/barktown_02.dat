@@ -1,121 +1,121 @@
 version=2
-:if:<register.registered(mrpokemon)>=false
-:then
-@Text.show(<player.name>: I should go see Professor~Elm.*He did help Mom and me~move in.)
-@Player.turn(2)
-@Player.move(1)
+:if:<Register.Registered(mrPokémon)>=false
+	@Text.Show(<playername>: I should go see~Professor Elm.*He did help Mom and me Move in.)
+	@Player.Turn(2)
+	@Player.Move(1)
 :endif
 
-:if:<register.registered(EliseOff)>=true
-:then
-@Text.show(Noel: <player.name>!)
-@camera.deactivateThirdPerson
-@npc.Warp(10,11,0,14)
-@Player.turn(2)
-@npc.move(10,3)
-@npc.Warp(10,8,-2,14)
-@npc.warp(11,8,0,14)
-@npc.turn(11,3)
-@npc.move(10,1)
-@Text.show(Noel: Hey,before you go...~Let's have a match.)
-@npc.Warp(10,8,0,14)
-@npc.Turn(10,1)
-@npc.Warp(11,8,-2,14)
-@npc.move(11,1)
-@Text.show(<player.name>: Really, now?)
-@Music.play(johto_rival_appear)
-@Text.show(Noel: Of course!~This is what friends do,~right?)
-@Text.show(<player.name>: I don't think that's what~friends do...)
-@npc.Warp(11,8,0,14)
-@npc.Turn(11,1)
-@npc.Warp(10,8,-2,14)
-@Move:10,1
-@npc.Text(Noel: Oh, come on!)
-@npc.Warp(11,8,0,14)
-@npc.Turn(11,1)
-@npc.Warp(10,8,-2,14)
-@npc.Move(10,1)
-@Text.show(Noel: It's been so long!*I've been practically dying~to fight you again!)
-@npc.Warp(10,8,0,14)
-@npc.Turn(10,1)
-@npc.Warp(11,8,-2,14)
-@npc.move(11,1)
-@text.show(<player.name>: Well yeah...*Noel: Then you agree?*Noel: Okay, <player.name>,~I won't hold back!)
-@text.show(<player.name>: Whoa! Hey, I didn't--)
-@battle.setvar(canblackout,0)
-:if:<register.registered(Headstrong)>=true
-@Battle.trainer(Alicia1a)
-@battle.resetvars
-@pokemon.Heal
-@Music.play(barktown)
-@Text.show(Noel: That was a great battle!)
-@Text.show(<player.name>: Just like old times!)
-@Text.show(Noel: By the way,~I thought you might need~these!)
-@item.give(18,15)
-@item.messagegive(18,15)
-@item.give(5,5)
-@item.messagegive(5,5)
-@Text.show(<player.name>: That's an awful lot of~items, Noel...)
-@Text.show(Noel: Are you complaining?)
-@Music.pause
-@level.Wait(60)
-@Text.show(<player.name>: No...)
-@Music.resume
-@Text.show(Noel: Good!*Well, I'll head back to~the Lab now.*Bye, <player.name>!~Come Back safe!)
-@Text.show(<player.name>: Alright!~See you soon!)
-@Text.show(Noel: See ya!)
-@npc.Turn(10,3)
-@npc.Move(10,2)
-@Text.show(<player.name>: Scary as always...)
-@npc.turn(10,1)
-@Text.show(Noel: Did you say something?)
-@Text.show(<player.name>: Nothing!)
-@Player.turn(2)
-@player.move(2)
-@npc.Warp(10,10,-2,10)
-@Text.show(<player.name>: Better get to it!)
-@register.unregister(EliseOff)
-@camera.activateThirdPerson
-:else:
-@Battle.trainer(Alicia1)
-@battle.resetvars
-@pokemon.Heal
-@Music.play(barktown)
-@Text.show(Noel: That was a great battle!)
-@Text.show(<player.name>: Just like old times!)
-@Text.show(Noel: By the way,~I thought you might need~these!)
-@item.give(18,15)
-@item.messagegive(18,15)
-@item.give(5,5)
-@item.messagegive(5,5)
-@Text.show(<player.name>: That's an awful lot of~potions, Noel...)
-@Text.show(Noel: Are you complaining?)
-@Music.pause
-@level.Wait(60)
-@Text.show(<player.name>: No...)
-@Music.resume
-@Text.show(Noel: Good!*Well, I'll head back to~the Lab now.*Bye, <player.name>!~Come Back safe!)
-@Text.show(<player.name>: Alright!~See you soon!)
-@Text.show(Noel: See ya!)
-@npc.Turn(10,3)
-@npc.Move(10,2)
-@Text.show(<player.name>: Scary as always...)
-@npc.turn(10,1)
-@Text.show(Noel: Did you say something?)
-@Text.show(<player.name>: Nothing!)
-@Player.turn(2)
-@player.move(2)
-@npc.Warp(10,10,-2,10)
-@Text.show(<player.name>: Better get to it!)
-@register.unregister(EliseOff)
-@camera.activateThirdPerson
+:if:<Register.Registered(EliseOff)>=true
+	@Text.Show(<Rival.Name>: <playername>!)
+	@Camera.deactivateThirdPerson
+	@NPC.Warp(10,11,0,15)
+	@Player.TurnTo(3)
+	@NPC.Move(10,3)
+	@NPC.Warp(10,8,-2,15)
+	@NPC.Warp(11,8,0,15)
+	@NPC.Turn(11,3)
+	@NPC.Move(10,1)
+	@Text.Show(<Rival.Name>: Hey, before you go...~Let's have a match.)
+	@NPC.Warp(10,8,0,14)
+	@NPC.Turn(10,1)
+	@NPC.Warp(11,8,-2,14)
+	@NPC.Move(11,1)
+	@Text.Show(<playername>: Really, now?)
+	@Music.play(johto_rival_appear)
+	@Text.Show(<Rival.Name>: Of course!~This is what friends do,~right?)
+	@Text.Show(<playername>: I don't think~that's what friends do...)
+	@NPC.Warp(11,8,0,14)
+	@NPC.Turn(11,1)
+	@NPC.Warp(10,8,-2,14)
+	@NPC.Move(10,1)
+	@NPC.Text(<Rival.Name>: Oh, come on!)
+	@NPC.Warp(11,8,0,14)
+	@NPC.Turn(11,1)
+	@NPC.Warp(10,8,-2,14)
+	@NPC.Move(10,1)
+	@Text.Show(<Rival.Name>: It's been so long!*I've been practically dying~to fight you again!)
+	@NPC.Warp(10,8,0,14)
+	@NPC.Turn(10,1)
+	@NPC.Warp(11,8,-2,14)
+	@NPC.Move(11,1)
+	@text.Show(<playername>: Well yeah...*<Rival.Name>: Then you agree?*<Rival.Name>: OK, <playername>,~I won't hold back!)
+	@text.Show(<playername>: Whoa! Hey, I didn't--)
+	@battle.setvar(canblackout,0)
+	:if:<Register.Registered(Headstrong)>=true
+		@Battle.trainer(Alicia1a)
+		@battle.resetvars
+		@Pokemon.Heal
+		@Music.play(barktown)
+		@Text.Show(<Rival.Name>: That was a great battle!)
+		@Text.Show(<playername>: Just like old times!)
+		@Text.Show(<Rival.Name>: By the way,~I thought you might need~these!)
+		@item.give(18,15)
+		@item.messagegive(18,15)
+		@item.give(5,5)
+		@item.messagegive(5,5)
+		@Text.Show(<playername>: That's an awful lot of~potions, Noel...)
+		@Text.Show(<Rival.Name>: Are you complaining?)
+		@Music.pause
+		@level.Wait(60)
+		@Text.Show(<playername>: No...)
+		@Music.resume
+		@Text.Show(<Rival.Name>: Good!*Well, I'll head back to~the Lab now.*Bye, <playername>!~Come back safe!)
+		@Text.Show(<playername>: Alright!~See you soon!)
+		@Text.Show(<Rival.Name>: See ya!)
+		@NPC.Turn(10,3)
+		@NPC.Move(10,2)
+		@Text.Show(<playername>: Scary as always...)
+		@NPC.Turn(10,1)
+		@Text.Show(<Rival.Name>: Did you say something?)
+		@Text.Show(<playername>: Nothing!)
+		@Player.Turn(2)
+		@player.Move(2)
+		@NPC.Warp(10,10,-2,10)
+		@Text.Show(<playername>: Better get to it!)
+		@Register.unRegister(EliseOff)
+		@Camera.activateThirdPerson
+		:end
+	:else
+		@Battle.trainer(Alicia1)
+		@battle.resetvars
+		@Pokemon.Heal
+		@Music.play(barktown)
+		@Text.Show(<Rival.Name>: That was a great battle!)
+		@Text.Show(<playername>: Just like old times!)
+		@Text.Show(<Rival.Name>: By the way,~I thought you might need~these!)
+		@item.give(18,15)
+		@item.messagegive(18,15)
+		@item.give(5,5)
+		@item.messagegive(5,5)
+		@Text.Show(<playername>: That's an awful lot of~potions, Noel...)
+		@Text.Show(<Rival.Name>: Are you complaining?)
+		@Music.pause
+		@level.Wait(60)
+		@Text.Show(<playername>: No...)
+		@Music.resume
+		@Text.Show(<Rival.Name>: Good!*Well, I'll head back to~the Lab now.*Bye, <playername>!~Come back safe!)
+		@Text.Show(<playername>: Alright!~See you soon!)
+		@Text.Show(<Rival.Name>: See ya!)
+		@NPC.Turn(10,3)
+		@NPC.Move(10,2)
+		@Text.Show(<playername>: Scary as always...)
+		@NPC.Turn(10,1)
+		@Text.Show(<Rival.Name>: Did you say something?)
+		@Text.Show(<playername>: Nothing!)
+		@Player.Turn(2)
+		@player.Move(2)
+		@NPC.Warp(10,10,-2,10)
+		@Text.Show(<playername>: Better get to it!)
+		@Register.unRegister(EliseOff)
+		@Camera.activateThirdPerson
+	:endif
+	:end
 :endif
-:end
 
-:if:<register.registered(mom_talk)>=true
-:then
-@Text.show(I should visit Mom first...)
-@Player.turn(2)
-@Player.move(1)
+
+:if:<Register.Registered(mom_talk)>=true
+	@Text.Show(I should visit Mom first...)
+	@Player.TurnTo(3)
+	@Player.Move(1)
 :endif
 :end

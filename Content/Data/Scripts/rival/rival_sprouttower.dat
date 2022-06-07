@@ -6,15 +6,15 @@
 @Move:4,1
 @Text:Elder: You are indeed~skilled as a trainer.*As promised,~here is your HM!
 @Text:Elder: Oh?~Another trainer?*My... It's quite lively today!
-@Text:Noel: Huh?
+@Text:<Rival.Name>: Huh?
 @Turn:4,2
 @Warp:4,8,-2,3
 @Wait:20
 @Warp:5,8,0,3
-@Text:Noel: !
+@Text:<Rival.Name>: !
 @Turn:5,2
 @Bulb:1|8.01|0.7|3.01
-@Text:Noel: <playername>!?~What are you doing here!?
+@Text:<Rival.Name>: <playername>!?~What are you doing here!?
 @Warp:5,8,-2,3
 @Warp:4,8,0,3
 @Turn:4,3
@@ -22,29 +22,29 @@
 @Turn:4,2
 @Move:4,2
 @Music:johto_rival_appear
-@Text:Noel: I can't believe you!~You came just to take me~back!?
+@Text:<Rival.Name>: I can't believe you!~You came just to take me~back!?
 @Text:<playername>: No!~The exact opposite!
-@Text:Noel: Really..?~I guess Dad didn't mind then...
+@Text:<Rival.Name>: Really..?~I guess Dad didn't mind then...
 @Text:<playername>: Good to~see you too...
-@Text:Noel: Hey!
+@Text:<Rival.Name>: Hey!
 @Warp:5,9,0,5
 @Turn:5,1
 @Warp:4,8,-2,3
 @Move:4,1
-@Text:Noel: It's not like I didn't~want you here...
+@Text:<Rival.Name>: It's not like I didn't~want you here...
 @Text:<playername>: Right...
 @Warp:4,9,0,5
 @Warp:5,8,-2,4
 @Move:5,1
-@Text:Noel: I'm sorry for~running off.*I couldn't just sit still~when Johto could be in danger.
+@Text:<Rival.Name>: I'm sorry for~running off.*I couldn't just sit still~when Johto could be in danger.
 @Text:<playername>: It's fine, Noel.
-@Text:Noel: Can we meet on the~first floor of Sprout Tower?
+@Text:<Rival.Name>: Can we meet on the~first floor of Sprout Tower?
 @Text:<playername>: Sure!
-@Text:Noel: Great!*See you soon!
-@Text:Noel: Oh!*Here, you might need these!
+@Text:<Rival.Name>: Great!*See you soon!
+@Text:<Rival.Name>: Oh!*Here, you might need these!
 @GiveItem:18,10
 @GiveItem:17,5
-@Text:Noel: Make sure to bring your~Pokémon to the Pokémon Center~after this. And with that,~see you downstairs!
+@Text:<Rival.Name>: Make sure to bring your~Pokémon to the Pokémon Center~after this. And with that,~see you downstairs!
 @Turn:Player,1
 @Move:Player,1
 @Turn:Player,2

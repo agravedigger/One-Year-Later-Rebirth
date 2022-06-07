@@ -2,7 +2,7 @@
 :then
 @Text:Eliza: Are you ready~for the warm-up?
 @Text:<playername>: Always!
-@Text:Eliza: Okay!
+@Text:Eliza: OK!
 @Text:Eliza: Before we start,~let me heal your Pokémon!
 @Heal
 @Sound:single_heal

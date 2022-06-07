@@ -1,25 +1,23 @@
-:if:not register(boy1)
-:then
-@Text:Why are the Pokémon~acting so weird..?
-@Text:Hey, do you know~what's going on?
-@Options:Yes,No
-:when:Yes
-@Text:Really!?*Tell me!
-@Text:<playername>: Well... Huh...
-@Text:..?*So you don't know?*Then why did you say yes?
-@Register:boy1
-:when:No
-@Text:So you don't know either?*It's weird how they're all~acting like this.*You should be careful~on your trip to Cherrygrove.
-@Text:Hmm, you might need these~more than I do.
-@GiveItem:2006,5
-@Text:Good luck!
-@Register:boy1
-:endwhen
+version=2
+:if:<Register.Registered(boy1)>=false
+	@Text.Show(Why are the Pokémon~acting so weird..?)
+	@Text.Show(Hey, do you know~what's going on?)
+	@Options:Yes,No
+	:when:Yes
+		@Text.Show(Really!?*Tell me!)
+		@Text.Show(<playername>: Well... Huh...)
+		@Text.Show(..?*So you don't know?*Then why did you say yes?)
+		@Register.Register(boy1)
+	:when:No
+		@Text.Show(So you don't know either?*It's weird how they're all~acting like this.*You should be careful~on your trip to Cherrygrove.)
+		@Text.Show(Hmm, you might need these~more than I do.)
+		@Item.Give(2006,5)
+		@Text.Show(Good luck!)
+		@Register.Register(boy1)
+	:endwhen
 :endif
 
-:if:not register(boy2)
-:then
-@Text:You should hurry before~it gets dark and dangerous!
+:if:<Register.Registered(boy2)>=false
+	@Text.Show(You should hurry before~it gets dark and dangerous!)
 :endif
-
 :end

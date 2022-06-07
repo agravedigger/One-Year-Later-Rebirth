@@ -2,7 +2,7 @@ version=2
 @register.unregister(BSODPorygon)
 @register.unregister(BlueScreenedinHQ)
 :if:<system.random(1,1024)>=1
-	@pokemon.cry(137)
+	@Pokemon.cry(137)
 	@entity.setvisible(10,0)
 	@entity.setvisible(11,0)
 	@entity.setvisible(12,0)

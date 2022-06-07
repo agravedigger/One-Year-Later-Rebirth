@@ -1,6 +1,6 @@
-:if:not register(get_egg_mrpokemon)
+:if:not register(get_egg_mrPokémon)
 :then
-@Register:get_egg_mrpokemon
+@Register:get_egg_mrPokémon
 @Text:Hello.*How may I help you?
 @Text:<playername>: I was sent~by Prof. Elm pick up some~documents from Prof. Oak.
 @Text:Unfortunately, Prof.Oak~hasn't been here in a while.~I don't know where he is...
@@ -14,7 +14,7 @@
 @Music:RouteMusic1
 @Text:I'm sure it's been a long~walk here so let me heal~your Pokémon with some~potions I have laying around.
 @Heal
-@Sound:pokemon_heal
+@Sound:Pokémon_heal
 @Wait:200
 @Text:If you ever see Prof. Oak,~please come tell me.~I fear for his safety.*Goodbye now.
 @Register:rival_encounter_cherrygrove

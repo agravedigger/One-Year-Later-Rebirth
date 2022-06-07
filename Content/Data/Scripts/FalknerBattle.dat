@@ -5,7 +5,7 @@
 
 :if:register(gymguy1)
 :then
-@Text:Well, good to see you again.~My duty of being a Gym Leader~is in fact hard work...*These badges I have here~allow people to use certain~HMs on their Pokemon. At~times I wish they wouldn't...*But here, I will give you one.
+@Text:Well, good to see you again.~My duty of being a Gym Leader~is in fact hard work...*These badges I have here~allow people to use certain~HMs on their Pokémon. At~times I wish they wouldn't...*But here, I will give you one.
 @Text:<playername>: Thanks.
 @Music:nomusic
 @Text:Falkner: ...Is what I'd say~if I wasn't a Gym Leader...

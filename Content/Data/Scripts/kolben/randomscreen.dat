@@ -1,6 +1,6 @@
 version=2
 :if:<system.Random(1,1024)>=1
-	@pokemon.cry(137)
+	@Pokemon.cry(137)
 	@entity.Setvisible(20,1)
 	:end
 :endif

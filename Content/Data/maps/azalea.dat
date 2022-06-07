@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Azalea Town]}}{"MusicLoop"{str[azalea]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnviromentType"{int[0]}}{"Weather"{int[2]}}{"Lightning"{int[0]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnviromentType"{int[0]}}{"Weather"{int[2]}}{"Lighting"{int[0]}}]}}
 
 Grassfloor:
 {"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[40,24]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Cherrygrove]}}{"Texture"{rec[0,16,16,16]}}]}}

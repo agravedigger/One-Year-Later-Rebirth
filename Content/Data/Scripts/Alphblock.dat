@@ -1,8 +1,8 @@
-:if:not register(AlphPass)
-:then
-@Text:I'm sorry, but I can't let~you though. The Ruins have~been under research since~last year. Please wait~until further notice.
-@Text:<playername>: I see...
-@Turn:Player,2
-@Move:Player,1
+version=2
+:if:<Register.Registered(AlphPass)>=false
+	@Text.Show(I'm sorry, but I can't let~you though. The Ruins have~been under research since~last year. Please wait~until further notice.)
+	@Text.Show(<playername>: I see...)
+	@Player.Turn(2)
+	@Player.Move(1)
 :endif
 :end

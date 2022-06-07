@@ -126,5 +126,5 @@ NPCs:
 
 {"NPC"{NPC[{"Position"{sngArr[8,0.2,1]}}{"TextureID"{str[[POKEMON|N]113]}}{"ID"{int[4]}}{"Name"{str[Chansey]}}{"Action"{int[1]}}{"AdditionalValue"{str[gts\information]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
-{"NPC"{NPC[{"Position"{sngArr[5,0,5]}}{"TextureID"{str[1]}}{"ID"{int[2]}}{"Name"{str[Random]}}{"Action"{int[0]}}{"AdditionalValue"{str[Did you know if a Strong Pokemon~Your fighting is Hard to Catch.*Try to pass Time and Throw a Time Ball!*Its very Handy!]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[5,0,5]}}{"TextureID"{str[1]}}{"ID"{int[2]}}{"Name"{str[Random]}}{"Action"{int[0]}}{"AdditionalValue"{str[Did you know if a Strong Pokémon~Your fighting is Hard to Catch.*Try to pass Time and Throw a Time Ball!*Its very Handy!]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[10,0,7]}}{"TextureID"{str[oldhatman]}}{"ID"{int[3]}}{"Name"{str[RandomHiker]}}{"Action"{int[0]}}{"AdditionalValue"{str[I saw a TM in Slowpoke Well.*But im not sure if~Its there anymore.]}}{"Rotation"{int[2]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

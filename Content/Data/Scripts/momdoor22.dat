@@ -15,7 +15,7 @@
 @Move:1,2
 @Music:johto_rival_appear
 @Text:<playername>: Noel!
-@Text:Noel: Didn't I say not to act~so high and mighty?*We're doing this together!
+@Text:<Rival.Name>: Didn't I say not to act~so high and mighty?*We're doing this together!
 @Text:<playername>: Noel...*I know that we need to~work together but...
 @Music:nomusic
 @Text:???: Can I have a say in this?
@@ -26,16 +26,16 @@
 @Move:1,1
 @Turn:1,0
 @Turn:0,3
-@Text:Noel: And who are you?
+@Text:<Rival.Name>: And who are you?
 @Text:Eliza: I'm sorry for~my rudeness!~My Name is Eliza.*I'm in the care of~<playername> and~Ms. Elwood.
-@Text:Noel: Is that so?
-@Text:Noel: We can speak in detail~later.
+@Text:<Rival.Name>: Is that so?
+@Text:<Rival.Name>: We can speak in detail~later.
 @Text:Eliza: Yes!
 @Turn:2,1
 @Music:barktown
 @Text:Eliza: Now then...*It was very impolite to~of me eavesdrop,~but I was curious...
 @Text:Eliza: Those grunts you're~talking about...*If you're in this fight...~Then I'm in it as well!
-@Text:Noel: Are you sure?
+@Text:<Rival.Name>: Are you sure?
 @Turn:2,2
 @Text:Eliza: I'm a trainer too!*<playername> taught~me how to be one!*And along the way,~I have learned how to~tame Pokémon!
 @Text:<playername>: Are you sure you can~handle it?
@@ -44,24 +44,24 @@
 @Text:Eliza: We should all~work together!
 @Text:Mum: That's a wonderful idea!*That's what being a big~happy family is all about!
 @Text:<playername>: For the time being...*We need to find a safe~place to go to.
-@Text:Noel: Well...
+@Text:<Rival.Name>: Well...
 @Turn:1,1
-@Text:Noel: I do know a place!
-@Text:Noel: But we'll have to go~all the way~to Goldenrod!
+@Text:<Rival.Name>: I do know a place!
+@Text:<Rival.Name>: But we'll have to go~all the way~to Goldenrod!
 @Text:<playername>: Is that so?
-@Text:Noel: I have already spoken to~my mother and father~about it.*My father said that he~has a lab there,~so we could use that~as a vantage point~for now.
+@Text:<Rival.Name>: I have already spoken to~my mother and father~about it.*My father said that he~has a lab there,~so we could use that~as a vantage point~for now.
 @Text:Mum: Wow!~Really?*Then, we'll start~from there!
-@Text:Noel: Yes! ~We should go with Prof. Elm.
+@Text:<Rival.Name>: Yes! ~We should go with Prof. Elm.
 @Text:<playername>: Actually...
 @Text:Wouldn't it be a better~idea if we split?*I want to get some~information first either way.*I need to know at least~who those guys are and~where they came from.
-@Text:Noel: Alright then.*I'll take Ms. Elwood~and Eliza along with me~to Goldenrod.
+@Text:<Rival.Name>: Alright then.*I'll take Ms. Elwood~and Eliza along with me~to Goldenrod.
 @Text:Eliza: Um...
 @Text:Eliza: I want to go with~<playername> and~help gather information!
 @Turn:1,0
 @Turn:2,2
 @Text:<playername>: Alright!*Noel,~we'll meet you in~Goldenrod City!
 @Text:Eliza: Yes!
-@Text:Noel: I'm counting on you both.
+@Text:<Rival.Name>: I'm counting on you both.
 @Turn:2,1
 @Move:0,2
 @Turn:0,2
@@ -83,7 +83,7 @@
 @Text:<playername>: Are you sure~about this?*This could get dangerous!
 @Text:Eliza: Don't worry!*I'm much stronger than when~you last saw me!
 @Text:<playername>: Alright then!~I'm counting on you!
-@Text:Eliza: Okay, I'll get a~head start.~See you later!
+@Text:Eliza: OK, I'll get a~head start.~See you later!
 @Turn:2,2
 @Move:2,2
 @Turn:2,1

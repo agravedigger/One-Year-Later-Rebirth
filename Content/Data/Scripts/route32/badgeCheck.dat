@@ -14,7 +14,7 @@
 :if:register(Badge)
 :then
 @Text:Stop!
-@Text:...*Okay, you may go through.*Be careful though, there are~a lot of rumours as of late...
+@Text:...*OK, you may go through.*Be careful though, there are~a lot of rumours as of late...
 :if:not register(Consideration1)
 :then
 @Text:<playername>: ...*(Was there something~that I had to do?)

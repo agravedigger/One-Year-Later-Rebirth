@@ -1,23 +1,23 @@
 version=2
 :if:<Register.registered(noeltalk)>=false
 :then
-@Text.show(Noel: <player.name>!~I'm so glad you moved~to New Bark Town!*We should hang out somtime!)
-@Text.show(<player.name>: We~definitely should!)
+@Text.show(<Rival.Name>: <playername>!~I'm so glad you moved~to New Bark Town!*We should hang out somtime!)
+@Text.show(<playername>: We~definitely should!)
 @screen.fadeout
 @Music.play(johto_rival_appear)
-@Text.show(It has been 10 years since~we first met.*It's hard to believe it's~been that long...*Though, I have to say,~my time with her in Kanto~was an interesting time.*I remember when we~first got our Pokemon.*Our Eevee have been~with us since.*Interestingly enough...~Why are our Eevee~so different..?*Even back then,~we never knew why...*A golden and a silver Eevee,~both with two tails...*We were once told they~were a subspecies...*But sometimes...)
-@Text.show(Noel: <player.name>?~Are you okay?)
+@Text.show(It has been 10 years since~we first met.*It's hard to believe it's~been that long...*Though, I have to say,~my time with her in Kanto~was an interesting time.*I remember when we~first got our Pokémon.*Our Eevee have been~with us since.*Interestingly enough...~Why are our Eevee~so different..?*Even back then,~we never knew why...*A golden and a silver Eevee,~both with two tails...*We were once told they~were a subspecies...*But sometimes...)
+@Text.show(<Rival.Name>: <playername>?~Are you okay?)
 @screen.fadein
-@text.show(<player.name>: Oh, nothing,~I was just thinking,~that's all.)
-@Text.show(Noel: Well, I'm glad.*And when we do hang out,~we should have a match!*Just like old times!)
-@Text.show(<player.name>: Yeah!)
+@text.show(<playername>: Oh, nothing,~I was just thinking,~that's all.)
+@Text.show(<Rival.Name>: Well, I'm glad.*And when we do hang out,~we should have a match!*Just like old times!)
+@Text.show(<playername>: Yeah!)
 @Music.play(barktown)
 @Register.register(noeltalk)
 :endif
 
 :if:<Register.registered(noeltalk)>=true
 :then
-@Text.show(Noel: Try not to overdo~yourself, alright?*I don't want Mrs. Elwood~to get worried again!)
-@Text.show(<player.name>: I'll~be alright.)
+@Text.show(<Rival.Name>: Try not to overdo~yourself, alright?*I don't want Mrs. Elwood~to get worried again!)
+@Text.show(<playername>: I'll~be alright.)
 :endif
 :end

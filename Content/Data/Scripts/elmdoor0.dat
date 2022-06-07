@@ -2,7 +2,7 @@
 :then
 @Register:elm0
 @Turn:2,2
-@Text:Noel: <playername>!
+@Text:<Rival.Name>: <playername>!
 @Move:2,1
 @Turn:0,2
 @Text:<playername>: Hey, Noel!
@@ -16,7 +16,7 @@
 @Text:Elm: I'm sure you do.*But at least my daughter~is around, you two were~always inseperable.
 @Text:<playername>: Yeah,~but I'll be fine.
 @Turn:Player,1
-@Text:Noel: You sure will be!~It's great to see you again!
+@Text:<Rival.Name>: You sure will be!~It's great to see you again!
 @Text:<playername>: Thanks...
 @Turn:Player,3
 @Text:Elm: Ah, right, <playername>,~I was wondering if you~could do me a favor.*You see, my colleague,~Prof. Oak of Pallet Town,~wanted me to go to his small~research lab on Route 30~to pick up some documents.
@@ -24,11 +24,11 @@
 @Text:Elm: You see...*I haven't heard from him~nor has he responded to me~for quite a while...*And I currently have my~hands full with recording~about these new species of~Pokémon migrating to Johto.~It's an elaborate task...
 @Text:<playername>: It's~alright, Uncle, I'll go and~see what he's up to.
 @Turn:Player,1
-@Text:Noel: Right, thought I would~join you, but I'm helping~father with another~small errand.
+@Text:<Rival.Name>: Right, thought I would~join you, but I'm helping~father with another~small errand.
 @Text:<playername>: That's~fine, Johto is new to me,~so it'll be good experience.
 @Turn:Player,3
 @Text:Elm: Great!*Come back if you have~found anything!
-@Register:mrpokemon
+@Register:mrPokémon
 @Register:EliseOff
 @Register:mom_adventure1
 @Unregister:mom_wait
@@ -61,9 +61,9 @@
 @Register:elm4
 @Unregister:elm3
 @Music:nomusic
-@Text:Noel: Father!*This isn't right!~You know I'm capable~of doing this!
+@Text:<Rival.Name>: Father!*This isn't right!~You know I'm capable~of doing this!
 @Text:Elm: I won't let you walk~into danger like that!~That'd be irreponsible!
-@Text:Noel: I've been a trainer~for years, Father!*I know what I can or~can't do!*I won't let this threat~harm anyone!*I'm leaving, Father,~and that's that!
+@Text:<Rival.Name>: I've been a trainer~for years, Father!*I know what I can or~can't do!*I won't let this threat~harm anyone!*I'm leaving, Father,~and that's that!
 @Text:Elm: Noel!!!
 @Action:DeactivateThirdPerson
 @Turn:5,2
@@ -72,7 +72,7 @@
 @Turn:Player,2
 @Move:5,2
 @Text:<playername>: Noel! Wait!
-@Text:Noel: I'm sorry,~<playername>...
+@Text:<Rival.Name>: I'm sorry,~<playername>...
 @Move:5,3
 @NPC:remove(5)
 @NPC:unregister(elmlab.dat|5|position|4,0,1)

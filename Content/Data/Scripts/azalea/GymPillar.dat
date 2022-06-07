@@ -1,9 +1,9 @@
 :if:not register(GymbattleBug)
 :then
-@Text:Azalea Town Pokemon Gym*Leader: Bugsy
+@Text:Azalea Town Pokémon Gym*Leader: Bugsy
 :endif
 :if:register(BugsyWon)
 :then
-@Text:Azalea Town Pokemon Gym*Leader: Bugsy*Certified Trainer!~<playername>
+@Text:Azalea Town Pokémon Gym*Leader: Bugsy*Certified Trainer!~<playername>
 :endif
 :end

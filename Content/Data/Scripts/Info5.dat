@@ -8,7 +8,7 @@
 @Text:(You gave a simple explanation)
 @Wait:80
 @Text:Hmm...*Well, I think you'll find~better info in a Pokémon Center.
-@Text:<playername>: Okay, thank you~for your time!
+@Text:<playername>: OK, thank you~for your time!
 @Text:No problem!
 @Unregister:Info5
 :endif

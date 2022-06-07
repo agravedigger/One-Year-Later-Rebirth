@@ -1,4 +1,4 @@
-:if:not register(pokemongot)
+:if:not register(Pokémongot)
 :then
 @Text:<playername>: Why am I not saying hello~to my partner?*That's not like me!
 @Turn:Player,2
@@ -29,9 +29,9 @@
 @Warp:1,5,0,4
 @Warp:2,5,-2,4
 @Move:2,1
-@Text:Eliza: Okay, where do we start?
+@Text:Eliza: OK, where do we start?
 @Text:<playername>: Well, first,~we go outside to Route 29.*From there, I'll instruct~you on what to do.
-@Text:Eliza: Okay!~Let me get ready!~I'll meet you there!
+@Text:Eliza: OK!~Let me get ready!~I'll meet you there!
 @Text:<playername>: ~I'll wait by the sign.
 @Text:Eliza: Alright!
 @NPC:unregister(yourroom.dat|1|position|5,0,4)

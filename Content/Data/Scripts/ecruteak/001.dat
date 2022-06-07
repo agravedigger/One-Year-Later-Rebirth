@@ -1,7 +1,7 @@
 version=2
 :if:<Register.registered(KimonoGirlIntro)>=false
 :then
-@text.show(Kimono Girl: Hello! Welcome~to our Restaurant Theatre!*We serve refreshing food~for you and your Pokemon.)
+@text.show(Kimono Girl: Hello! Welcome~to our Restaurant Theatre!*We serve refreshing food~for you and your Pokémon.)
 @text.show(You may also purchase~our lovely Lava Cookies.)
 @text.show(We also offer Pokémon Battles~with any of us Kimono Girls~for a 1000 PokéDollars each.~You may battle us~at any given time.)
 @text.show(Remember to come to me~if you need anything.*Now then...)
@@ -14,12 +14,12 @@ version=2
 @text.show(Sure thing,~I'll prepare your table.)
 @screen.fadeout
 @Pokemon.heal
-@Sound.play(pokemon_heal)
+@Sound.play(Pokémon_heal)
 @Level.wait(100)
 @Text.show(You and your Pokémon have~enjoyed a refreshing meal.)
 @screen.fadein
 @Text.show(Thank you!)
-@pokemon.addfriendship(0,10)
+@Pokemon.addfriendship(0,10)
 @Player.money(-200)
 :when:Cookies 50 PokéDollars
 @Text.show(Sure thing,~how many would you like?)

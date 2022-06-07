@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Ilex Forest]}}{"MusicLoop"{str[ilex_forest]}}{"WildPokemon"{bool[1]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[1]}}{"CanFly"{bool[1]}}{"EnviromentType"{int[2]}}{"Weather"{int[6]}}{"Lightning"{int[0]}}{"IsDark"{bool[0]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[1]}}{"CanFly"{bool[1]}}{"EnviromentType"{int[2]}}{"Weather"{int[6]}}{"Lighting"{int[0]}}{"IsDark"{bool[0]}}]}}
 
 Floors:
 {"Floor"{ENT[{"Size"{intArr[34,10]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[32,80,16,16]}}]}}
@@ -266,7 +266,7 @@ NPCs:
 {"NPC"{NPC[{"Position"{sngArr[27,0,25]}}{"TextureID"{str[Elise]}}{"ID"{int[3]}}{"Name"{str[Elise]}}{"Action"{int[0]}}{"AdditionalValue"{str[.....]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[28,0,24]}}{"TextureID"{str[Bugsy]}}{"ID"{int[4]}}{"Name"{str[Bugsy]}}{"Action"{int[0]}}{"AdditionalValue"{str[.....]}}{"Rotation"{int[1]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
-Pokemon:
+Pokémon:
 {"NPC"{NPC[{"Position"{sngArr[30,0,30]}}{"TextureID"{str[Farfetch'd]}}{"ID"{int[5]}}{"Name"{str[Farfetch'd]}}{"Action"{int[1]}}{"AdditionalValue"{str[Farfetch'd]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Scriptblocks:

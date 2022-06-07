@@ -4,7 +4,7 @@ version=2
 	@options.show(Yes,No)
 	:when:Yes
 		@screen.fadeout
-		@pokemon.heal
+		@Pokemon.heal
 		@sound.play(healing,false)
 		@level.wait(180)
 		@screen.fadein
@@ -15,7 +15,7 @@ version=2
 	@options.show(Yes,No)
 	:when:Yes
 		@screen.fadeout
-		@pokemon.heal
+		@Pokemon.heal
 		@sound.play(healing,false)
 		@level.wait(180)
 		@screen.fadein

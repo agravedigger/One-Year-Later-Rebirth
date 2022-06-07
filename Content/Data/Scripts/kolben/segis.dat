@@ -11,7 +11,7 @@ version=2
 				:else
 					@text.show(Cool.)
 				:endif				
-				@pokemon.heal
+				@Pokemon.heal
 				@register.registertime(segisbattle,1,day)
 				:end
 			:when:No

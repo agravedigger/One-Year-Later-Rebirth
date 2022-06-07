@@ -1,17 +1,14 @@
-:if:daytime(0)
-:then
-@Text:I'm waiting for~Pokémon that~appear only in the~morning.
+version=2
+:if:<environment.daytimeid>=0
+	@Text.show(I'm waiting for~Pokémon that~appear only in the~morning.)
 :endif
-:if:daytime(1)
-:then
-@Text:I'm waiting for~Pokémon that~appear only during~the day.
+:if:<environment.daytimeid>=1
+	@Text.show(I'm waiting for~Pokémon that~appear only during~the day.)
 :endif
-:if:daytime(2)
-:then
-@Text:I'm waiting for~Pokémon that~appear only in the~evening.
+:if:<environment.daytimeid>=2
+	@Text.show(I'm waiting for~Pokémon that~appear only in the~evening.)
 :endif
-:if:daytime(3)
-:then
-@Text:I'm waiting for~Pokémon that~appear only during~the night.
+:if:<environment.daytimeid>=3
+	@Text.show(I'm waiting for~Pokémon that~appear only at~night.)
 :endif
 :end

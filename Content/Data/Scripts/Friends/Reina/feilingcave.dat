@@ -8,7 +8,7 @@
 :if:register(Reinabattle1)
 :then
 @Text:Reina: I assume~you are ready now?
-@Text:Reina: Okay, onto~the test battle!
+@Text:Reina: OK, onto~the test battle!
 @Heal
 @Battle:trainer,Reina1
 @Unregister:FeiLingCave
@@ -55,7 +55,7 @@
 @Bulb:1|20|0.9|8
 @Text:Ah!
 @Music:lakeside
-@Text:Okay, here's the deal.~I will talk about two topics~and after that,~we'll have a test battle.~I'm sure these may be things~you already know,~but that's how regulations~are anyway.
+@Text:OK, here's the deal.~I will talk about two topics~and after that,~we'll have a test battle.~I'm sure these may be things~you already know,~but that's how regulations~are anyway.
 @Text:Now then, let's begin.
 @Sound:Save
 @Text:Firstly: Weaknesses!

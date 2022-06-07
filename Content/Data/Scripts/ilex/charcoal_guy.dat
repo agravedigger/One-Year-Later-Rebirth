@@ -1,6 +1,6 @@
 :if:register(ilex_farfetchd_caught)
 :then
-@Text:Wow! Thanks a~whole bunch!*My boss's POKEMON~won't obey me be-~cause I don't have~a BADGE.
+@Text:Wow! Thanks a~whole bunch!*My boss's Pokémon~won't obey me be-~cause I don't have~a BADGE.
 :else
 @Text:Oh, man... My boss~is going to be~steaming...*The FARFETCH'D~that CUTS trees*for charcoal took~off on me.*I can't go looking~for it here in the~ILEX FOREST.*It's too big, dark~and scary for me...
 :endif

@@ -4,38 +4,38 @@ version=2
 	@Options.show(Yes,Not really...)
 		:when:Yes
 			@Text.show(???: Oh, really?~That explains your clothes.~Where are you from?)
-			@Text.show(<player.name>: I'm from Viridian, Kanto.~I recently moved here.)
+			@Text.show(<playername>: I'm from Viridian, Kanto.~I recently moved here.)
 			@Text.show(???: Wow, that's pretty~far away!*I've never been there.)
-			@Text.show(<player.name>: It's nice~there, but I can't complain.*I like it here all the same.)
+			@Text.show(<playername>: It's nice~there, but I can't complain.*I like it here all the same.)
 			@Text.show(???: That's great!*Oh my! How rude of me!)
 			@Music.play(lakeside)
 			@Text.show(My name is Reina.~I'm pleased to meet you!)
-			@Text.show(<player.name>: Likewise!*Reina: I'm glad!~It's nice to have~a new friend!)
+			@Text.show(<playername>: Likewise!*Reina: I'm glad!~It's nice to have~a new friend!)
 			@register.Register(r1)
 			@register.Register(r1battle)
 		:when:Not really...
 			@Text.show(???: Oh, really?~Where do you live?)
-			@Text.show(<player.name>: I live in~New Bark Town.~I recently moved there.)
+			@Text.show(<playername>: I live in~New Bark Town.~I recently moved there.)
 			@Text.show(???: Wow, that's pretty~close by.*It's a very nice town!~Sometimes when I'm free,~I go there to say~hi to Prof. Elm!)
-			@Text.show(<player.name>: I like it~here so far.)
+			@Text.show(<playername>: I like it~here so far.)
 			@Text.show(???: That's great!*Oh my! How rude of me!)
 			@Music.play(lakeside)
 			@Text.show(My name is Reina.~I'm pleased to meet you!)
-			@Text.show(<player.name>: Likewise!*Reina: I'm glad!~It's nice to have~a new friend!)
+			@Text.show(<playername>: Likewise!*Reina: I'm glad!~It's nice to have~a new friend!)
 			@register.Register(r1)
 			@register.Register(r1battle)
 	:endwhen
 			@Text.show(Reina: By the way!~You're a trainer too,~aren't you?)
-			@Text.show(Reina: I can't stop~glancing over at your~adorable Pokemon!)
+			@Text.show(Reina: I can't stop~glancing over at your~adorable Pokémon!)
 			@Sound.play(Cries/133)
 			@Text.show(Nya!)
 			@Entity.showmessagebulb(5|8|0.9|26)
 			@Text.show(Reina: It's so cute!*I've never seen that kind~of Pokémon...*It kind of reminds~me of an Eevee.)
-			@Text.show(<player.name>: This is~an Eevee, but I was told~it's a rare subspecies.*I don't really know~anything else...)
+			@Text.show(<playername>: This is~an Eevee, but I was told~it's a rare subspecies.*I don't really know~anything else...)
 			@Text.show(Reina: Nonetheless,~it's a wonderful companion!~I can't get enough of~its two tails!*Since when do you have it?)
-			@Text.show(<player.name>: 4 years~now, in fact.*I got it around the same~time I became a trainer.)
+			@Text.show(<playername>: 4 years~now, in fact.*I got it around the same~time I became a trainer.)
 			@Text.show(Reina: Wow... Kanto must~have interesting Pokémon...)
-			@Text.show(<player.name>: I don't know,~my Eevee is a rare case...)
+			@Text.show(<playername>: I don't know,~my Eevee is a rare case...)
 			@screen.fadeout
 			@Text.show(Not to~mention that I can~sometimes... know what~it is thinking too...*I'm not sure is it because~of all the time we've spent~together...*Or that one time in...)
 			@Text.show(Reina: Oh, I have an idea!)
@@ -43,8 +43,8 @@ version=2
 			@level.wait(10)
 			@Text.show(Reina: Do you want to have~a battle? I'm curious about~your Eevee's fighting~capabilities and I can show~you my Pokémon while we're~at it too!)
 			@Text.show(Reina: Do you need some~more time? It never hurts~to train before a battle!)
-			@Text.show(<player.name>: Yeah,~let us warm up for a bit.)
-			@Text.show(Reina: Okay!*Let me know when~you're ready!)
+			@Text.show(<playername>: Yeah,~let us warm up for a bit.)
+			@Text.show(Reina: OK!*Let me know when~you're ready!)
 			@Music.play(RouteMusic2)
 :endif
 
@@ -52,32 +52,32 @@ version=2
 			@Text.show(Reina: So, are you ready?)
 	@Options.show(Not ready,Let's battle!)
 		:when:Let's battle!
-			@Text.show(Reina: Okay!~Get ready!)
-			@pokemon.heal
+			@Text.show(Reina: OK!~Get ready!)
+			@Pokemon.heal
 			@battle.trainer(r1)
-			@pokemon.heal
+			@Pokemon.heal
 			@Register.register(r1win)
 			@register.Unregister(r1battle)
 			@Music.play(lakeside)
 			@Text.show(Reina: You're pretty good!~I didn't know you were an~experienced Trainer as well!*You should try challenging~Gyms! You'd have my~full support!)
-			@Text.show(<player.name>: Thank you!~I'll think about it, but~I'm currently on an errand.)
+			@Text.show(<playername>: Thank you!~I'll think about it, but~I'm currently on an errand.)
 			@Text.show(Reina: Really?~What kind of errand?)
-			@Text.show(<player.name>: I'm not really~allowed to say, but~I'm looking for Prof. Oak.*Do you know where~I can find him?)
+			@Text.show(<playername>: I'm not really~allowed to say, but~I'm looking for Prof. Oak.*Do you know where~I can find him?)
 			@Text.show(Reina: Prof. Oak?~He should be in the lab~on Route 30. However...)
 			@Music.pause
 			@Text.show(Reina: I've heard that~he's been away.)
 			@Text.show(Reina: It's pretty weird how~he doesn't even show up in~his radio talk show anymore.)
 			@Text.show(Reina: I don't know~what's up with him.)
-			@Text.show(<player.name>: Sounds~pretty strange..)
+			@Text.show(<playername>: Sounds~pretty strange..)
 			@Text.show(Reina: No kidding...)
 			@Sound.play(Cries/133)
 			@Text.show(Eevee: Nya!)
 			@Music.play(RouteMusic2)
 			@Text.show(Reina: Sorry,~I must've killed the mood.*I'm sure everything is fine.)
 			@Music.resume
-			@Text.show(<player.name>: It was nice~meeting you, Reina!)
+			@Text.show(<playername>: It was nice~meeting you, Reina!)
 			@Text.show(Reina: Likewise!~I'm sure we will see~each other again.)
-			@Text.show(<player.name>: Yeah, see you!)
+			@Text.show(<playername>: Yeah, see you!)
 			@Text.show(Reina: You too!~Good luck!)
 			@NPC.register(route29.dat|7|remove|0)
 			@NPC.register(route29.dat|8|remove|0)
@@ -86,7 +86,7 @@ version=2
 			@Text.show(Reina: That's fine,~take as long as you need!)
 			@Text.show(Reina: Here, let your~Pokémon rest a for bit.)
 			@screen.fadeout
-			@pokemon.heal
+			@Pokemon.heal
 			@sound.play(healing,1)
 			@level.wait(150)
 			@screen.fadein
@@ -96,7 +96,7 @@ version=2
 :endif
 
 :if:<register.registered(r1win)>=true
-			@Text.show(Reina: Good luck,~<player.name>!~Make sure to keep training!)
-			@pokemon.heal
+			@Text.show(Reina: Good luck,~<playername>!~Make sure to keep training!)
+			@Pokemon.heal
 :endif
 :end

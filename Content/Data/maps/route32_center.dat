@@ -127,4 +127,4 @@ NPCs:
 {"NPC"{NPC[{"Position"{sngArr[8,0.2,1]}}{"TextureID"{str[[POKEMON|N]113]}}{"ID"{int[4]}}{"Name"{str[Chansey]}}{"Action"{int[1]}}{"AdditionalValue"{str[gts\information]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 {"NPC"{NPC[{"Position"{sngArr[3,0,2]}}{"TextureID"{str[19]}}{"ID"{int[2]}}{"Name"{str[Random2]}}{"Action"{int[0]}}{"AdditionalValue"{str[Those Guys are crazy~To go fishing!*The Waters are~Too Dangerous!]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[9,0,3]}}{"TextureID"{str[15]}}{"ID"{int[3]}}{"Name"{str[Random]}}{"Action"{int[0]}}{"AdditionalValue"{str[What should I make~my Pokemon hold?*Maybe an item that~Increases Attack Power?]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[9,0,3]}}{"TextureID"{str[15]}}{"ID"{int[3]}}{"Name"{str[Random]}}{"Action"{int[0]}}{"AdditionalValue"{str[What should I make~my Pokémon hold?*Maybe an item that~Increases Attack Power?]}}{"Rotation"{int[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}

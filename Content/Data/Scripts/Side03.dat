@@ -33,7 +33,7 @@
 @Text:Eliza: So, what should we do?
 @Text:<playername>: First, let's~have you walk around in the~grass over there.
 @Turn:Player,3
-@Text:Eliza: In the grass..?~Okay... I trust you...
+@Text:Eliza: In the grass..?~OK... I trust you...
 @Turn:6,1
 @Move:6,5
 @Move:Player,4
@@ -47,7 +47,7 @@
 @Move:Player,1
 @Text:<playername>: Stay calm.~That type of Pokémon attacks~people at a certain time~of the day.~But I'm sure you'll do fine!*So, go on and take out~your Pokémon!
 @Text:Eliza: Alright...*Go, Naith!
-@ViewPokemonImage:495,0,1
+@ViewPokémonImage:495,0,1
 @Text:<playername>: (What an~unique Pokémon...)
 @Text:Eliza: Uh... What~should I do!?
 @Text:<playername>: Don't fret!
@@ -70,7 +70,7 @@
 @Turn:6,0
 @Text:Eliza: Did you see that!?~Naith was so cool!
 @Text:<playername>: You did great!~Come on back!
-@Text:Eliza: Okay!
+@Text:Eliza: OK!
 @Music:RouteMusic0
 @Move:6,3
 @Turn:6,3
@@ -79,7 +79,7 @@
 @Text:<playername>: I like your energy!
 @Text:<playername>: Here's the next step!
 @Text:<playername>: Please step back a bit!
-@Text:Eliza: Huh? Okay..?
+@Text:Eliza: Huh? OK..?
 @Turn:6,1
 @Move:6,1
 @Turn:6,3

@@ -4,14 +4,14 @@ version=2
 @npc.turn(12,0)
 @npc.warp(12,19,0,11)
 @npc.move(12,1)
-@text.show(Falkner: Oh, <player.name>!)
+@text.show(Falkner: Oh, <playername>!)
 @entity.showmessagebulb(8|19|0.7|10)
 @player.move(1)
 @text.show(Falkner: I didn't mean to~startle you, but I was~wondering about something~after our conversation.)
 @text.show(Falkner: Have you...)
 @music.pause
 @text.show(...Ever seen a kid with a~red jacket?*He usually has a Typhlosion~with him...*I haven't seen him for~quite some time...*I know he is an adventurer~but I wanted to ask of you~to tell me if you ever~see a kid like him.)
-@text.show(<player.name>: I've never~seen anyone who fits the~description... Sorry...)
+@text.show(<playername>: I've never~seen anyone who fits the~description... Sorry...)
 @music.resume
 @text.show(Falkner: That's alright...~Hey, if you ever need~anything, come by the gym~at Violet City!~It's a small town up north~but I'm sure you'd like~the place!*See ya!)
 @screen.fadeout
