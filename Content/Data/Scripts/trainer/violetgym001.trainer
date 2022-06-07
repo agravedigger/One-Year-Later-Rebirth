@@ -2,7 +2,7 @@
 Name|Abe
 TrainerClass|Bird keeper
 Money|789
-IntroMessage|Ah, a new challenger!*Okay, let's battle!
+IntroMessage|Ah, a new challenger!*OK, let's battle!
 OutroMessage|...
 DefeatMessage|Ack! You're tough!
 TextureID|9
