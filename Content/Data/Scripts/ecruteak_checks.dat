@@ -1,7 +1,6 @@
 version=2
 
-:if:<register.registered(check_on_eliza)>=true
-
+:if:<register.registered(eliza_checkup)>=true
 @npc.warp(6,6,-1,28)
 :endif
 
