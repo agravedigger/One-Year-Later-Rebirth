@@ -1,5 +1,10 @@
 version=2
-:if:<Register.registered(goldenrodcomplete)>=false
+
+:if:<Register.registered(eliza_checkup)>=true
+:end
+:endif
+
+:if:<Register.registered(eliza_checkup)>=false
 :then
 @Text.show(I can't leave yet since~there is still some~unfinished business to~take care of.)
 @Player.turn(2)
