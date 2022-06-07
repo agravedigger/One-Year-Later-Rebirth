@@ -1,30 +1,30 @@
 :if:register(mom_wait)
 :then
-@Text:Mum: When you're done, talk to~Noel's father next door~and thank him for helping us move.
+@Text:Mom: When you're done, talk to~Noel's father next door~and thank him for helping us move.
 @Turn:0,1
 :endif
 
 :if:register(mom_adventure1)
 :then
-@Text:Mum: If you ever need to rest,~come back and sleep~in your bed.*Take care out there, okay?
+@Text:Mom: If you ever need to rest,~come back and sleep~in your bed.*Take care out there, OK?
 @Turn:0,1
 :endif
 
 :if:register(mom_adventure2)
 :then
-@Text:Mum: Have fun, dear.
+@Text:Mom: Have fun, dear.
 @Turn:0,1
 :endif
 
 :if:register(mom_talk)
 :then
-@Text:Mum: Oh, welcome home!~How did it go?
+@Text:Mom: Oh, welcome home!~How did it go?
 @Text:<playername>: Well...
 @Wait:40
-@Text:Mum: Oh my!~Well, I'm sure you will~be just fine.*But just in case...~Here!
+@Text:Mom: Oh my!~Well, I'm sure you will~be just fine.*But just in case...~Here!
 @GiveItem:78,1
-@Text:Mum: I'm sure these shoes will~come in handy!*If you ever need anything,~please stop by and~talk to me!
-@Text:<playername>: Alright! Bye, Mum!
+@Text:Mom: I'm sure these shoes will~come in handy!*If you ever need anything,~please stop by and~talk to me!
+@Text:<playername>: Alright! Bye, Mom!
 @Unregister:mom_talk
 @Register:mom_adventure2
 @Turn:0,1

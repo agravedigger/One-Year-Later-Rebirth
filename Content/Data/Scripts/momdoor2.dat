@@ -3,9 +3,9 @@ version=2
 :if:<register.registered(MomVisit1)>=true
 
 @NPC.turn(0,2)
-@Text.show(Mum: Sweetie, you're home!)
+@Text.show(Mom: Sweetie, you're home!)
 @Player.move(2)
-@Text.show(Mum: How's everything?)
+@Text.show(Mom: How's everything?)
 @Text.show(<playername>: Well...)
 @Level.wait(20)
 @Screen.fadeout
@@ -13,7 +13,7 @@ version=2
 @Music.pause
 @Screen.fadein
 @Level.wait(50)
-@Text.show(Mum: ...)
+@Text.show(Mom: ...)
 @Level.wait(40)
 @Script.start(momdoor22)
 

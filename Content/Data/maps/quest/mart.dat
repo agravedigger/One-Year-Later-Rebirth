@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Pokemon Mart]}}{"MusicLoop"{str[mart]}}{"CurrentRegion"{str[sevii islands]}}{"RegionalForm"{str[alola]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnviromentType"{int[1]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Weather"{int[1]}}]}}
 
 Floor:
 {"Floor"{ENT[{"Size"{intArr[10,6]}}{"Position"{intArr[1,0,0]}}{"TexturePath"{str[Mart]}}{"Texture"{rec[0,0,16,16]}}]}}
@@ -177,5 +177,5 @@ Showcases:
 NPCs:
 {"NPC"{NPC[{"Position"{sngArr[2,0.2,1]}}{"TextureID"{str[12]}}{"ID"{int[1]}}{"Name"{str[SellMan]}}{"Action"{int[0]}}{"AdditionalValue"{str[ecruteak]}}{"Rotation"{int[3]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[6,0,0]}}{"TextureID"{str[10]}}{"ID"{int[2]}}{"Name"{str[SellMan]}}{"Action"{int[0]}}{"AdditionalValue"{str[Pokémon have personalities~of their own, just~like people.*My Pikachu has a~Hasty nature, so it grew~to be a speedy Pokémon.]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[5,0,2]}}{"TextureID"{str[2]}}{"ID"{int[3]}}{"Name"{str[SellMan]}}{"Action"{int[0]}}{"AdditionalValue"{str[Okay, preparations are~complete for me to~explore the ruins.]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[[7,0,3,2]]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[5,0,2]}}{"TextureID"{str[2]}}{"ID"{int[3]}}{"Name"{str[SellMan]}}{"Action"{int[0]}}{"AdditionalValue"{str[OK, preparations are~complete for me to~explore the ruins.]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[[7,0,3,2]]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[9,0,2]}}{"TextureID"{str[19]}}{"ID"{int[4]}}{"Name"{str[SellMan]}}{"Action"{int[0]}}{"AdditionalValue"{str[I need to fish~on Seven Island.*That will complete~my fishing tour of~the Sevii Islands.*I'd better stock~up on some Poké Balls~first, though.]}}{"Rotation"{int[1]}}{"Movement"{str[Walk]}}{"MoveRectangles"{recArr[[9,2,1,3]]}}]}}

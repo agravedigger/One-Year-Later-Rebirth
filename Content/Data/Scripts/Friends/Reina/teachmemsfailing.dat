@@ -1,7 +1,7 @@
 :if:register(ElizaFirstEncounter)
 :then
 @Text:Ms. Fei Ling: I'm sorry,~but I'm still teaching.*I'll be on Route 31~in a short while.
-@Text:<playername>: ...*I guess I could go visit~Mum for now...
+@Text:<playername>: ...*I guess I could go visit~Mom for now...
 :endif
 
 :if:register(TeachMeMsFaiLing)

@@ -65,8 +65,8 @@
 @Turn:1,2
 @Move:1,3
 @Warp:1,4,-2,4
-@NPC:register(slowpokewell\slowpokewell1f.dat|1|remove|1)
-@Text:<playername>: I have to go warn Mum!
+@NPC:register(Slowpokewell\Slowpokewell1f.dat|1|remove|1)
+@Text:<playername>: I have to go warn Mom!
 @Heal
 @Register:MomVisit1
 @Register:speedtravel1
@@ -96,8 +96,8 @@
 @Turn:1,2
 @Move:1,3
 @Warp:1,4,-2,4
-@NPC:register(slowpokewell\slowpokewell1f.dat|1|remove|1)
-@Text:<playername>: I have to go warn Mum!
+@NPC:register(Slowpokewell\Slowpokewell1f.dat|1|remove|1)
+@Text:<playername>: I have to go warn Mom!
 @Heal
 @Register:MomVisit1
 @Register:speedtravel1

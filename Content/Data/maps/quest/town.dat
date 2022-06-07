@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Seven Island]}}{"MusicLoop"{str[violet]}}{"CurrentRegion"{str[sevii islands]}}{"RegionalForm"{str[alola]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnviromentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[1]}}{"Lighting"{int[0]}}]}}
 
 Floor:
 {"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[15,13]}}{"Position"{intArr[3,1,-1]}}{"TexturePath"{str[Cherrygrove]}}{"Texture"{rec[0,16,16,16]}}]}}
@@ -138,7 +138,7 @@ Bridge:
 {"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[3,5]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[7,-0.625,15]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[224,32,16,6][224,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Scale"{sngArr[1,0.25,1]}}{"Size"{intArr[5,5]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[14,-0.625,15]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[224,32,16,6][224,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[0]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
-Pokecenter:
+POKecenter:
 {"Structure"{STR[{"Map"{str[structures\sevii\center]}}{"Offset"{sngArr[10,1,0]}}]}}
 
 mart:

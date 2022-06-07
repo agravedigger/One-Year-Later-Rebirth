@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Azalea Town]}}{"MusicLoop"{str[azalea]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnviromentType"{int[0]}}{"Weather"{int[2]}}{"Lighting"{int[0]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[2]}}{"Lighting"{int[0]}}]}}
 
 Grassfloor:
 {"Floor"{ENT[{"SeasonTexture"{str[Grass]}}{"Size"{intArr[40,24]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Cherrygrove]}}{"Texture"{rec[0,16,16,16]}}]}}
@@ -23,7 +23,7 @@ Warps:
 floor:
 {"Floor"{ENT[{"Size"{intArr[1,2]}}{"Position"{intArr[40,0,16]}}{"TexturePath"{str[Routes]}}{"Texture"{rec[112,16,16,16]}}{"Visible"{bool[0]}}{"hasSnow"{bool[0]}}]}}
 SlowpokeWell:
-{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[31,0,9]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[32,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[slowpokewell\slowpokewell1f.dat,17,0.1,15,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[31,0,9]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[32,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Slowpokewell\Slowpokewell1f.dat,17,0.1,15,0]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 route33:
 {"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[40,0,16]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[128,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[route33.dat,-1,0.1,14,0]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"EntityID"{str[WarpBlock]}}{"Position"{sngArr[40,0,17]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[128,16,16,16]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[route33.dat,-1,0.1,15,0]}}{"Visible"{bool[0]}}{"Rotation"{int[0]}}]}}

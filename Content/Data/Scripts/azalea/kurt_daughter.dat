@@ -5,8 +5,8 @@
 :endif
 :if:register(rocket_defeat_slowpokewell)
 :then
-@Text:The SLOWPOKE my~Dad gave me came*back! Its TAIL is~growing back too!
+@Text:The Slowpoke my~Dad gave me came*back! Its TAIL is~growing back too!
 :end
 :endif
-@Text:The SLOWPOKE are~gone. Were they*taken away by bad~people?
+@Text:The Slowpoke are~gone. Were they*taken away by bad~people?
 :end

@@ -9,11 +9,11 @@ version=2
 @Music.pause
 @Player.move(1)
 @Player.turn(3)
-@Text.show(<playername>: Are you okay, miss?)
+@Text.show(<playername>: Are you OK, miss?)
 @Level.wait(30)
 @NPC.turn(9,1)
 @Text.show(???: Is it gone..?)
-@Text.show(<playername>: Yeah,~it's gone now.*Are you okay?)
+@Text.show(<playername>: Yeah,~it's gone now.*Are you OK?)
 @Music.resume
 @Music.play(RouteMusic0)
 @Text.show(???: Phew...~Thank goodness...~This is so embarassing...*<playername>: It's alright!~Is there anything that I--*???: I-I'm sorry!~I-I have to go!)

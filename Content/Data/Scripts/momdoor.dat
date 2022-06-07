@@ -4,16 +4,16 @@
 @Move:Player,2
 @Turn:Player,3
 @Turn:0,3
-@Text:<playername>: Good morning, Mum.
-@Text:Mum: Good morning, sweetie!*Good morning to you,~little one!
+@Text:<playername>: Good morning, Mom.
+@Text:Mom: Good morning, sweetie!*Good morning to you,~little one!
 @Text:Eevee: Nya!
-@Text:Mum: Did you rest well, dear?~I made some food,~would you like some?
+@Text:Mom: Did you rest well, dear?~I made some food,~would you like some?
 @Text:<playername>: Not right now.
-@Text:Mum: Well, you should go outside~and say hello to our new~neighbors!*There's a certain someone~that's been looking forward~to seeing you!
+@Text:Mom: Well, you should go outside~and say hello to our new~neighbors!*There's a certain someone~that's been looking forward~to seeing you!
 @Turn:0,1
 @Turn:Player,1
-@Text:<playername>: Alright, alright!~I'll talk to you later, Mum!
-@Text:Mum: Take care, sweetie!*Make sure you two play~safely!
+@Text:<playername>: Alright, alright!~I'll talk to you later, Mom!
+@Text:Mom: Take care, sweetie!*Make sure you two play~safely!
 @Move:Player,1
 @Register:mom_wait
 :endif
@@ -26,13 +26,13 @@
 @Move:0,1
 @Turn:0,0
 @Move:0,1
-@Text:Mum: Your new friend should be~in your room.*She's upstairs waiting~for you.
+@Text:Mom: Your new friend should be~in your room.*She's upstairs waiting~for you.
 @Register:Side2
 @Turn:0,2
 @Move:0,1
 @Turn:0,1
 @Move:0,1
-@Text:Mum: Time to make some tea!
+@Text:Mom: Time to make some tea!
 @Unregister:Side1
 :endif
 

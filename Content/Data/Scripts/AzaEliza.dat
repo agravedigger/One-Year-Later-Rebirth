@@ -1,48 +1,48 @@
 version=2
 :if:<Register.Registered(ElizaPracticeAzalea)>=true
-@Text.Show(Eliza: Hey!)
-@NPC.Turn(12,1)
-@NPC.Warp(12,12,0,12)
-@Player.Turn(2)
-@NPC.Move(12,7)
-@Text.Show(Eliza: I was waiting~for you in the~Azalea Pokémon Center!*Eliza: I said to meet~there!)
-@Text.Show(<playername>: But you~didn't say anything about~meeting you in the Pokémon Center.*Just in Azalea!)
-@Music.Stop
-@Wait:150
-@Music.Play(ShowMeAround)
-@Text.Show(Eliza: Whoops!)
-@Text.Show(<playername>: You're something else..)
-@Text.Show(Eliza: Hey!~OK, fine!~I forgot.)
-@Text.Show(<playername>: Hey, we're here now.~No worries.)
-@Text.Show(Eliza: Hey you're right!*Haha!~OK!)
-@Text.Show(Eliza: Let me heal~your Pokémon before we go!)
-@Text.Show((I just noticed she could heal))
-@Text.Show(<playername>: Hey~How are you able to~heal Pokémon?)
-@Text.Show(Eliza: Oh right!~I forgot to mention!*I learned how to~heal from my Mother.*She learned how to concentrate~Energy Flow into a being to heal it!*And I picked it up~while I was still with her!)
-@Text.Show(<playername>: Wow, Thats Pretty Neat!)
-@Text.Show(Eliza: Hehe~Thanks!*Well, we should~have a Practice Match Now!
-@Text.Show(Eliza: Here Let Me Heal!
-@Heal
-@Sound:healing
-@Wait:110
-@Text.Show(<playername>: Ok!~Ready when you are!
-@Text.Show(Eliza: Ok!*Lets Go!!
-@Battle:trainer,ElizaBattle2
-@Text.Show(Eliza: Another Great Fight!*Ok!~Lets go to Goldenrod~And Meet up with everyone!
-@Text.Show(<playername>: Yes,~Meet you soon!
-@Text.Show(Eliza: Yes!
-@Text.Show(Eliza: Here!*Let Me Heal your Pokémon!
-@Heal
-@Sound:healing
-@Wait:110
-@Text.Show(Eliza: Ok See you!
-@NPC.Turn(12,2
-@NPC.Move(12,1
-@NPC.Turn(12,1
-@NPC.Move(12,5
-@NPC.Warp(12,12,-2,12
-@Music:azalea
-@Text.Show(<playername>: Finally going to Goldenrod!
-@Unregister:ElizaPracticeAzalea
+	@Text.Show(Eliza: Hey!)
+	@NPC.Turn(12,1)
+	@NPC.Warp(12,12,0,12)
+	@Player.Turn(2)
+	@NPC.Move(12,7)
+	@Text.Show(Eliza: I was waiting~for you in the~Azalea Pokémon Center!*Eliza: I said to meet~there!)
+	@Text.Show(<Player.Name>: But you~didn't say anything about~meeting you in the Pokémon Center.*Just in Azalea!)
+	@Music.Stop
+	@Level.Wait(150)
+	@Music.Play(ShowMeAround)
+	@Text.Show(Eliza: Whoops!)
+	@Text.Show(<Player.Name>: You're something else..)
+	@Text.Show(Eliza: Hey!~OK, fine!~I forgot.)
+	@Text.Show(<Player.Name>: Hey, we're here now.~No worries.)
+	@Text.Show(Eliza: Hey you're right!*Haha!~OK!)
+	@Text.Show(Eliza: Let me heal~your Pokémon before we go!)
+	@Text.Show((I just noticed she could heal))
+	@Text.Show(<Player.Name>: Hey~How are you able to~heal Pokémon?)
+	@Text.Show(Eliza: Oh right!~I forgot to mention!*I learned how to~heal from my Mother.*She learned how to concentrate~Energy Flow into a being to heal it!*And I picked it up~while I was still with her!)
+	@Text.Show(<Player.Name>: Wow, that's pretty neat!)
+	@Text.Show(Eliza: Hehe! Thanks!*Well, we should~have a practice match now!)
+	@Text.Show(Eliza: Here, let me heal!)
+	@Pokemon.Heal
+	@Sound.Play(Healing)
+	@Level.Wait(110)
+	@Text.Show(<Player.Name>: OK!~Ready when you are!)
+	@Text.Show(Eliza: OK!*Let's go!!)
+	@Battle.Trainer(ElizaBattle2)
+	@Text.Show(Eliza: Another great fight!*OK!~Let's go to Goldenrod~and meet up with everyone!)
+	@Text.Show(<Player.Name>: Yes, meet you soon!)
+	@Text.Show(Eliza: Yes!)
+	@Text.Show(Eliza: Here!*Let me heal your Pokémon!)
+	@Pokemon.Heal
+	@Sound.Play(Healing)
+	@Level.Wait(110)
+	@Text.Show(Eliza: OK, See you!)
+	@NPC.Turn(12,2)
+	@NPC.Move(12,1)
+	@NPC.Turn(12,1)
+	@NPC.Move(12,5)
+	@NPC.Warp(12,12,-2,12)
+	@Music.Play(azalea)
+	@Text.Show(<Player.Name>: Finally going to Goldenrod!)
+	@Register.Unregister(ElizaPracticeAzalea)
 :endif
 :end

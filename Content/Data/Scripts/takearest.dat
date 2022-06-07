@@ -24,7 +24,7 @@ version=2
 @NPC.warp(1,4,0,40)
 @NPC.warp(2,4,2,40)
 @NpC.move(1,1)
-@text.show(<Rival.Name>: But I cant help it...*He Is my Father...*I dont want to go and...*and...*We've been together since~we were toddlers...)
+@text.show(<Rival.Name>: But I can't help it...*He Is my Father...*I dont want to go and...*and...*We've been together since~we were toddlers...)
 @text.show(<playername>: Noel...)
 @text.show(<Rival.Name>: I know I should'nt be~crying.. I Just dont like the idea~of moving away...*Especially away from you...)
 @Player.turnto(3)
@@ -60,20 +60,20 @@ version=2
 @level.update
 @NPC.warp(1,1,0,4)
 @NPC.turn(1,1)
-@text.show(Eliza: Hey are you ok?)
+@text.show(Eliza: Hey are you OK?)
 @level.wait(30)
 @text.show(<playername>: huh...)
 @screen.fadein
 @level.wait(40)
 @player.turnto(3)
-@text.show(Eliza: You were crying~in your sleep...*<playername>: Sorry...*Eliza: Do you need some water?*<playername>: No its ok, Everything~is ok now..*Eliza: Ok... I'll let~you go back to bed.*<playername>: Thank you...*Eliza: Dont worry, go back to bed)
+@text.show(Eliza: You were crying~in your sleep...*<playername>: Sorry...*Eliza: Do you need some water?*<playername>: No its OK, Everything~is OK now..*Eliza: OK... I'll let~you go back to bed.*<playername>: Thank you...*Eliza: Dont worry, go back to bed)
 @level.wait(60)
 @text.show(<playername>: yeah...)
 @player.turnto(0)
 @level.wait(70)
 @screen.fadeout
 @level.wait(120)
-@text.show(<playername>: I cant believe~that was just two years ago...)
+@text.show(<playername>: I can't believe~that was just two years ago...)
 @level.wait(60)
 @level.update
 @sound.play(healing,1)

@@ -1,5 +1,5 @@
-{"Level"{LEV[{"Name"{str[Tin Tower]}}{"CurrentRegion"{str[battle2]}}{"MusicLoop"{str[tintower]}}{"WildPokemon"{bool[1]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[1]}}{"CanFly"{bool[0]}}{"EnviromentType"{int[3]}}{"Weather"{int[1]}}]}}
+{"Level"{LEV[{"Name"{str[Tin Tower]}}{"CurrentRegion"{str[battle2]}}{"MusicLoop"{str[tintower]}}{"WildPOKemon"{bool[1]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[1]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[3]}}{"Weather"{int[1]}}]}}
 
 Walls:
 {"Floor"{ENT[{"Size"{intArr[20,20]}}{"Position"{intArr[-2,-1,-2]}}{"TexturePath"{str[WoodTower]}}{"Texture"{rec[48,16,16,16]}}]}}

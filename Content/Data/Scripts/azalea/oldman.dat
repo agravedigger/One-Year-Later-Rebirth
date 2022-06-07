@@ -1,7 +1,7 @@
 :if:not register(rocket_defeat_slowpokewell)
 :then
-@Text:The SLOWPOKE have~disappeared from~town.*I heard their~TAILS are being~sold somewhere.
+@Text:The Slowpoke have~disappeared from~town.*I heard their~TAILS are being~sold somewhere.
 :else
-@Text:The SLOWPOKE have~returned.*Knowing them, they~could've just been*goofing off somewhere.
+@Text:The Slowpoke have~returned.*Knowing them, they~could've just been*goofing off somewhere.
 :endif
 :end

@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[National Park]}}{"MusicLoop"{str[nationalpark]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnviromentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"CanFly"{bool[1]}}{"EnvironmentType"{int[0]}}{"Weather"{int[0]}}{"Lighting"{int[0]}}]}}
 
 Floor:
 Grass:
@@ -485,8 +485,8 @@ NPCs:
 {"NPC"{NPC[{"Position"{sngArr[27,0,40]}}{"TextureID"{str[15]}}{"ID"{int[4]}}{"Name"{str[Lady1]}}{"Action"{int[1]}}{"AdditionalValue"{str[nationalpark\quick_claw]}}{"Rotation"{int[2]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
 
 Trainers:
-{"NPC"{NPC[{"Position"{sngArr[20,0,29.01]}}{"TextureID"{str[1]}}{"ID"{int[8]}}{"Name"{str[PokefanW]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\nationalpark\001]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
-{"NPC"{NPC[{"Position"{sngArr[18,0,9.01]}}{"TextureID"{str[11]}}{"ID"{int[9]}}{"Name"{str[PokefanM]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\nationalpark\002]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[20,0,29.01]}}{"TextureID"{str[1]}}{"ID"{int[8]}}{"Name"{str[POKefanW]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\nationalpark\001]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
+{"NPC"{NPC[{"Position"{sngArr[18,0,9.01]}}{"TextureID"{str[11]}}{"ID"{int[9]}}{"Name"{str[POKefanM]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\nationalpark\002]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[29,0,23.01]}}{"TextureID"{str[49]}}{"ID"{int[10]}}{"Name"{str[Schoolboy]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\nationalpark\003]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 {"NPC"{NPC[{"Position"{sngArr[10,0,14.01]}}{"TextureID"{str[10]}}{"ID"{int[11]}}{"Name"{str[Lass]}}{"Action"{int[2]}}{"AdditionalValue"{str[3|trainer\nationalpark\004]}}{"Rotation"{int[0]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 

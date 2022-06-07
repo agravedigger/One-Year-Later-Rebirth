@@ -12,20 +12,20 @@ version=2
 @Text.show(Grunt: Oh, how cute.*You think this kid will be~able to save you?)
 @Text.show(Noel: Be careful, it's another~one like that Houndoom!)
 @Text.show(Grunt: Crush them, Aggron!)
-@pokemon.cry(912)
+@Pokemon.cry(912)
 @level.wait(50)
 @screen.fadeout
 @Player.warp(9,0.1,26)
 @player.turnto(1)
 @level.update
-@pokemon.heal
+@Pokemon.heal
 @battle.trainer(goldenrod_neon)
 @npc.remove(6)
 @NPC.turn(4,1)
 @screen.fadein
 @Text.show(Grunt: How did you do that!?*Hrghh, you've won this time!*I'm not done yet though!!!)
 @screen.fadeout
-@pokemon.cry(242)
+@Pokemon.cry(242)
 @Text.show(???: Blissey, here's~our chance!*Grab onto Blissey, everyone!*Teleport!)
 @player.warp(route36.dat,14,0.1,4)
 @player.turnto(3)

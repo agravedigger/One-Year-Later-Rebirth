@@ -4,10 +4,10 @@
 @NPC:register(elmlab.dat|4|remove|1)
 @NPC:register(elmlab.dat|0|remove|1)
 @NPC:register(barktown\0.dat|0|remove|1)
-@Text:Mum: That's so hard~to believe...*But, sweetie, are you~certain that's true?
+@Text:Mom: That's so hard~to believe...*But, sweetie, are you~certain that's true?
 @Text:<playername>: ...*Yeah, I'm sure.
 @Text:<playername>: Somehow...*I have to take them down!
-@Text:Mum: <playername>...*Mom: What are you going to do?
+@Text:Mom: <playername>...*Mom: What are you going to do?
 @Text:<playername>: For now, I need to find~clues about their~whereabouts.*Even if I have to do it~alone...*I'll take them down!
 @Warp:1,7,0,6
 @Text:???: Not alone!
@@ -42,7 +42,7 @@
 @Turn:2,1
 @Text:Eliza: I was taught by the best!*Of course I can!
 @Text:Eliza: We should all~work together!
-@Text:Mum: That's a wonderful idea!*That's what being a big~happy family is all about!
+@Text:Mom: That's a wonderful idea!*That's what being a big~happy family is all about!
 @Text:<playername>: For the time being...*We need to find a safe~place to go to.
 @Text:<Rival.Name>: Well...
 @Turn:1,1
@@ -50,7 +50,7 @@
 @Text:<Rival.Name>: But we'll have to go~all the way~to Goldenrod!
 @Text:<playername>: Is that so?
 @Text:<Rival.Name>: I have already spoken to~my mother and father~about it.*My father said that he~has a lab there,~so we could use that~as a vantage point~for now.
-@Text:Mum: Wow!~Really?*Then, we'll start~from there!
+@Text:Mom: Wow!~Really?*Then, we'll start~from there!
 @Text:<Rival.Name>: Yes! ~We should go with Prof. Elm.
 @Text:<playername>: Actually...
 @Text:Wouldn't it be a better~idea if we split?*I want to get some~information first either way.*I need to know at least~who those guys are and~where they came from.

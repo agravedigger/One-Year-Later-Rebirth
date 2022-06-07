@@ -1,9 +1,9 @@
-:if:not register(Pokémongot)
+:if:not register(pokemongot)
 :then
 @Text:<playername>: Morning!~Got up early?
 @Text:Eevee: Nya!
 @Text:<playername>: Haha!~That's great!*Ready to see Mom?
-@Action:GetPokémon(908,5,Joined 4 years ago,5,at Viridian Forest)
+@Action:GetPokemon(908,5,Joined 4 years ago,5,at Viridian Forest)
 @Pokémon:clearattacks(0)
 @Pokémon:Addattack(0,1)
 @Pokémon:Addattack(0,45)

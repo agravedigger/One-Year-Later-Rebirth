@@ -8,7 +8,7 @@
 :if:register(Quest1)
 :then
 @Turn:4,1
-@Text:<playername>: Are you okay?
+@Text:<playername>: Are you OK?
 @Turn:4,3
 @Text:???: I'm so sorry to have~ran off like that!~It's just...*...*(Sob)
 @Text:<playername>: Hey, what's wrong?
@@ -35,7 +35,7 @@
 @Warp:5,12,-2,8
 @Warp:4,12,0,8
 @Move:5,1
-@Text:<playername>: You're welcome.*When you arrive in~New Bark Town, just knock~and let my Mum know~that I invited you.
+@Text:<playername>: You're welcome.*When you arrive in~New Bark Town, just knock~and let my Mom know~that I invited you.
 @Text:Thank you so much!
 @Text:???: I'll head there~right away!
 @Move:4,3
@@ -57,6 +57,6 @@
 @NPC:register(route31.dat|5|position|20,0,8)
 @Register:FeiLingCave
 @Register:Gotoreiling
-@Text:<playername>: I hope Eliza will~be okay on her way there...*Also, I hope Ms. Fei Ling~hasn't been waiting long~on Route 31.
+@Text:<playername>: I hope Eliza will~be OK on her way there...*Also, I hope Ms. Fei Ling~hasn't been waiting long~on Route 31.
 :endif
 :end

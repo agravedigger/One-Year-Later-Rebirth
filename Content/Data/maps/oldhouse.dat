@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Old House]}}{"MusicLoop"{str[barktown]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnviromentType"{int[1]}}{"Lighting"{int[0]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"Lighting"{int[0]}}{"Weather"{int[1]}}]}}
 
 Floor:
 {"Floor"{ENT[{"Size"{intArr[10,9]}}{"Position"{intArr[0,0,-2]}}{"TexturePath"{str[House]}}{"Texture"{rec[32,0,16,16]}}]}}
@@ -47,7 +47,7 @@ table:
 {"Entity"{ENT[{"Scale"{sngArr[1,0.2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,-0.2,3]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[64,80,16,3][80,80,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"Scale"{sngArr[1,0.2,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[6,-0.2,3]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[64,80,16,3][96,80,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
-cookplate:
+coOKplate:
 {"Entity"{ENT[{"Scale"{sngArr[1,0.3,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-0.35,0]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[32,25,16,7][80,64,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"Entity"{ENT[{"Scale"{sngArr[1,0.1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[0,-0.15,0]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[48,27,16,4][48,16,16,11]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
@@ -71,7 +71,7 @@ tv:
 shelf:
 {"Entity"{ENT[{"Scale"{sngArr[1,0.45,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[5,-0.275,0]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[0,24,16,8][16,23,16,9][48,32,5,8]]}}{"TextureIndex"{intArr[0,0,2,2,2,2,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
-books:
+boOKs:
 {"Entity"{ENT[{"Scale"{sngArr[0.4,0.2,0.15]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[4.8,0.05,0]}}{"TexturePath"{str[House]}}{"Textures"{recArr[[47,96,4,6][28,96,4,6][32,96,15,6][32,99,15,3]]}}{"TextureIndex"{intArr[2,2,0,0,1,1,2,2,3,3]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 
 NPCs:
@@ -89,6 +89,6 @@ ScriptBlocks:
 
 ScriptBlocksFurniture:
 {"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[4,0,0]}}{"TexturePath"{str[Lab]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[furniture\livingroom\tv]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
-{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,0]}}{"TexturePath"{str[Lab]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[furniture\livingroom\cookplate]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,0]}}{"TexturePath"{str[Lab]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[furniture\livingroom\coOKplate]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 {"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[1,0,0]}}{"TexturePath"{str[Lab]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[furniture\livingroom\dish]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}
 {"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[2,0,0]}}{"TexturePath"{str[Lab]}}{"Textures"{recArr[[16,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[1]}}{"AdditionalValue"{str[furniture\livingroom\fridge]}}{"Rotation"{int[0]}}{"Visible"{bool[0]}}]}}

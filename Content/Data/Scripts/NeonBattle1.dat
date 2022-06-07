@@ -42,7 +42,7 @@
 @Text:<playername>: Hey,~come back here!*Darn... He's gone...
 @Turn:Player,2
 @Music:ilex_forest
-@Text:<playername>: Are you okay?
+@Text:<playername>: Are you OK?
 @Text:Bugsy: Yes, thank you.~<playername>, wasn't it?~You handled your Pokémon~very well against him.*As you might guess, I was~at a disadvantage and~was defeated...
 @Text:<playername>: You were right,~his Pokémon wasn't normal...*It's like his Houndoom was~changed abnormally.
 @Text:Bugsy: I don't know how,~but it's much stronger~than a normal Houndoom...
@@ -90,7 +90,7 @@
 @Register:GymbattleBug
 @Register:buggymfirst
 @Register:noelfirst1
-@NPC:unregisrer(slowpokewell\slowpokewell1f.dat|1|remove|1)
+@NPC:unregisrer(Slowpokewell\Slowpokewell1f.dat|1|remove|1)
 @NPC:register(azalea.dat|11|remove|1)
 @Music:ilex_forest
 :endif

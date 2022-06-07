@@ -6,7 +6,7 @@ version=2
 @screen.fadeout
 @Music.play(johto_rival_appear)
 @Text.show(It has been 10 years since~we first met.*It's hard to believe it's~been that long...*Though, I have to say,~my time with her in Kanto~was an interesting time.*I remember when we~first got our Pokémon.*Our Eevee have been~with us since.*Interestingly enough...~Why are our Eevee~so different..?*Even back then,~we never knew why...*A golden and a silver Eevee,~both with two tails...*We were once told they~were a subspecies...*But sometimes...)
-@Text.show(<Rival.Name>: <playername>?~Are you okay?)
+@Text.show(<Rival.Name>: <playername>?~Are you OK?)
 @screen.fadein
 @text.show(<playername>: Oh, nothing,~I was just thinking,~that's all.)
 @Text.show(<Rival.Name>: Well, I'm glad.*And when we do hang out,~we should have a match!*Just like old times!)

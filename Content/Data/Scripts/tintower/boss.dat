@@ -5,7 +5,7 @@ version=2
 @npc.register(v_forest\main.dat|2|remove|0)
 @Player.move(1)
 @level.wait(50)
-@pokemon.cry(250)
+@Pokemon.cry(250)
 @level.wait(50)
 @text.show(Grunts: Sir, the kid is here...)
 @level.wait(40)
@@ -51,7 +51,7 @@ version=2
 @NPC.turn(0,0)
 @text.show(Harmonia: Nevermind that now.*Oh, sacred beast...~Are you ready?)
 @level.wait(30)
-@pokemon.cry(250)
+@Pokemon.cry(250)
 @level.wait(30)
 @text.show(Harmonia: Good...~Now then...)
 @music.pause
@@ -87,9 +87,9 @@ version=2
 @music.resume
 @level.wait(60)
 @text.show(Let's do this!)
-@pokemon.cry(133)
+@Pokemon.cry(133)
 @text.show(Nya!)
-@pokemon.heal
+@Pokemon.heal
 @battle.setvar(cancatch,0)
 @battle.setvar(canrun,0)
 @battle.setvar(custombattlemusic,eveliabattle)
@@ -101,7 +101,7 @@ version=2
 @level.wait(50)
 @music.play(intense)
 @music.resume
-@pokemon.cry(250)
+@Pokemon.cry(250)
 @text.show(Hreewahh!)
 @level.wait(100)
 @text.show(<playername>: This can't be...*It's still standing...)
@@ -115,7 +115,7 @@ version=2
 @text.show(???: I won't let you~hurt <playername>!)
 @level.wait(100)
 @text.show(Harmonia: Traitor...*I had known, but I let~you go by anyway.)
-@pokemon.cry(257)
+@Pokemon.cry(257)
 @level.wait(100)
 @text.show(???: Relax, <playername>...*As long as I'm here with~you... I'll keep you safe...)
 @level.wait(100)
@@ -136,7 +136,7 @@ version=2
 @text.show(???: Calm down!)
 @text.show(<playername>: Get away!*Or... Or...*Get him, partner!)
 @level.wait(50)
-@pokemon.heal
+@Pokemon.heal
 @battle.trainer(ethan)
 @level.wait(50)
 @text.show(???: Owh... Maki...)
@@ -157,7 +157,7 @@ version=2
 @level.wait(50)
 @text.show(Ethan: Oh, and...*Please don't tell~anyone about me.*Not yet.)
 @level.wait(50)
-@text.show(<playername>: Okay.*Stay safe, Ethan!)
+@text.show(<playername>: OK.*Stay safe, Ethan!)
 @level.wait(50)
 @text.show(I hope Gaven managed to find~his way to Sage and~saved him...)
 @Register.register(tintowerboss)

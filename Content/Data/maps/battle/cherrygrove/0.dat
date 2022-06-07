@@ -52,7 +52,7 @@ Tree walls:
 {"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[1,23]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[24,0.5,1]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[80,112,16,32]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 {"EntityField"{ENT[{"SeasonTexture"{str[PlantColoring]}}{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Scale"{sngArr[1,2,1]}}{"Position"{sngArr[24,0.5,24]}}{"TexturePath"{str[Routes]}}{"Textures"{recArr[[128,112,16,32]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[3]}}]}}
 
-Pokecenter:
+Pokécenter:
 {"EntityField"{ENT[{"Size"{intArr[4,3]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,0,5]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[48,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Size"{intArr[4,4]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,1,5]}}{"TexturePath"{str[cherrygrove]}}{"Textures"{recArr[[96,0,16,16][0,16,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
 {"EntityField"{ENT[{"Size"{intArr[1,1]}}{"EntityID"{str[WallBlock]}}{"Position"{sngArr[13,0,8]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[48,0,16,16]]}}{"TextureIndex"{intArr[0,0,0,0,0,0,0,0,0,0]}}{"Collision"{bool[1]}}{"ModelID"{int[1]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}

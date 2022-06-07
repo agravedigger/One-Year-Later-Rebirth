@@ -16,6 +16,6 @@ version=2
 	:if:<register.registered(Elizacommon1)>=true
 		@text.show(Eliza: Hey, Your not~leaving anytime soon are you?)
 		@text.show(<playername>: Yeah, I have to~get back to what I was doing.*<playername>: But dont worry,~I'll come visit again!)
-		@text.show(Eliza: Ok! Give it~everything you have!*<playername>: I will!*train every now and then ok?*Eliza: I Will!)
+		@text.show(Eliza: OK! Give it~everything you have!*<playername>: I will!*train every now and then OK?*Eliza: I Will!)
 :endif
 :end

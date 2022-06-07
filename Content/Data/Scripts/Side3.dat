@@ -95,7 +95,7 @@
 @Text:Eliza: I'll go get~some rest...
 @Text:<playername>: Right, go ahead.
 @Text:Eliza: I can't wait~to tell Ms. Elwood!
-@Text:<playername>: Well, have fun.~I'll come visit you and Mum~when I can!
+@Text:<playername>: Well, have fun.~I'll come visit you and Mom~when I can!
 @Text:Eliza: Hehe!~We'll be waiting!
 @Turn:6,2
 @Move:6,1

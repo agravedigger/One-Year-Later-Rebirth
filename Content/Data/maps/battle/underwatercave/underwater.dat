@@ -1,5 +1,5 @@
-{"Level"{LEV[{"Name"{str[Underwater Path]}}{"MusicLoop"{str[darkcave]}}{"WildPokemon"{bool[1]}}{"OverworldPokemon"{bool[0]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"RideType"{int[1]}}{"CanFly"{bool[0]}}{"EnviromentType"{int[4]}}{"Weather"{int[4]}}{"Lighting"{int[3]}}{"SurfingBattleMap"{str[underwatercave\underwater.dat,-7,0,14]}}]}}
+{"Level"{LEV[{"Name"{str[Underwater Path]}}{"MusicLoop"{str[darkcave]}}{"WildPOKemon"{bool[1]}}{"OverworldPOKemon"{bool[0]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[1]}}{"CanDig"{bool[0]}}{"RideType"{int[1]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[4]}}{"Weather"{int[4]}}{"Lighting"{int[3]}}{"SurfingBattleMap"{str[underwatercave\underwater.dat,-7,0,14]}}]}}
 
 
 \\Internal Part:
@@ -666,7 +666,7 @@ Sign Blocks:
 	{"EntityField"{ENT[{"EntityID"{str[SignBlock]}}{"Size"{intArr[1,9]}}{"Position"{sngArr[-4,0,23]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[16,32,16,16][32,32,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[It's dangerous to dive too ~far from the boat.]}}{"Rotation"{int[1]}}]}}
 	{"EntityField"{ENT[{"EntityID"{str[SignBlock]}}{"Size"{intArr[1,10]}}{"Position"{sngArr[14,0,23]}}{"TexturePath"{str[Cherrygrove]}}{"Textures"{recArr[[16,32,16,16][32,32,16,16]]}}{"TextureIndex"{intArr[0,0,1,1,1,1,0,0,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[4]}}{"Action"{int[0]}}{"Visible"{bool[0]}}{"AdditionalValue"{str[It's dangerous to dive too ~far from the boat.]}}{"Rotation"{int[3]}}]}}
 NPCs:
-	Pokemon:
+	POKemon:
 		Shellder:
 			{"NPC"{NPC[{"Position"{sngArr[-7,0.85,25]}}{"Scale"{sngArr[1.5,1.5,1.5]}}{"TextureID"{str[[POKEMON|N]90]}}{"ID"{int[0]}}{"Name"{str[Shellder]}}{"Action"{int[1]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}{"AnimateIdle"{bool[1]}}{"Movement"{str[Looking]}}{"MoveRectangles"{recArr[]}}]}}
 		Corsola:

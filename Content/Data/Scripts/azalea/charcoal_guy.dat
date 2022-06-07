@@ -1,7 +1,7 @@
 :if:register(ilex_farfetchd_complete)
 :then
-@Text:The SLOWPOKE came~back, and you even~found FARFETCH'D.*You're the cool-~est, man!
+@Text:The Slowpoke came~back, and you even~found FARFETCH'D.*You're the cool-~est, man!
 :else
-@Text:Where have all the~SLOWPOKE gone?*Are they out play-~ing somewhere?
+@Text:Where have all the~Slowpoke gone?*Are they out play-~ing somewhere?
 :endif
 :end

@@ -1,5 +1,5 @@
 {"Level"{LEV[{"Name"{str[Kolben Tower]}}{"MusicLoop"{str[battletower]}}{"CurrentRegion"{str[Sevii Islands]}}{"RegionalForm"{str[alola]}}]}}
-{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnviromentType"{int[1]}}{"MapScript"{str[kolben\randomscreen]}}{"Weather"{int[1]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"EnvironmentType"{int[1]}}{"MapScript"{str[kolben\randomscreen]}}{"Weather"{int[1]}}]}}
 
 Floor:
 {"Floor"{ENT[{"Size"{intArr[19,11]}}{"Position"{intArr[0,0,-1]}}{"TexturePath"{str[kolben]}}{"Texture"{rec[0,0,16,16]}}]}}
@@ -45,7 +45,7 @@ Switch:
 
 Monitore:
 {"Entity"{ENT[{"Scale"{sngArr[4,2,0.2]}}{"EntityID"{str[Cube]}}{"Position"{sngArr[9,1.2,9.4]}}{"TexturePath"{str[Center]}}{"Textures"{recArr[[48,80,32,16][48,96,32,4][80,80,4,16]]}}{"TextureIndex"{intArr[-1,-1,2,2,2,2,-1,-1,1,1,1,1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[0]}}]}}
-{"Entity"{ENT[{"Scale"{sngArr[4,2,0.2]}}{"EntityID"{str[Cube]}}{"ID"{int[10]}}{"Visible"{bool[0]}}{"Position"{sngArr[9,1.2,9.4]}}{"TexturePath"{str[TVs\MarioKart8]}}{"Textures"{recArr[[0,0,500,250]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
+{"Entity"{ENT[{"Scale"{sngArr[4,2,0.2]}}{"EntityID"{str[Cube]}}{"ID"{int[10]}}{"Visible"{bool[0]}}{"Position"{sngArr[9,1.2,9.4]}}{"TexturePath"{str[TVs\MariOKart8]}}{"Textures"{recArr[[0,0,500,250]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 {"Entity"{ENT[{"Scale"{sngArr[4,2,0.2]}}{"EntityID"{str[Cube]}}{"ID"{int[11]}}{"Visible"{bool[0]}}{"Position"{sngArr[9,1.2,9.4]}}{"TexturePath"{str[TVs\Red]}}{"Textures"{recArr[[0,0,304,152]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 {"Entity"{ENT[{"Scale"{sngArr[4,2,0.2]}}{"EntityID"{str[Cube]}}{"ID"{int[12]}}{"Visible"{bool[0]}}{"Position"{sngArr[9,1.2,9.4]}}{"TexturePath"{str[TVs\Blue]}}{"Textures"{recArr[[0,0,304,152]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}
 {"Entity"{ENT[{"Scale"{sngArr[4,2,0.2]}}{"EntityID"{str[Cube]}}{"ID"{int[13]}}{"Visible"{bool[0]}}{"Position"{sngArr[9,1.2,9.4]}}{"TexturePath"{str[TVs\Yellow]}}{"Textures"{recArr[[0,0,304,152]]}}{"TextureIndex"{intArr[0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]}}{"Collision"{bool[1]}}{"ModelID"{int[12]}}{"Action"{int[0]}}{"AdditionalValue"{str[]}}{"Rotation"{int[2]}}]}}

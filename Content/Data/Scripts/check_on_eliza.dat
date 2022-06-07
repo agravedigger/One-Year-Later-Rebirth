@@ -29,7 +29,7 @@ version=2
 @text.show(Noel: I'll help too!)
 @text.show(Elm: Do you know anyone who~specializes in Water types?*Someone like that ought to~have the HM to lend to you.)
 @text.show(<playername>: Good thinking,~Uncle.)
-@text.show(Noel: We should also probably~challenge any other gyms along~the way. It'll be good~practice for what's to come!*Meet me on Route 38, okay?)
+@text.show(Noel: We should also probably~challenge any other gyms along~the way. It'll be good~practice for what's to come!*Meet me on Route 38, OK?)
 @npc.turn(4,2)
 @npc.move(4,3)
 @npc.turn(4,3)

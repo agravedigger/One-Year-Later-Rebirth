@@ -9,7 +9,7 @@ version=2
 @level.wait(30)
 @npc.move(6,2)
 @battle.starttrainer(liberty\inside\Petrel)
-@text.show(Petrel: Ok, I give up!*I might have underestimated~your persistence.)
+@text.show(Petrel: OK, I give up!*I might have underestimated~your persistence.)
 @npc.turn(6,0)
 @text.show(Petrel: But I doubt you'll~be able to control~Victini yourself.)
 @npc.turn(6,2)
