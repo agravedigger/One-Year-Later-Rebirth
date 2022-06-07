@@ -70,8 +70,8 @@ version=2
 @Music.resume
 @screen.fadein
 @NPC.turn(0,2)
-@text.show(Harmonia: Behold, <playername>!~There is no escape now!)
-@text.show(<playername>: No...)
+@text.show(Harmonia: Behold, <player.name>!~There is no escape now!)
+@text.show(<player.name>: No...)
 @text.show(Sage: This can't be happening...)
 @screen.fadeout
 @level.wait(70)
@@ -112,7 +112,7 @@ version=2
 @screen.fadeout
 @level.wait(120)
 @music.stop
-@text.show(???: I won't let you~hurt <playername>!)
+@text.show(???: I won't let you~hurt <player.name>!)
 @level.wait(100)
 @text.show(Harmonia: Traitor...*I had known, but I let~you go by anyway.)
 @Pokemon.cry(257)
@@ -124,7 +124,7 @@ version=2
 @text.show(Harmonia: Follow?*No, that is not necessary.*We'll let them roam for now.*They will be of use~to us later...)
 @level.wait(200)
 @player.warp(burnedtower\burnedtowerb1f.dat,11,2.1,4,1)
-@text.show(???: ...*<playername>, wake up...)
+@text.show(???: ...*<player.name>, wake up...)
 @level.wait(50)
 @level.update
 @screen.fadein
@@ -149,7 +149,7 @@ version=2
 @text.show(???: !)
 @text.show(???: How do you know my name?)
 @text.show(<player.name>: Falkner...)
-@text.show(???: Oh...*Yes, <playername>,~I'm Ethan.)
+@text.show(???: Oh...*Yes, <player.name>,~I'm Ethan.)
 @text.show(Ethan: Listen, I'd love to~get to know you, but we need~to hurry. Goldenrod's a mess~and your...)
 @level.wait(50)
 @text.show(<player.name>: Oh no!*I-I've got to go!)
