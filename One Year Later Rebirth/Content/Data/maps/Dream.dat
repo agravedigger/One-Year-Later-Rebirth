@@ -1,0 +1,16 @@
+{"Level"{LEV[{"Name"{str[???]}}{"MusicLoop"{str[Dream]}}]}}
+{"Actions"{LEV[{"CanTeleport"{bool[0]}}{"CanDig"{bool[0]}}{"CanFly"{bool[0]}}{"OverworldPokemon"{bool[0]}}{"EnvironmentType"{int[3]}}{"Weather"{int[1]}}{"IsDark"{bool[0]}}]}}
+
+{"Floor"{ENT[{"Size"{intArr[1,21]}}{"Position"{intArr[0,0,0]}}{"TexturePath"{str[Dream]}}{"Texture"{rec[70,70,70,70]}}]}}
+
+
+NPC:
+{"NPC"{NPC[{"Position"{sngArr[0,0,20]}}{"TextureID"{str[800]}}{"ID"{int[1]}}{"Name"{str[Thing]}}{"Action"{int[1]}}{"AdditionalValue"{str[Dream\Sillouette]}}{"Rotation"{int[0]}}{"Movement"{str[Still]}}{"MoveRectangles"{recArr[]}}]}}
+
+Scriptblocks:
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,3]}}{"TexturePath"{str[Dream]}}{"Textures"{recArr[[70,70,70,70]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Dream\Dream0]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,6]}}{"TexturePath"{str[Dream]}}{"Textures"{recArr[[70,70,70,70]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Dream\Dream1]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,9]}}{"TexturePath"{str[Dream]}}{"Textures"{recArr[[70,70,70,70]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Dream\Dream2]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,12]}}{"TexturePath"{str[Dream]}}{"Textures"{recArr[[70,70,70,70]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Dream\Dream3]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,15]}}{"TexturePath"{str[Dream]}}{"Textures"{recArr[[70,70,70,70]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Dream\Dream4]}}{"Rotation"{int[0]}}]}}
+{"Entity"{ENT[{"EntityID"{str[ScriptBlock]}}{"Position"{sngArr[0,0,18]}}{"TexturePath"{str[Dream]}}{"Textures"{recArr[[70,70,70,70]]}}{"TextureIndex"{intArr[0,0]}}{"Collision"{bool[0]}}{"ModelID"{int[0]}}{"Action"{int[0]}}{"AdditionalValue"{str[Dream\Dream5]}}{"Rotation"{int[0]}}]}}
