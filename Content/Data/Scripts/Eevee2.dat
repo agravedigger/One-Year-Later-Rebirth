@@ -1,8 +1,8 @@
 :if:not register(pokemongot)
 :then
-@Text:<playername>: Morning!~Got up early?
+@Text:<player.name>: Morning!~Got up early?
 @Text:Eevee: Nya!
-@Text:<playername>: Haha!~That's great!*Ready to see Mom?
+@Text:<player.name>: Haha!~That's great!*Ready to see Mom?
 @Action:GetPokemon(909,5,Joined 4 years ago,5,at Viridian Forest)
 @Pokémon:clearattacks(0)
 @Pokémon:Addattack(0,33)
@@ -11,15 +11,15 @@
 @Action:RenamePokémon(0)
 @NPC:remove(4)
 @NPC:unregister(yourroom.dat|4|position|4,0,2)
-@Text:<playername>: Still...*That was a weird dream...
+@Text:<player.name>: Still...*That was a weird dream...
 @Text:Nyu?
-@Text:<playername>: No, it's nothing.
+@Text:<player.name>: No, it's nothing.
 @Sound:/Cries/133
 @Text:Nyu!
-@Text:<playername>: Oh?~What's this?
+@Text:<player.name>: Oh?~What's this?
 @GiveItem:18,5
 @Text:Oh, yeah!~Can't go anywhere without~these! Thanks!
-@Text:<playername>: Well,~let's go see Mom!
+@Text:<player.name>: Well,~let's go see Mom!
 @Register:Pokémongot
 @Register:starter1
 :endif

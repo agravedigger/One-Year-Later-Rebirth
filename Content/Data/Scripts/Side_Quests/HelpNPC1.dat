@@ -2,9 +2,9 @@ version=2
 :If:<Register.registered(NPChelp1)>=true
 :then
 @Text.show(Oh!~You're that trainer~passing by every so often.*Can I ask for a favor?)
-@Text.show(<playername>: Sure!)
+@Text.show(<player.name>: Sure!)
 @Text.show(I'm looking for my Pokémon.~It's a Natu which goes~by the name Lena.*I've been looking for her~all morning and can't seem~to find her!*I'll give you a reward~if you help me!)
-@Text.show(<playername>: Don't worry,~ma'am, I'll find her.)
+@Text.show(<player.name>: Don't worry,~ma'am, I'll find her.)
 @Text.show(Thank you!)
 @Register.register(Lena1)
 @NPC.register(route30.dat|11|position|15,0,19)

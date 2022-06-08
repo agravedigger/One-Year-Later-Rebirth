@@ -1,4 +1,4 @@
-@Text:Hm?~Who are you?~<playername>, eh?*You want me to~make some Balls?
+@Text:Hm?~Who are you?~<player.name>, eh?*You want me to~make some Balls?
 @Options:Yes,No
 :when:Yes
 @Text:Good good, now then,~let me see your apricorns...

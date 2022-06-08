@@ -22,7 +22,7 @@
 @Text:Reina: Alright, as promised,~here's your verification!
 @Music:nomusic
 @Sound:item_found
-@Text:<playername>'s Trainer Card~is now verified~for the Johto Region!
+@Text:<player.name>'s Trainer Card~is now verified~for the Johto Region!
 @Wait:14
 @Music:lakeside
 @Text:Also, here!
@@ -31,7 +31,7 @@
 @GiveItem:26,3
 @GiveItem:126,1
 @Text:Reina: I'm sure that these~items will be very handy~to you. Make sure you~use them wisely!
-@Text:<playername>: Thanks, Reina!
+@Text:<player.name>: Thanks, Reina!
 @Text:Reina: You don't have to~thank me! You are my friend~after all.
 @Bulb:4|20|0.9|8
 @Text:Reina: If you ever need~anything, I'll be over at~the school teaching~the young ones.
@@ -43,12 +43,12 @@
 :if:register(FeiLingCave)
 :then
 @Text:Reina: Oh!*You startled me!
-@Text:<playername>: I'm sorry!~Were you waiting for long?
+@Text:<player.name>: I'm sorry!~Were you waiting for long?
 @Text:Reina: No, I just arrived!
-@Text:<playername>: That's good.*So...*A teacher, huh?*Reina: Hehe, yeah.~I became a teacher after I~finished my Pokémon training.*It's hard to believe it's~been 2 years...*<playername>: Really?~Sounds like you're just~slightly older than me.*Reina: Oh, really?~How old are you?*<playername>: I just turned 17~a month ago.*Reina: Hehe, I'm older by one!*<playername>: Well then, miss...
-@Text:Reina: I'm just teasing a bit!*<playername>: Right. Anyway...~About my verification...
+@Text:<player.name>: That's good.*So...*A teacher, huh?*Reina: Hehe, yeah.~I became a teacher after I~finished my Pokémon training.*It's hard to believe it's~been 2 years...*<player.name>: Really?~Sounds like you're just~slightly older than me.*Reina: Oh, really?~How old are you?*<player.name>: I just turned 17~a month ago.*Reina: Hehe, I'm older by one!*<player.name>: Well then, miss...
+@Text:Reina: I'm just teasing a bit!*<player.name>: Right. Anyway...~About my verification...
 @Text:Reina: Right, we still~have to do that, huh?*Here's how that goes...*I will talk about a couple~of things related to the~verification process.*Will that be alright?
-@Text:<playername>: Yes!
+@Text:<player.name>: Yes!
 @Text:Reina: Alright...*Let's see...
 @Music:nomusic
 @Wait:30

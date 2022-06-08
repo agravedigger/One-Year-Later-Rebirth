@@ -1,5 +1,5 @@
 version=2
-@text.show(Oh! It's you,~<playername>!*It has been a while.~I was asked to come back to~the lab to pick up~some items.*I was also told that~if I ever ran into you,~I can give you these!)
+@text.show(Oh! It's you,~<player.name>!*It has been a while.~I was asked to come back to~the lab to pick up~some items.*I was also told that~if I ever ran into you,~I can give you these!)
 @item.messagegive(189,1)
 @item.messagegive(40,5)
 @item.give(189,1)

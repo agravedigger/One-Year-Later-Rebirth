@@ -5,7 +5,7 @@ version=2
 	@Options:Yes,No
 	:when:Yes
 		@Text.Show(Really!?*Tell me!)
-		@Text.Show(<playername>: Well... Huh...)
+		@Text.Show(<player.name>: Well... Huh...)
 		@Text.Show(..?*So you don't know?*Then why did you say yes?)
 		@Register.Register(boy1)
 	:when:No

@@ -21,14 +21,14 @@
 @Action:ToggleDarkness
 @Text:???: Tch...~He vanished...
 @Wait:50
-@Text:<playername>: Red hair...
+@Text:<player.name>: Red hair...
 @Text:???: Huh?
 @Turn:1,2
 @Text:???: Who might you be?~Don't tell me...
 @Text:You're here to help that grunt!
 @Music:Sudden_Crisis
 @Move:1,1
-@Text:<playername>:Whoa!!!~Hold on!~Let me explain--
+@Text:<player.name>:Whoa!!!~Hold on!~Let me explain--
 @Text:???: I'm not going to let~another Neon slip away...~I only need one Pokémon~to take you down!
 @Wait:50
 @Text:There's no reasoning with him!
@@ -45,13 +45,13 @@
 @Turn:1,1
 @Text:Renault: I've wasted enough~time as is... I'll be on my~way. Sorry for what~happened here.
 @Turn:1,2
-@Text:<playername>: Hey, wait--
+@Text:<player.name>: Hey, wait--
 @Move:1,4
 @Warp:1,4,-2,5
 @NPC:unregister(cherrygrove\0.dat|1|position|2,0,3)
 @NPC:register(cherrygrove\0.dat|0|remove|1)
 @Music:nomusic
-@Text:<playername>: Wait...
+@Text:<player.name>: Wait...
 @Wait:125
 @Music:cherrygrove
 @Text:Well, I guess I'm done looking~for information. Time to head~for Goldenrod.*I'm sure we'll meet~again somehow.

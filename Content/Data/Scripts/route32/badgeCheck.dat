@@ -8,7 +8,7 @@
 @Text:(The man returned~your Trainer Card)
 @Turn:Player,1
 @Move:Player,1
-@Text:<playername>: I guess~I have no choice...
+@Text:<player.name>: I guess~I have no choice...
 :endif
 
 :if:register(Badge)
@@ -17,12 +17,12 @@
 @Text:...*OK, you may go through.*Be careful though, there are~a lot of rumours as of late...
 :if:not register(Consideration1)
 :then
-@Text:<playername>: ...*(Was there something~that I had to do?)
+@Text:<player.name>: ...*(Was there something~that I had to do?)
 @Text:Oh? You're not going?*Well, you can always~prepare before you go!
 @Turn:Player,1
 @Turn:Player,1
 @Move:Player,1
-@Text:<playername>: ...*(Oh, yeah! Eliza!)
+@Text:<player.name>: ...*(Oh, yeah! Eliza!)
 @Register:Side1
 @Unregister:Gotoreiling
 @NPC:register(route29.dat|5|Position|12,-2,8)

@@ -21,7 +21,7 @@ version=2
 			@Pokemon.addattack(<Pokemon.count>-1,231)
 			
 			@sound.play(success_small,1)
-			@text.show(<playername> received~Pichu!)
+			@text.show(<player.name> received~Pichu!)
 			@Pokemon.rename(last)
 			
 			@register.register(pcpreceive)										

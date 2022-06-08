@@ -14,7 +14,7 @@
 @Text:Bugsy: This item here~will boost the power of~Bug-type moves.*I'm sure it come in~handy to you!
 @GiveItem:438,1
 @Text:Bugsy: And this is the~TM for U-Turn!*U-Turn damages the opponent~before enabling your Pokémon~to swap with another~party member.*It should be used wisely,~of course.
-@Text:Bugsy: Good luck, <playername>!*I hope you'll catch those~goons! I'll join in later!
+@Text:Bugsy: Good luck, <player.name>!*I hope you'll catch those~goons! I'll join in later!
 @Register:BugsyWon
 @Unregister:GymbattleBug
 @Unregister:buggymfirst

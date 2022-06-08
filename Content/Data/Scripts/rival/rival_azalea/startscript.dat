@@ -7,12 +7,12 @@
 @Warp:9,2,0,12
 @Turn:9,3
 @Move:9,1
-@Text:<Rival.Name>: <playername>!!!
+@Text:<Rival.Name>: <player.name>!!!
 @Move:9,1
 @Music:johto_rival_appear
-@Text:<playername>: It's been~a while!
+@Text:<player.name>: It's been~a while!
 @Text:<Rival.Name>: Yes, but now~isn't the time!~We have to hurry!
-@Text:<playername>: What's happening?
+@Text:<player.name>: What's happening?
 @Text:<Rival.Name>: I'll explain later!*Come to Ilex Forest!
 @Turn:9,1
 @Move:9,4

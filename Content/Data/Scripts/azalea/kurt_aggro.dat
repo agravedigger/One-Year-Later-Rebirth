@@ -1,4 +1,4 @@
-@Text:Hm? Who are you?~<playername>, eh? You~want me to make~some BALLS?*Sorry, but that'll~have to wait.*Do you know TEAM~ROCKET? Ah, don't~worry. I'll tell~you anyhow.*TEAM ROCKET's an~evil gang that~uses Pokémon for~their dirty work.*They're supposed~to have disbanded~three years ago.*Anyway, they're at~the WELL, cutting~off SLOWPOKETAILS~for sale!*So I'm going to~go give them a~lesson in pain!*Hang on, Slowpoke!~Old KURT is on his~way!
+@Text:Hm? Who are you?~<player.name>, eh? You~want me to make~some BALLS?*Sorry, but that'll~have to wait.*Do you know TEAM~ROCKET? Ah, don't~worry. I'll tell~you anyhow.*TEAM ROCKET's an~evil gang that~uses Pokémon for~their dirty work.*They're supposed~to have disbanded~three years ago.*Anyway, they're at~the WELL, cutting~off SLOWPOKETAILS~for sale!*So I'm going to~go give them a~lesson in pain!*Hang on, Slowpoke!~Old KURT is on his~way!
 :if:position(Player,3,0,2)
 :then
 @Turn:Player,1

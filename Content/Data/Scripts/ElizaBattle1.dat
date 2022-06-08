@@ -1,7 +1,7 @@
 :if:register(HelpFromEliza)
 :then
 @Text:Eliza: Are you ready~for the warm-up?
-@Text:<playername>: Always!
+@Text:<player.name>: Always!
 @Text:Eliza: OK!
 @Text:Eliza: Before we start,~let me heal your Pokémon!
 @Heal
@@ -21,10 +21,10 @@
 @Heal
 @Sound:single_heal
 @Wait:110
-@Text:<playername>: Thanks!
+@Text:<player.name>: Thanks!
 @Text:Eliza: I'll go train a bit more.~After that, I'll go find~some clues.
 @NPC:unregister(route29.dat|6|position|52,0,12)
-@Text:<playername>: I'll go on ahead.
+@Text:<player.name>: I'll go on ahead.
 @Text:I should start my~search in Cherrygrove.
 @Unregister:HelpFromEliza
 @Register:InformationGathering

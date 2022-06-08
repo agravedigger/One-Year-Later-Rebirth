@@ -1,6 +1,6 @@
 :if:register(Infoneed)
 :then
-@Text:<playername>: I shouldn't head~to Goldenrod yet.
+@Text:<player.name>: I shouldn't head~to Goldenrod yet.
 @Turn:Player,2
 @Move:Player,1
 :endif

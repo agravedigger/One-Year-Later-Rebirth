@@ -1,6 +1,6 @@
 :if:not register(Passage1)
 :then
-@Text:<playername>: What am I doing!?*I need to warn Mom!
+@Text:<player.name>: What am I doing!?*I need to warn Mom!
 @Turn:Player,2
 @Move:Player,1
 :endif

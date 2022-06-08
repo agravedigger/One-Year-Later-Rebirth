@@ -1,26 +1,26 @@
 :if:register(ElizaFirstEncounter)
 :then
 @Text:Ms. Fei Ling: I'm sorry,~but I'm still teaching.*I'll be on Route 31~in a short while.
-@Text:<playername>: ...*I guess I could go visit~Mom for now...
+@Text:<player.name>: ...*I guess I could go visit~Mom for now...
 :endif
 
 :if:register(TeachMeMsFaiLing)
 :then
 @Text:Hmm?~Hello and welcome!*I am Ms. Fei Ling.~Is there anything you need~help with--
 @Music:nomusic
-@Text:Reina: Oh my!~It's you, <playername>!
+@Text:Reina: Oh my!~It's you, <player.name>!
 @Music:lakeside
-@Text:<playername>: Wow,~fancy seeing you here!~I didn't know you were~a teacher!
+@Text:<player.name>: Wow,~fancy seeing you here!~I didn't know you were~a teacher!
 @Text:Reina: Well, it's indeed my job!
-@Text:<playername>: It's kinda~cool to be friends with~a teacher...
+@Text:<player.name>: It's kinda~cool to be friends with~a teacher...
 @Text:Students: (Murmur)
 @Text:Ms. Fei Ling: Oh my...
 @Music:violet
 @Text:Ms. Fei Ling: I'm terribly sorry,~what is it that you needed?
-@Text:<playername>: I'm sorry to~bother you. I'm here~to get my Trainer Card~verified.*Could you help me?
+@Text:<player.name>: I'm sorry to~bother you. I'm here~to get my Trainer Card~verified.*Could you help me?
 @Text:Ms. Fei Ling: I'm really~sorry but can it wait?~As much as I would love to~help you right away,~I'm in the middle of a class.*Tell you what,~meet me by lake~on Route 31.~We'll talk more over there.
 @Text:Ms. Fei Ling: It will take~some time.*See you after class.
-@Text:<playername>: Thank you,~Ms. Fei Ling.
+@Text:<player.name>: Thank you,~Ms. Fei Ling.
 @Turn:Player,2
 @Text:That felt kind of awkward...*Now what?
 @Register:ElizaFirstEncounter

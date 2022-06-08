@@ -238,7 +238,7 @@ IngameMenu:
 game_menu_pokedex,Pokédex
 game_menu_party,Pokémon
 game_menu_bag,Tas
-game_menu_trainer_card,<playername>
+game_menu_trainer_card,<player.name>
 game_menu_save,Opslaan
 game_menu_options,Opties
 game_menu_exit,Menu Verlaten
@@ -962,4 +962,4 @@ New Bark Town:
 ---
 barktown.dat:
 ---
-barktown_player_house,<playername>'s Huis
+barktown_player_house,<player.name>'s Huis

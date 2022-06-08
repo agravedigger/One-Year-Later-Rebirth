@@ -4,7 +4,7 @@
 @Move:4,4
 @Turn:4,1
 @Move:4,7
-@Text:<playername>: There's Noel!~Let's hurry, partner!
+@Text:<player.name>: There's Noel!~Let's hurry, partner!
 @Sound:/Cries/133
 @Text:Eevee: Nyarh!
 @Register:Alicia Spotted

@@ -8,10 +8,10 @@
 @Text:<Rival.Name>: He's too strong..!
 @Music:Sudden_Crisis
 @Turn:3,1
-@Text:<Rival.Name>: <playername>!!!
+@Text:<Rival.Name>: <player.name>!!!
 @Move:Player,2
 @Text:<Rival.Name>: Bugsy is in trouble!~You have to help him!
-@Text:<playername>: I'm on it!
+@Text:<player.name>: I'm on it!
 @Text:<Rival.Name>: I'll be right here!
 @Turn:3,3
 @Move:3,1
@@ -19,9 +19,9 @@
 @Move:Player,1
 @Turn:Player,1
 @Move:Player,1
-@Text:<playername>: Who are you!?~What do you want to do~with Bugsy!?
+@Text:<player.name>: Who are you!?~What do you want to do~with Bugsy!?
 @Text:???: You should not seek what~you would not understand...
-@Text:<playername>: Tch...~I'll show you!
+@Text:<player.name>: Tch...~I'll show you!
 @Text:Bugsy: Don't underestimate~him! His Pokémon aren't~normal!
 @Text:???: Foolish child...
 @Heal
@@ -31,7 +31,7 @@
 @Text:???: This is good data...
 @Turn:2,1
 @Move:2,1
-@Text:<playername>: Where do you~think you're going!?
+@Text:<player.name>: Where do you~think you're going!?
 @Move:Player,1
 @Turn:Player,1
 @Text:???: It does not~concern you...
@@ -39,20 +39,20 @@
 @Warp:2,22,-2,24
 @NPC:register(ilexforest.dat|2|remove|1)
 @Move:Player,1
-@Text:<playername>: Hey,~come back here!*Darn... He's gone...
+@Text:<player.name>: Hey,~come back here!*Darn... He's gone...
 @Turn:Player,2
 @Music:ilex_forest
-@Text:<playername>: Are you OK?
-@Text:Bugsy: Yes, thank you.~<playername>, wasn't it?~You handled your Pokémon~very well against him.*As you might guess, I was~at a disadvantage and~was defeated...
-@Text:<playername>: You were right,~his Pokémon wasn't normal...*It's like his Houndoom was~changed abnormally.
+@Text:<player.name>: Are you OK?
+@Text:Bugsy: Yes, thank you.~<player.name>, wasn't it?~You handled your Pokémon~very well against him.*As you might guess, I was~at a disadvantage and~was defeated...
+@Text:<player.name>: You were right,~his Pokémon wasn't normal...*It's like his Houndoom was~changed abnormally.
 @Text:Bugsy: I don't know how,~but it's much stronger~than a normal Houndoom...
 @Register:hivebadge_obtain
 @Move:4,1
 @Text:Bugsy: I must thank you~somehow! But I don't know~what to give you...
 @Text:Bugsy: Hmm...*How about this?*If you challenge me at my gym,~I'll give you the Hive badge.*It would help build your~Pokémon's strength and enable~you to use a new HM.
 @Text:Bugsy: Seeing how strong~you are, I can tell that I~would lose... However, it'll~be more fun this way!
-@Text:<playername>: I see...
-@Text:<playername>: Deal!
+@Text:<player.name>: I see...
+@Text:<player.name>: Deal!
 @Text:Bugsy: Good! I'll be waiting!
 @Turn:4,2
 @Move:4,2
@@ -66,17 +66,17 @@
 @Turn:3,0
 @Move:3,1
 @Music:nomusic
-@Text:<Rival.Name>: <playername>...
+@Text:<Rival.Name>: <player.name>...
 @Music:johto_rival_appear
-@Text:<playername>: Are you~alright, Noel?
+@Text:<player.name>: Are you~alright, Noel?
 @Text:<Rival.Name>: Y-Yes...*I couldn't even flinch~that Pokémon...
-@Text:<playername>: No kidding...*I'm not even sure~how I managed to...
+@Text:<player.name>: No kidding...*I'm not even sure~how I managed to...
 @Text:Nya!
 @Sound:/Cries/133
 @Text:Yeah, you did great, partner.
-@Text:<Rival.Name>: Hey, <playername>..?
+@Text:<Rival.Name>: Hey, <player.name>..?
 @Text:<Rival.Name>: Can we talk elsewhere?*When you're done with Bugsy,~come to Slowpoke Well.
-@Text:<playername>: Alright.
+@Text:<player.name>: Alright.
 @Text:<Rival.Name>: Yeah...*See you then...
 @Turn:3,2
 @Move:3,1
@@ -84,7 +84,7 @@
 @Move:3,5
 @Warp:3,19,-2,19
 @NPC:register(ilexforest.dat|3|remove|1)
-@Text:<playername>: I hope~she's alright...
+@Text:<player.name>: I hope~she's alright...
 @Unregister:NeonBattle1
 @Register:A_Gift?
 @Register:GymbattleBug

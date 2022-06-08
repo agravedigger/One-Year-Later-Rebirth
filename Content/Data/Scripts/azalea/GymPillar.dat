@@ -4,6 +4,6 @@
 :endif
 :if:register(BugsyWon)
 :then
-@Text:Azalea Town Pokémon Gym*Leader: Bugsy*Certified Trainer!~<playername>
+@Text:Azalea Town Pokémon Gym*Leader: Bugsy*Certified Trainer!~<player.name>
 :endif
 :end

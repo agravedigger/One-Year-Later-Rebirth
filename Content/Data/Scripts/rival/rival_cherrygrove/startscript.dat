@@ -5,10 +5,10 @@
 @Move:3,9
 @Turn:3,2
 @Turn:Player,1
-@Text:Are you <playername> Elwood?
-@Text:<playername>: Yes? That's me.
+@Text:Are you <player.name> Elwood?
+@Text:<player.name>: Yes? That's me.
 @Text:I gave the details about~Johto's current condition~to Prof. Elm.
-@Text:<playername>: What happened?
+@Text:<player.name>: What happened?
 @Text:That information~is classified.
 @Text:If you would excuse me,~I need to return to~the Police Station.
 @Turn:3,1
@@ -19,6 +19,6 @@
 @Register:elm_police
 @Unregister:rival_encounter_cherrygrove
 @NPC:register(elmlab.dat|5|position|4,0,1)
-@Text:<playername>: I need to hurry~back to the Lab!
+@Text:<player.name>: I need to hurry~back to the Lab!
 :endif
 :end

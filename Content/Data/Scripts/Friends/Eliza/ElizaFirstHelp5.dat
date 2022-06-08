@@ -7,13 +7,13 @@
 @Move:9,3
 @Turn:9,1
 @Text:???: Stop!!!~Don't come near me!
-@Text:<playername>: Wait... Isn't that--
+@Text:<player.name>: Wait... Isn't that--
 @Warp:10,14,0,27
 @Turn:10,3
 @Move:10,2
 @Sound:/Cries/141
 @Text:Pokémon: Greugh!!!
-@Text:<playername>: Oh no!~She's being attacked~by that Pokémon!
+@Text:<player.name>: Oh no!~She's being attacked~by that Pokémon!
 @Turn:9,3
 @Text:???: Ahh!!!
 @Move:Player,3

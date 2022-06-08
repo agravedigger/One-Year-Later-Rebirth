@@ -2,34 +2,34 @@
 :then
 @Heal
 @Music:nomusic
-@Text:<Rival.Name>: <playername>!
-@Text:<playername>: Noel?~Are you alright?
+@Text:<Rival.Name>: <player.name>!
+@Text:<player.name>: Noel?~Are you alright?
 @Text:<Rival.Name>: Hey, listen...*What happened back there~made me realize...*I'm not strong enough...
-@Text:<playername>: Don't say that.~You've done everything~you could!
+@Text:<player.name>: Don't say that.~You've done everything~you could!
 @Text:<Rival.Name>: That's not the point!*That man...~He was just a grunt, right?
-@Text:<playername>: Probably...
+@Text:<player.name>: Probably...
 @Text:<Rival.Name>: Now think about it...*If he alone was so strong...*What about the higher-ups!?*We won't be able to take~them on!
-@Text:<playername>: What are you~saying!? Are you just going~to give up!?
+@Text:<player.name>: What are you~saying!? Are you just going~to give up!?
 @Text:<Rival.Name>: Don't be ridiculous!~Of course not!*It's just...
-@Text:<playername>: Excuses!~Do you expect me to believe~that you're the same Noel~who would stop at nothing~to make things right!?~Now you would simply give up!?*That's nonsense!
+@Text:<player.name>: Excuses!~Do you expect me to believe~that you're the same Noel~who would stop at nothing~to make things right!?~Now you would simply give up!?*That's nonsense!
 @Text:<Rival.Name>: We...*We need to train now!*You heard what he said!*They will hunt you down!* You don't have to pretend~that you are high and mighty!*You're just as scared as I am!
-@Text:<playername>: ...
+@Text:<player.name>: ...
 @Music:Sad
 @Text:<Rival.Name>: You just...*You just moved here!*And now you're already~up against an army!?
 @Turn:1,0
 @Text:<Rival.Name>: Damn it!
 @Text:<Rival.Name>: After I heard him~say that...*I was so furious!*But...*What could I do!?*I couldn't do anything!
-@Text:<playername>: Listen...
+@Text:<player.name>: Listen...
 @Turn:1,2
 @Text:<Rival.Name>: Stop!*I know what you're~going to say...
-@Text:<playername>: ...
+@Text:<player.name>: ...
 @Text:<Rival.Name>: I know you too well...*Even when I first met you...*When we were kids...~I felt that you were~special to me...
 @Text:<Rival.Name>: That's why, no matter~what happened, I wanted to~be there...*Protecting you!
 @Text:<Rival.Name>: Even back in Kanto~when I first met you...*You were always getting~into trouble...*You were getting into fights~left and right...*I couldn't watch you~getting hurt anymore!
 @Text:<Rival.Name>: That's why...*I...
 @Turn:1,0
 @Text:<Rival.Name>: Damn it..!
-@Text:<playername>: Noel, listen...*Because of those times when~you had protected me...*I looked up to~you as my big sister...*That's why I always fight my~hardest when you're in danger!*I feel like it's my turn~to protect you! No matter~what your response is!
+@Text:<player.name>: Noel, listen...*Because of those times when~you had protected me...*I looked up to~you as my big sister...*That's why I always fight my~hardest when you're in danger!*I feel like it's my turn~to protect you! No matter~what your response is!
 @Text:<Rival.Name>: ...*(Sniff)
 @Turn:1,2
 @Text:<Rival.Name>: Thank you...
@@ -37,27 +37,27 @@
 @Text:<Rival.Name>: I don't know what~to say...*Thank you..!
 @Music:lakeside
 @Text:<Rival.Name>: Then...~Let's get some practice!
-@Text:<playername>: Haha!
+@Text:<player.name>: Haha!
 @Text:<Rival.Name>: What's so funny?
-@Text:<playername>: No, it's nothing!*OK!~Ready when you are!
+@Text:<player.name>: No, it's nothing!*OK!~Ready when you are!
 @Text:<Rival.Name>: Great!*I'm not gonna go~easy on you!
 :if:register(Headstrong)
 @Battle:trainer,Rival1a
 @Music:johto_rival_encounter
 @Text:<Rival.Name>: That felt great!
-@Text:<playername>: I'm glad!
-@Text:<playername>: Is that so?
+@Text:<player.name>: I'm glad!
+@Text:<player.name>: Is that so?
 @Text:<Rival.Name>: Hmmhm!*...
-@Text:<playername>: What's on your mind?
+@Text:<player.name>: What's on your mind?
 @Text:<Rival.Name>: Something's worrying me...
 @Text:<Rival.Name>: I don't know~how to put it...*When we encountered~that man...*He told you...
-@Text:<playername>: You don't mean...
+@Text:<player.name>: You don't mean...
 @Music:nomusic
 @Wait:100
-@Text:<playername> & <Rival.Name>: !!!
-@Text:<playername>: We have to warn them!
+@Text:<player.name> & <Rival.Name>: !!!
+@Text:<player.name>: We have to warn them!
 @Music:Sudden_Crisis
-@Text:<playername>: We should hurry!
+@Text:<player.name>: We should hurry!
 @Text:<Rival.Name>: I'll go~talk with my Father!
 @Text:<Rival.Name>: We'll meet up later!
 @Turn:1,3
@@ -66,7 +66,7 @@
 @Move:1,3
 @Warp:1,4,-2,4
 @NPC:register(Slowpokewell\Slowpokewell1f.dat|1|remove|1)
-@Text:<playername>: I have to go warn Mom!
+@Text:<player.name>: I have to go warn Mom!
 @Heal
 @Register:MomVisit1
 @Register:speedtravel1
@@ -76,19 +76,19 @@
 @Battle:trainer,Rival1
 @Music:johto_rival_encounter
 @Text:<Rival.Name>: That felt great!
-@Text:<playername>: I'm glad!
-@Text:<playername>: Is that so?
+@Text:<player.name>: I'm glad!
+@Text:<player.name>: Is that so?
 @Text:<Rival.Name>: Hmmhm!*...
-@Text:<playername>: What's on your mind?
+@Text:<player.name>: What's on your mind?
 @Text:<Rival.Name>: Something's worrying me...
 @Text:<Rival.Name>: I don't know~how to put it...*When we encountered that man...*He told you...
-@Text:<playername>: You don't mean...
+@Text:<player.name>: You don't mean...
 @Music:nomusic
 @Wait:100
-@Text:<playername> & <Rival.Name>: !!!
-@Text:<playername>: We have to warn them!
+@Text:<player.name> & <Rival.Name>: !!!
+@Text:<player.name>: We have to warn them!
 @Music:Sudden_Crisis
-@Text:<playername>: We should hurry!
+@Text:<player.name>: We should hurry!
 @Text:<Rival.Name>: I'll go~talk with my Father!
 @Text:<Rival.Name>: We'll meet up later!
 @Turn:1,3
@@ -97,7 +97,7 @@
 @Move:1,3
 @Warp:1,4,-2,4
 @NPC:register(Slowpokewell\Slowpokewell1f.dat|1|remove|1)
-@Text:<playername>: I have to go warn Mom!
+@Text:<player.name>: I have to go warn Mom!
 @Heal
 @Register:MomVisit1
 @Register:speedtravel1

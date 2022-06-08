@@ -6,7 +6,7 @@ version=2
 @Text.show(Mom: Sweetie, you're home!)
 @Player.move(2)
 @Text.show(Mom: How's everything?)
-@Text.show(<playername>: Well...)
+@Text.show(<player.name>: Well...)
 @Level.wait(20)
 @Screen.fadeout
 @Text.show((You explained everything~that has happened...))

@@ -1,7 +1,7 @@
 version=2
 :if:<Register.Registered(AlphPass)>=false
 	@Text.Show(I'm sorry, but I can't let~you though. The Ruins have~been under research since~last year. Please wait~until further notice.)
-	@Text.Show(<playername>: I see...)
+	@Text.Show(<player.name>: I see...)
 	@Player.Turn(2)
 	@Player.Move(1)
 :endif

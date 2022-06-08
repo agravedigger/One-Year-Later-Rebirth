@@ -1,6 +1,6 @@
 :if:register(HelpFromEliza)
 :then
-@Text:<playername>: I can't leave~without talking to Eliza!
+@Text:<player.name>: I can't leave~without talking to Eliza!
 @Turn:Player,2
 @Move:Player,1
 :endif

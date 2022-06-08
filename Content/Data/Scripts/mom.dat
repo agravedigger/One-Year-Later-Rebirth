@@ -19,12 +19,12 @@
 :if:register(mom_talk)
 :then
 @Text:Mom: Oh, welcome home!~How did it go?
-@Text:<playername>: Well...
+@Text:<player.name>: Well...
 @Wait:40
 @Text:Mom: Oh my!~Well, I'm sure you will~be just fine.*But just in case...~Here!
 @GiveItem:78,1
 @Text:Mom: I'm sure these shoes will~come in handy!*If you ever need anything,~please stop by and~talk to me!
-@Text:<playername>: Alright! Bye, Mom!
+@Text:<player.name>: Alright! Bye, Mom!
 @Unregister:mom_talk
 @Register:mom_adventure2
 @Turn:0,1

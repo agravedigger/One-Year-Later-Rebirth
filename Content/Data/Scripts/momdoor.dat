@@ -4,15 +4,15 @@
 @Move:Player,2
 @Turn:Player,3
 @Turn:0,3
-@Text:<playername>: Good morning, Mom.
+@Text:<player.name>: Good morning, Mom.
 @Text:Mom: Good morning, sweetie!*Good morning to you,~little one!
 @Text:Eevee: Nya!
 @Text:Mom: Did you rest well, dear?~I made some food,~would you like some?
-@Text:<playername>: Not right now.
+@Text:<player.name>: Not right now.
 @Text:Mom: Well, you should go outside~and say hello to our new~neighbors!*There's a certain someone~that's been looking forward~to seeing you!
 @Turn:0,1
 @Turn:Player,1
-@Text:<playername>: Alright, alright!~I'll talk to you later, Mom!
+@Text:<player.name>: Alright, alright!~I'll talk to you later, Mom!
 @Text:Mom: Take care, sweetie!*Make sure you two play~safely!
 @Move:Player,1
 @Register:mom_wait

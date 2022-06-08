@@ -1,13 +1,13 @@
 @Text:Yes?*You want to battle?~I'm sorry...~I'm not a trainer. Just~looking around, that's all.
 :if:register(Info2)
 :then
-@Text:<playername>: Excuse me?
+@Text:<player.name>: Excuse me?
 @Text:Um, yes?
-@Text:<playername>: Do you know~anything about Neon?
+@Text:<player.name>: Do you know~anything about Neon?
 @Text:Neon?*Hmmm...
 @Wait:100
 @Text:I think I heard of them~from someone in Violet.
-@Text:<playername>: Alright, thanks!
+@Text:<player.name>: Alright, thanks!
 @Text:You're welcome!
 @Unregister:Info2
 :endif

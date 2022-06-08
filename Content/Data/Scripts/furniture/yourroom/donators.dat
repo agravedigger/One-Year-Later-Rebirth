@@ -1,4 +1,4 @@
 @Text:It's a note addressed to you!
-@Text:Dear <playername>,*I have sent you a copy~of 1YL3D!*If you want to be up to~date with news and updates,~please join the~Discord server!*Enjoy!
-@Text:<playername>: I didn't~order any games...*I guess I'll give it a~shot later.
+@Text:Dear <player.name>,*I have sent you a copy~of 1YL3D!*If you want to be up to~date with news and updates,~please join the~Discord server!*Enjoy!
+@Text:<player.name>: I didn't~order any games...*I guess I'll give it a~shot later.
 :end

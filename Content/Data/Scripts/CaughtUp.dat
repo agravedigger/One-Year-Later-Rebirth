@@ -1,52 +1,52 @@
 :if:register(ElizaCaughtUp)
 :then
 @Warp:101,30,0,28
-@Text:Eliza: <playername>!
+@Text:Eliza: <player.name>!
 @Wait:60
 @Turn:Player,2
 @Move:101,3
 @Turn:101,0
 @Text:Eliza: I found some neat info!
 @Move:101,3
-@Text:<playername>: What did~you find out?
+@Text:<player.name>: What did~you find out?
 @Text:Eliza: I saw a red-haired man~talking to himself near the~lab on Route 30.
 @Text:Eliza: The man mentioned that~these grunts have special~access. Perhaps to their base?
-@Text:<playername>:Access?
+@Text:<player.name>:Access?
 @Text:Eliza: But that's not all.*He said that their DNA~itself provides access.
-@Text:<playername>: Interesting info,~but it doesn't help a lot~currently. If we were to find~out where they are hiding~though... All we'd need is~a grunt and we're in.
+@Text:<player.name>: Interesting info,~but it doesn't help a lot~currently. If we were to find~out where they are hiding~though... All we'd need is~a grunt and we're in.
 @Text:Eliza: Exactly!
-@Text:<playername>: Did you find~out anything else?
+@Text:<player.name>: Did you find~out anything else?
 @Text:Eliza: Well...~I couldn't because I was~caught, so I had to~run away...
-@Text:<playername>: What you found~out will definitely help~us in the future though.
+@Text:<player.name>: What you found~out will definitely help~us in the future though.
 @Text:Eliza: I'm glad!
-@Text:<playername>: For now,~we need to head for Goldenrod!
+@Text:<player.name>: For now,~we need to head for Goldenrod!
 @Text:Eliza: Yes!*But...
-@Text:<playername>: But..?
+@Text:<player.name>: But..?
 @Text:Eliza: ...*Route 32 is blocked off.
 @Music:nomusic
 @Wait:100
-@Text:<playername>: You have to be~kidding me...
+@Text:<player.name>: You have to be~kidding me...
 @Text:Eliza: Though...~There is another way.*Take this!
 @GiveItem:247,1
 @Music:lakeside
 @Text:Eliza: This is the HM Cut.~I found it near the~ponds of Cherrygrove.
-@Text:<playername>: Cool!~I'm not following though...
+@Text:<player.name>: Cool!~I'm not following though...
 @Text:Eliza: First, look at this map.
 @Text:(Eliza showed you the map)
 @Action:TOWNMAP,johto
 @Text:Eliza: You see how you can~access Goldenrod via two~directions? There's a tree~blocking Route 36, but now~that we have this HM...
-@Text:<playername>: I see...
+@Text:<player.name>: I see...
 @Text:Eliza: We can either go~directly to Goldenrod~or we can take a detour~to Ecruteak.
 @Text:Eliza: Though, I want to~go to Ecruteak.~I heard it's a calm~and beautiful place!*It'll be a good chance~to go sightseeing!*Who knows?~We might find more~about the Neon!*I'd love it if you could~come with me...*Unless you have to~go to Goldenrod first...
-@Text:<playername>: I don't know...*Reaching Goldenrod should~be my priority.
+@Text:<player.name>: I don't know...*Reaching Goldenrod should~be my priority.
 @Text:Eliza: Right.*Whatever you decide,~it'll still be a win-win!*I'll go on ahead!
-@Text:<playername>: I'll catch you later!
+@Text:<player.name>: I'll catch you later!
 @Turn:Player,3
 @Move:Player,1
 @Turn:Player,3
 @Move:101,4
 @Turn:101,2
-@Text:Eliza: If you don't~come to Ecruteak, don't worry!~I'll have fun and I'll be~sure to find out more~while I'm there!*Bye, <playername>!
+@Text:Eliza: If you don't~come to Ecruteak, don't worry!~I'll have fun and I'll be~sure to find out more~while I'm there!*Bye, <player.name>!
 @Turn:101,1
 @Move:101,9
 @Warp:101,10,-2,12

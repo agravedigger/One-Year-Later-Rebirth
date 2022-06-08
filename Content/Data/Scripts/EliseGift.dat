@@ -1,20 +1,20 @@
 :if:register(EliseBattleTower)
 :then
 @Text:<Rival.Name>: Ugh...~Ow..~So sore...
-@Text:<Rival.Name>: Oh, don't worry,~<playername>, I'll be fine.~I'll be out in a moment!
+@Text:<Rival.Name>: Oh, don't worry,~<player.name>, I'll be fine.~I'll be out in a moment!
 :endif
 
 :if:not register(EliseBattleTower)
 :then
 @Heal
-@Text:<playername>: There you~are, Noel.
+@Text:<player.name>: There you~are, Noel.
 @Text:<Rival.Name>: Sorry about earlier...
-@Text:<playername>: It's alright.*What's up?
+@Text:<player.name>: It's alright.*What's up?
 @Text:<Rival.Name>: Can we have a battle?~Right here?
-@Text:<playername>: Huh?~What's this all of a sudden?
+@Text:<player.name>: Huh?~What's this all of a sudden?
 @Text:<Rival.Name>: To be honest,~there is something I want to do.~I gave it some thought.~I want to know if you~are still dependable.
 @Text:<Rival.Name>: I want to be sure~that I can still trust you.*Will that be alright?
-@Text:<playername>: I see,~alright then.*Don't hold back.
+@Text:<player.name>: I see,~alright then.*Don't hold back.
 @Text:<Rival.Name>: Thanks...*Let's get this party started!
 :if:register(Headstrong)
 @Battle.setvars(canblackout,1)
@@ -23,24 +23,24 @@
 @Register:EliseBattleTower
 @Heal
 @Text:<Rival.Name>: I'm so beat!*That was a good battle!
-@Text:<playername>: Yeah...
-@Text:<Rival.Name>: Also, <playername>...*I want you to have this...
+@Text:<player.name>: Yeah...
+@Text:<Rival.Name>: Also, <player.name>...*I want you to have this...
 @GiveItem:90,1
-@Text:<playername>: Huh?*What's this?
+@Text:<player.name>: Huh?*What's this?
 @Text:<Rival.Name>: Just take it...*It's a good luck charm!
-@Text:<playername>: Alright.*I'll take good care of it.
+@Text:<player.name>: Alright.*I'll take good care of it.
 @Music:nomusic
-@Text:<Rival.Name>: <playername>...*I found out what's going on...*Just a year ago, there was~a vile organization~in Johto and Kanto...
-@Text:<playername>: You mean...
+@Text:<Rival.Name>: <player.name>...*I found out what's going on...*Just a year ago, there was~a vile organization~in Johto and Kanto...
+@Text:<player.name>: You mean...
 @Text:<Rival.Name>: Yeah...~But I believe it's much~worse than last year.*I can't say for sure,~since I wasn't in Johto last~year, so all I know is that~Team Rocket was taken down~by a single kid.
 @Text:<Rival.Name>: But now that the kid~has vanished, Johto isn't~what it used to be.*What's worse, this new~organization could be much~worse than Team Rocket.*Whatever the case is, we~need to put an end to them.
-@Text:<playername>: Right.
+@Text:<player.name>: Right.
 @Text:<Rival.Name>: I've heard rumors that~the organization was spotted~south of Violet City.
-@Text:<playername>: We should~start our search there then.
+@Text:<player.name>: We should~start our search there then.
 @Text:<Rival.Name>: I agree.*Although, I'll sit around~here for a while. I'm beat,~I've been running~around nonstop...
-@Text:<playername>: Right.~I'll go do what~I have to do.
-@Text:<Rival.Name>: Good luck, <playername>!
-@Text:<playername>: Good luck~to you too!
+@Text:<player.name>: Right.~I'll go do what~I have to do.
+@Text:<Rival.Name>: Good luck, <player.name>!
+@Text:<player.name>: Good luck~to you too!
 @Register:GymPass
 @Music:sprout_tower
 :else:
@@ -49,24 +49,24 @@
 @Register:EliseBattleTower
 @Heal
 @Text:<Rival.Name>: I'm so beat!*That was a good battle!
-@Text:<playername>: Yeah...
-@Text:<Rival.Name>: Also, <playername>...*I want you to have this...
+@Text:<player.name>: Yeah...
+@Text:<Rival.Name>: Also, <player.name>...*I want you to have this...
 @GiveItem:90,1
-@Text:<playername>: Huh?*What's this?
+@Text:<player.name>: Huh?*What's this?
 @Text:<Rival.Name>: Just take it...*It's a good luck charm!
-@Text:<playername>: Alright.*I'll take good care of it.
+@Text:<player.name>: Alright.*I'll take good care of it.
 @Music:nomusic
-@Text:<Rival.Name>: <playername>...*I found out what's going on...*Just a year ago, there was~a vile organization~in Johto and Kanto...
-@Text:<playername>: You mean...
+@Text:<Rival.Name>: <player.name>...*I found out what's going on...*Just a year ago, there was~a vile organization~in Johto and Kanto...
+@Text:<player.name>: You mean...
 @Text:<Rival.Name>: Yeah...~But I believe it's much~worse than last year.*I can't say for sure,~since I wasn't in Johto last~year, so all I know is that~Team Rocket was taken down~by a single kid.
 @Text:<Rival.Name>: But now that the kid~has vanished, Johto isn't~what it used to be.*What's worse, this new~organization could be much~worse than Team Rocket.*Whatever the case is, we~need to put an end to them.
-@Text:<playername>: Right.
+@Text:<player.name>: Right.
 @Text:<Rival.Name>: I've heard rumors that~the organization was spotted~south of Violet City.
-@Text:<playername>: We should~start our search there then.
+@Text:<player.name>: We should~start our search there then.
 @Text:<Rival.Name>: I agree.*Although, I'll sit around~here for a while. I'm beat,~I've been running~around nonstop...
-@Text:<playername>: Right.~I'll go do what~I have to do.
-@Text:<Rival.Name>: Good luck, <playername>!
-@Text:<playername>: Good luck~to you too!
+@Text:<player.name>: Right.~I'll go do what~I have to do.
+@Text:<Rival.Name>: Good luck, <player.name>!
+@Text:<player.name>: Good luck~to you too!
 @Register:GymPass
 @Music:sprout_tower
 :endif
