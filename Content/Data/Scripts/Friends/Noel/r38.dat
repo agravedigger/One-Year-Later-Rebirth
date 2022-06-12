@@ -1,0 +1,2 @@
+version=2
+:if:<register.registered(eliza_checkup)>=true
